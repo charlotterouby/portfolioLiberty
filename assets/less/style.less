@@ -1,0 +1,407 @@
+// main: main.less
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
+
+.section {
+	background-color: @color-fond;
+	padding: (@line-height-computed * 4) 0;
+	@media (max-width: @screen-lg) {
+		padding: (@line-height-computed * 3) 0;
+	}
+	@media (max-width: @screen-xs-max) {
+		padding: (@line-height-computed * 2) 0;
+	}
+	.section-header {
+		text-align: center;
+		margin-bottom: @line-height-computed * 2;
+		@media (max-width: @screen-xs-max) {
+			margin-bottom: @line-height-computed;
+		}
+	}
+	.section-title {
+		font-family: @font-family-secondary;
+		margin: 0;
+		color: @brand-inverse-dark;
+		font-weight: normal;
+	}
+	.section-description {
+		color: @gray-light;
+		text-align: center;
+		margin: @line-height-computed 300px;
+		@media (max-width: @screen-lg) {
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+		@media (max-width: @screen-md) {
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+		@media (max-width: @screen-xs-max) {
+			font-size: @font-size-small;
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+	&.section-inverse {
+		background-color: @brand-primary-dark;
+		color: #fff;
+		.section-title {
+			color: #fff;
+		}
+		.section-description {
+			color: #fff;
+		}
+		.form-control {
+			border-color: transparent;
+			box-shadow: none;
+		}
+	}
+}
+
+.site-header {
+	background-color: @color-fond;
+	.navbar {
+		background: none;
+		border: none;
+		width: 100%;
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: @color-fond;
+			border: none;
+			width: 100%;
+		}
+		.nav a {
+			color: @brand-inverse-dark;
+			font-weight: 500;
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: @brand-inverse-dark;
+				color: @color-fond;
+				font-weight: 500;
+			}
+		}
+		.navbar-toggle {
+			border-color: @brand-primary-dark;
+			.icon-bar {
+				background-color: @brand-primary-dark;
+			}
+			&:hover,
+			&:focus,
+			&:active {
+				background-color: @brand-inverse-dark;
+				border-color: @color-fond;
+			}
+		}
+	}
+}
+
+.section-hero {
+	//Propriétés des textes
+	text-align: center;
+	h1 {
+		font-family: @font-family-secondary;
+		color: @brand-inverse-dark;
+	}
+	.section-subheader {
+		font-family: @font-family-terciary;
+		margin: 0;
+		text-transform: uppercase;
+		color: @brand-inverse-dark;
+		font-weight: normal;
+		//background-color: rgba(254, 250, 238, 0.3);
+	}
+	//Propriété du Background
+	background-image: url(../../images/hero4.jpg);
+	background-position:center;
+	background-size: cover;
+	overflow: hidden;
+	@media (max-width: @screen-lg) {
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+	//Réglages des marges
+	@media (max-width: @screen-xs-max) {
+		padding: (@line-height-computed * 3) 0;
+	}
+	.section-header {
+		margin-top: @line-height-computed * 3;
+		margin-bottom: @line-height-computed * 3;
+		@media (max-width: @screen-xs-max) {
+			margin-bottom: @line-height-computed * 2;
+		}
+	}
+	.cta {
+		margin-bottom: @line-height-computed * 8;
+		@media (max-width: @screen-lg) {
+			margin-bottom: @line-height-computed * 3;
+		}
+		@media (max-width: @screen-md) {
+			margin-bottom: @line-height-computed * 7;
+		}
+		@media (max-width: @screen-xs-max) {
+			margin-bottom: @line-height-computed;
+		}
+	}
+}
+
+.section-bienvenue {
+	.section-header {
+		text-align: center;
+		margin-bottom: @line-height-computed*0.5;
+		@media (max-width: @screen-sm-max) {
+			text-align: center;
+		}
+	}
+	.section-content {
+		font-size: @font-size-small;
+		line-height: @line-height-computed;
+		margin-top: @line-height-computed*2;
+		margin-bottom: @line-height-computed*2;
+		@media (max-width: @screen-sm-max) {
+			text-align: center;
+		}
+	}
+	.showcase-bg {
+		height: 100%;
+		max-height: 100%;
+		width: auto;
+		max-width: 9999px;
+		float: right;
+		margin: -(@line-height-computed*4) -15px -(@line-height-computed*4) 0;
+		@media (max-width: @screen-lg) {
+			height: @line-height-computed * 23;
+			margin-top: -(@line-height-computed*3);
+			margin-bottom: -(@line-height-computed*3);
+		}
+		@media (max-width: @screen-sm-max) {
+			margin: 0;
+			height: auto;
+			width: 100%;
+			max-width: 100%;
+			margin-top: @line-height-computed;
+		}
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.section-showcase {
+	@media (max-width: @screen-sm-max){
+		.layer{display: none;}
+		.btn {margin: @line-height-computed 0;}
+	}
+	@media (min-width: @screen-md) {
+		.version-mobile{display: none;}
+		background-image: url('../../images/projets/Web/siarep1.jpg');
+		background-size: 150%;
+		background-position: -50%;
+		padding: 0;
+		position: relative;
+		.layer {
+			background-color: @brand-primary-dark;
+			width: 50%;
+			padding: (@line-height-computed * 4) 0;
+		}
+		.btn {
+			position: absolute;
+			left: 62.5%;
+			bottom: 15%;
+			width: 25%;
+		}
+	}
+}
+
+.section-portfolio {
+	padding-bottom: @line-height-computed * 3;
+	.btn-group {
+		margin-top: 3%;
+		.btn:focus,
+		.btn:active:focus,
+		.btn.active:focus {
+			outline: none;
+		}
+		.btn:active {}
+		a {
+			color: white;
+			text-decoration: none;
+		}
+	}
+	.project {
+		margin-bottom: @line-height-computed;
+		position: relative;
+	}
+	.project-thumbnail {
+		.fa {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			line-height: @line-height-computed * 8;
+			text-align: center;
+			background: @brand-primary;
+			color: #fff;
+			font-size: @font-size-small;
+			.opacity(0);
+			.transition(all .5s);
+			@media (max-width: @screen-lg) {
+				line-height: @line-height-computed * 6;
+			}
+			@media (max-width: @screen-md) {
+				line-height: @line-height-computed * 4;
+			}
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.project-title {
+		position: absolute;
+		bottom: -(@line-height-computed * 2);
+		margin: 0;
+		width: 100%;
+		text-align: center;
+		font-size: @font-size-base;
+		line-height: @line-height-computed * 2;
+		.opacity(0);
+		.transition(all .5s);
+		a {
+			color: #fff;
+			text-decoration: none !important;
+			display: block;
+		}
+	}
+	.project:hover {
+		.fa {
+			font-size: 28px;
+			.opacity(.8);
+		}
+		.project-title {
+			bottom: 0;
+			.opacity(1);
+		}
+	}
+}
+
+.section-contact {
+	background-image: url(../../images/hero2.jpg);
+	background-position: center;
+	background-size: cover;
+	.form-group:last-child {
+		margin-bottom: 0;
+	}
+	textarea {
+		width: 100% !important;
+		min-height: @line-height-computed * 8;
+		font-size: @font-size-base;
+		@media (max-width: @screen-xs-max) {
+			margin-bottom: @line-height-computed;
+		}
+	}
+	.captcha-image {
+		float: right;
+		margin-top: -(@line-height-computed * 2) + 3;
+		margin-right: 3px;
+	}
+	@media (max-width: @screen-xs-max) {
+		.btn {
+			margin-top: @line-height-computed;
+		}
+	}
+}
+
+.site-footer {
+	text-align: center;
+	font-size: @font-size-small;
+	line-height: @line-height-computed;
+	padding: (@line-height-computed * 2) 0;
+	.back-to-top {
+		width: @line-height-computed * 2;
+		height: @line-height-computed * 2;
+		line-height: 45px;
+		margin: -(@line-height-computed * 3) auto @line-height-computed;
+		display: block;
+		font-size: 28px;
+		text-align: center;
+		background: @brand-inverse-dark;
+		color: #fff;
+		border-radius: @line-height-computed;
+	}
+}
+
+.project-modal {
+	.modal-body {
+		background-color: @color-fond;
+	}
+	.close {
+		width: @line-height-computed;
+		height: @line-height-computed;
+		border-radius: @line-height-computed;
+		color: #fff;
+		position: absolute;
+		right: -12px;
+		top: -12px;
+		display: block;
+		outline: none;
+		z-index: 2;
+		.opacity(1);
+		.box-shadow(0 0 3px rgba(0, 0, 0, .5));
+		.fa {
+			display: block;
+			width: @line-height-computed;
+			height: @line-height-computed;
+			background: @gray-dark;
+			border-radius: @line-height-computed;
+			line-height: 20px;
+			border: 2px solid #fff;
+			font-size: 12px;
+		}
+	}
+	.single-project {
+		background-color: @color-fond;
+		font-size: @font-size-small;
+		line-height: @line-height-computed;
+		iframe {
+			border: 0;
+		}
+	}
+	.project-thumbnail {
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.project-title {
+		font-size: 24px;
+		line-height: @line-height-computed;
+		margin: @line-height-computed 0 0;
+	}
+	.project-meta {
+		color: @gray-light;
+		line-height: @line-height-computed * 2;
+		> span {
+			margin-right: 20px;
+			font-size : @font-size-small;
+		}
+		.fa {
+			margin-right: 5px;
+		}
+	}
+	.project-description p:last-child {
+		margin-bottom: 0;
+	}
+	.btn {
+		margin-top: 2%;
+	}
+}
