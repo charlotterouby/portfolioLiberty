@@ -7779,7 +7779,7 @@ body {
   }
 }
 .section .section-title {
-  font-family: "Liquide";
+  font-family: "Liquide", "Roboto";
   margin: 0;
   color: #1f4156;
   font-weight: normal;
@@ -7868,7 +7868,7 @@ body {
   overflow: hidden;
 }
 .section-hero h1 {
-  font-family: "Liquide";
+  font-family: "Liquide", "Roboto";
   color: #1f4156;
 }
 .section-hero .section-subheader {
@@ -7930,10 +7930,11 @@ body {
   font-size: 14px;
   line-height: 26px;
   margin-top: 52px;
-  margin-bottom: 52px;
+  margin-bottom: 104px;
 }
 @media (max-width: 991px) {
   .section-bienvenue .section-content {
+    margin-bottom: 52px;
     text-align: center;
   }
 }
@@ -7966,23 +7967,23 @@ body {
   height: auto;
 }
 @media (max-width: 991px) {
-  .section-showcase .layer {
-    display: none;
+  .section-showcase {
+    background-image: url('../../images/banner-tangaye.jpg');
+    background-size: cover;
+    background-position: 6%;
   }
   .section-showcase .btn {
-    margin: 26px 0;
+    margin: 26px auto;
+    width: 75%;
   }
 }
 @media (min-width: 992px) {
   .section-showcase {
-    background-image: url('../../images/projets/Web/siarep1.jpg');
-    background-size: 150%;
-    background-position: -50%;
+    background-image: url('../../images/projets/Web/Tangaye1.jpg');
+    background-size: 125%;
+    background-position: -105% 40%;
     padding: 0;
     position: relative;
-  }
-  .section-showcase .version-mobile {
-    display: none;
   }
   .section-showcase .layer {
     background-color: #a9c5b7;
