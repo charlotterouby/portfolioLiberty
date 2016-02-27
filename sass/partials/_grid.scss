@@ -1,53 +1,100 @@
+//  ==========  Div conteneur  ==========
 .wrapper {
     @include container(16);
     @include clearfix;
+    
+    @include breakpoint($container-max-width){
+        width: $container-max-width;
+    }
 }
 
+//* {border: 1px solid blue;}
+
+//  ==========  Corps principal  ==========
 main {
     @include span(16 full nest);
 }
 
+//  ==========  Section Home  ==========
 #home {
     @include span(16 full nest);
 }
 
+//  ==========  Section Services  ==========
 #services {
     @include span(16 nest);
-    figure {
-        @include span(6);
-        @include push(1);
-    }
+    figure,
     .description {
-        @include span(8);
+        @include span(14);
+    @include squish(1);
     }
-    ul {
+    @include breakpoint($media-mobile-paysage) {
+        figure {
+            @include span(12);
+            @include squish(2);
+        }
+    }
+    @include breakpoint($media-tablet-min) {
         @include span(16 nest);
-        li {
-            @include gallery(4);
+        figure {
+            @include span(6);
+            @include push(1);
+        }
+        .description {
+            @include span(8);
         }
     }
 }
 
+//  ==========  Section Portfolio  ==========
 #portfolio {
     @include span(16 nest);
     @include clearfix;
-    .portfolio-container {
+}
+
+.portfolio-filter {
+    @include display-flex(flex);
+    @include flex-flow(row wrap);
+    @include justify-content(space-around);
+    @include breakpoint($media-tablet-min) {
+        @include span(14 nest);
+        @include squish(1);
+    }
+}
+
+.portfolio-container {
+    @include span(16 nest);
+    
+    figure {
+        @include gallery(8);
+        img {
+            width: 100%;
+        }
+    }
+    article {
+        @include span(16 nest);
+        @include clearfix;
+        position: relative;
+        display: none;
+    }
+    .og-close {
+        position: absolute;
+    }
+    .carousel,
+    .og-details {
+        @include span(14);
+        @include squish(1);
+    }
+    
+    @include breakpoint($media-tablet-min) {
         @include span (14 nest);
         @include squish(1);
+        
         figure {
             @include gallery(4 of 16);
-            img {
-                width: 100%;
-            }
         }
         article {
             @include span(14);
-            @include clearfix;
-            position: relative;
-            display: none;
-        }
-        .og-close {
-            position: absolute;
         }
         .carousel {
             @include span(8);
@@ -59,6 +106,7 @@ main {
     }
 }
 
+//  ==========  Section Contact  ==========
 #contact {
     @include span(16 nest);
 }

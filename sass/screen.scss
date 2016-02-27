@@ -4,30 +4,31 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 /*! ==========  Initialisation ==========  */
-@import "partials/variables";
+@import 'partials/variables';
 
 /* ==========  Compass & Co. ==========  */
 @import 'compass';
-@import "compass/support";
+@import 'compass/support';
 @import 'compass/css3';
-@import "compass/css3/box-sizing";
-@import "compass/typography/vertical_rhythm";
+@import 'compass/css3/box-sizing';
+@import 'compass/typography/vertical_rhythm';
 @import 'susy';
+@import 'breakpoint';
 
 /*! ==========  Mise a zero des styles ==========  */
-@import "partials/normalize";
+@import 'partials/normalize';
 
 /*! ========== Grid layout ==========   */
 @import 'partials/grid';
 
 /*! ========== UI Elements ========== */
-@import "partials/base";
-@import "partials/navigation";
-//@import "partials/boutons";
+@import 'partials/base';
+@import 'partials/navigation';
+//@import 'partials/boutons';
 
 /*! ========== Sections  ========== */
-@import "partials/home";
-@import "partials/services";
-//@import "partials/portfolio";
-//@import "partials/contact";
-//@import "partials/footer";
+@import 'partials/home';
+//@import 'partials/services';
+@import 'partials/portfolio';
+//@import 'partials/contact';
+//@import 'partials/footer';

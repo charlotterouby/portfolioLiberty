@@ -7,13 +7,20 @@ header {
 nav {
     @include display-flex(flex);
     @include justify-content(flex-end);
+
+    &:hover,
+    &:target,
+    &:active {
+        @include alpha-attribute(background-color, rgba(palette(jaune, light), 0.9), $white);
+    }
+
     a {
         color: palette(bleu);
         display: block;
-        width: span(1 of 16);
-        padding: 1em gutter(16);
+        padding: 1em gutter(12);
         text-decoration: none;
         &:hover,
+        &:target,
         &:active {
             color: palette(bleu, dark);
         }

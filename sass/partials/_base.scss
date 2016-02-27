@@ -1,18 +1,21 @@
 //  ==========  Fonction des couleurs  ==========
-
 @function palette($palette, $tone: 'base') {
     @return map-get(map-get($palettes, $palette), $tone);
 }
 
-//* {border: 1px solid palette(bleu);}
+@mixin alpha-attribute($attribute, $color, $background) {
+    $percent: alpha($color) * 100%;
+    $opaque: opacify($color, 1);
+    $solid-color: mix($opaque, $background, $percent);
+    #{$attribute}: $solid-color;
+    #{$attribute}: $color;
+}
 
 //  ==========  Paramètres images  ==========
-
 img {
     max-width: 100%;
 }
 
-//  ==========  Typographie   ==========  
-
-@import url(https://fonts.googleapis.com/css?family=Satisfy);   //Import typo Satisfy
+//  ==========  Typographie   ==========
+@import url(https://fonts.googleapis.com/css?family=Satisfy); //Import typo Satisfy
 //font-family: 'Satisfy', cursive;                              //rappel de définition de la font
