@@ -1,0 +1,12 @@
+#home {
+    height: 400px; /*fallback pour vh unit*/
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../images/hero3.jpg);
+    background-size: cover;
+}

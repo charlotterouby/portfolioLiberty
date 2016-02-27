@@ -1,0 +1,64 @@
+.wrapper {
+    @include container(16);
+    @include clearfix;
+}
+
+main {
+    @include span(16 full nest);
+}
+
+#home {
+    @include span(16 full nest);
+}
+
+#services {
+    @include span(16 nest);
+    figure {
+        @include span(6);
+        @include push(1);
+    }
+    .description {
+        @include span(8);
+    }
+    ul {
+        @include span(16 nest);
+        li {
+            @include gallery(4);
+        }
+    }
+}
+
+#portfolio {
+    @include span(16 nest);
+    @include clearfix;
+    .portfolio-container {
+        @include span (14 nest);
+        @include squish(1);
+        figure {
+            @include gallery(4 of 16);
+            img {
+                width: 100%;
+            }
+        }
+        article {
+            @include span(14);
+            @include clearfix;
+            position: relative;
+            display: none;
+        }
+        .og-close {
+            position: absolute;
+        }
+        .carousel {
+            @include span(8);
+            margin: 0;
+        }
+        .og-details {
+            @include span(8);
+        }
+    }
+}
+
+#contact {
+    @include span(16 nest);
+}

@@ -1,0 +1,21 @@
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav {
+    @include display-flex(flex);
+    @include justify-content(flex-end);
+    a {
+        color: palette(bleu);
+        display: block;
+        width: span(1 of 16);
+        padding: 1em gutter(16);
+        text-decoration: none;
+        &:hover,
+        &:active {
+            color: palette(bleu, dark);
+        }
+    }
+}

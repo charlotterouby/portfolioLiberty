@@ -1,27 +1,29 @@
 require 'compass/import-once/activate'
 # Require any additional compass plugins here.
-#require "normalize-scss"
+require 'support-for'
+require 'susy'
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "assets/css"
+css_dir = "stylesheets"
 sass_dir = "sass"
-images_dir = "assets/img"
-fonts_dir = "assets/fonts"
-javascripts_dir = "assets/js"
+images_dir = "images"
+fonts_dir = "fonts"
+javascripts_dir = "js"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
-
-# Configuration conditionnée pr l'environnement
-if environnement == :production
-	output_style = :compressed
+if environment == :production
+  output_style = :compressed
 else
-	output_style = :expanded
-	sass_options = { :debug_info => true }
+  output_style = :expanded
+#  sass_options = { :debug_info => true }
 end
 
+# Désactiver l'ajout du cache buster sur les images appelées via la fonction image-url().
+asset_cache_buster :none
+
 # To enable relative paths to assets via compass helper functions. Uncomment:
-# relative_assets = true
+ relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
