@@ -7735,7 +7735,7 @@ body {
 .section .section-title {
   font-family: 'Satisfy', cursive;
   margin: 0;
-  color: #e95b5b;
+  color: #5bb4b4;
   font-weight: normal;
 }
 .section .section-description {
@@ -7832,9 +7832,9 @@ body {
 .section-hero .section-subheader {
   font-family: 'Satisfy', cursive;
   margin: 0;
-  color: #ffcf6f;
+  color: #e9ba5b;
   font-weight: normal;
-  background-color: rgba(105, 103, 98, 0.44);
+  background-color: rgba(255, 251, 242, 0.5);
 }
 @media (max-width: 1200px) {
   .section-hero {
