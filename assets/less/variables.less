@@ -1,51 +1,49 @@
 // main: main.less
 //== Colors
 //
-
-@color-primary-0: #528A6E;	/* Main Primary color */
-@color-primary-1: #A9C5B7;
-@color-primary-2: #78A48E;
-@color-primary-3: #367454;
-@color-primary-4: #1F5E3E;
-
-@color-secondary-1-0: #4D6B7D;	/* Main Secondary color (1) */
-@color-secondary-1-1: #A0AFB9;
-@color-secondary-1-2: #6F8795;
-@color-secondary-1-3: #345569;
-@color-secondary-1-4: #1F4156;
-
-@color-secondary-2-0: #C5A175;	/* Main Secondary color (2) */
-@color-secondary-2-1: #FFEEDA;
-@color-secondary-2-2: #EACEAB;
-@color-secondary-2-3: #A57D4C;
-@color-secondary-2-4: #865E2C;
-
-@color-complement-0: #C58875;	/* Main Complement color */
-@color-complement-1: #FFE3DA;
-@color-complement-2: #EABAAB;
-@color-complement-3: #A5624C;
-@color-complement-4: #86422C;
-
+//$palettes: (
+//    bleu: (
+//        dark:#378c8c,
+//        mid-dark:#5bb4b4,
+//        base:#8ad9d9,
+//        mid-light:#bef1f1,
+//        light:#f1fefe
+//    ),
+//    jaune: (
+//        dark:#e9ba5b,
+//        mid-dark:#ffd580,
+//        base:#ffe0a2,
+//        mid-light:#ffedc8,
+//        light:#fffbf2
+//    ),
+//    peach: (
+//        dark:#e95b5b,
+//        mid-dark:#ff8080,
+//        base:#ffa2a2,
+//        mid-light:#ffc8c8,
+//        light:#fff2f2
+//    )
+//);
 
 @color-fond:			#ffffff;
 
-@brand-primary: 		#528A6E;
-@brand-primary-dark: 	#A9C5B7;
+@brand-primary: 		#5bb4b4;
+@brand-primary-dark: 	#378c8c;
 
-@brand-success:         #A0AFB9;
-@brand-success-dark:    #6F8795;
+@brand-success:         #ffe0a2;
+@brand-success-dark:    #e9ba5b;
 
-@brand-info:            #FFEEDA;
-@brand-info-dark:       #A57D4C;
+@brand-info:            #ffe0a2;
+@brand-info-dark:       #e9ba5b;
 
-@brand-warning:         #FFE3DA;
-@brand-warning-dark:    #A5624C;
+@brand-warning:         #ffc8c8;
+@brand-warning-dark:    #ff8080;
 
-@brand-danger:          #C58875;
-@brand-danger-dark:     #86422C;
+@brand-danger:          #ffa2a2;
+@brand-danger-dark:     #e95b5b;
 
-@brand-inverse:         #4D6B7D;
-@brand-inverse-dark:    #1F4156;
+@brand-inverse:         #ffa2a2;
+@brand-inverse-dark:    #e95b5b;
 
 @brand-facebook:          #3b5998;
 @brand-twitter:           #00aced;
@@ -65,24 +63,59 @@
 //== Typography
 //
 @font-face {
-	font-family: "Liquide";
-	src: url('../fonts/Liquide-FreeTypeface.ttf');
+	font-family: "Futura";
+	src: url('../fonts/FuturaStdBook.otf');
 	font-style: normal;
+    font-weight: normal;
 }
-
 @font-face {
-	font-family: "RobotoCondensed";
-	src: url('../fonts/RobotoCondensed-Light-webfont.eot');
-	src: url('../fonts/RobotoCondensed-Light-webfont.ttf');
-	src: url('../fonts/RobotoCondensed-Light-webfont.woff');
+	font-family: "Futura";
+	src: url('../fonts/FuturaStdBookOblique.otf');
 	font-style: normal;
-	font-stretch: condensed;
+    font-weight: normal;
+    font-style: oblique;
+}
+@font-face {
+	font-family: "Futura";
+	src: url('../fonts/FuturaStdLight.otf');
+	font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+	font-family: "Futura";
+	src: url('../fonts/FuturaStdLightOblique.otf');
+    font-style: oblique;
 	font-weight: 100;
 }
+@font-face {
+	font-family: "Futura";
+	src: url('../fonts/FuturaStdMedium.otf');
+	font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+	font-family: "Futura";
+	src: url('../fonts/FuturaStdMediumOblique.otf');
+    font-style: oblique;
+    font-weight: 500;
+}
+@font-face {
+	font-family: "Futura";
+	src: url('../fonts/FuturaStdHeavy.otf');
+	font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+	font-family: "Futura";
+	src: url('../fonts/FuturaStdHeavyOblique.otf');
+    font-style: oblique;
+    font-weight: bold;
+}
 
-@font-family-sans-serif:  "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-secondary:   "Liquide", "Roboto";
-@font-family-terciary: 	  "Poiret One", "RobotoCondensed";
+
+@font-family-sans-serif:  "Futura", "Trebuchet MS", "Arial";
+@font-family-secondary:   "Futura", "Trebuchet MS", "Arial";
+@font-family-terciary: 	  'Satisfy', cursive;
 
 @font-size-base:          16px;
 @font-size-large:         ceil((@font-size-base * 1.125)); // 18px

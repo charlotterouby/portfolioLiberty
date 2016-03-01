@@ -24,7 +24,7 @@ body {
 		}
 	}
 	.section-title {
-		font-family: @font-family-secondary;
+		font-family: @font-family-terciary;
 		margin: 0;
 		color: @brand-inverse-dark;
 		font-weight: normal;
@@ -77,25 +77,25 @@ body {
 			width: 100%;
 		}
 		.nav a {
-			color: @brand-inverse-dark;
+			color: @brand-success-dark;
 			font-weight: 500;
 			&:hover,
 			&:active,
 			&:focus {
-				background-color: @brand-inverse-dark;
+				background-color: @brand-success-dark;
 				color: @color-fond;
 				font-weight: 500;
 			}
 		}
 		.navbar-toggle {
-			border-color: @brand-primary-dark;
+			border-color: @brand-success-dark;
 			.icon-bar {
-				background-color: @brand-primary-dark;
+				background-color: @brand-success-dark;
 			}
 			&:hover,
 			&:focus,
 			&:active {
-				background-color: @brand-inverse-dark;
+				background-color: @brand-success;
 				border-color: @color-fond;
 			}
 		}
@@ -109,16 +109,20 @@ body {
 		font-family: @font-family-secondary;
 		color: @brand-inverse-dark;
 	}
+    h2{
+        padding-top: @line-height-computed;
+        padding-bottom: @line-height-computed;
+    }
 	.section-subheader {
 		font-family: @font-family-terciary;
 		margin: 0;
-		text-transform: uppercase;
-		color: @brand-inverse-dark;
+//		text-transform: uppercase;
+		color: darken(@brand-success, 10%);
 		font-weight: normal;
-		//background-color: rgba(254, 250, 238, 0.3);
+		background-color: shade(rgba(254, 250, 238, 0.3), 20%);
 	}
 	//Propriété du Background
-	background-image: url(../../images/hero4.jpg);
+	background-image: url(../../images/hero3.jpg);
 	background-position:center;
 	background-size: cover;
 	overflow: hidden;
