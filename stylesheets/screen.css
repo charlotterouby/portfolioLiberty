@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -604,7 +605,245 @@ th {
   padding: 0;
 }
 
-/*! ========== Grid layout ==========   */
+/*! ========== Grid layout & vertical rythme ==========   */
+/* line 203, ../sass/partials/_typesettings.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 207, ../sass/partials/_typesettings.scss */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* line 219, ../sass/partials/_typesettings.scss */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 224, ../sass/partials/_typesettings.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  color: #696969;
+}
+
+/* line 232, ../sass/partials/_typesettings.scss */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "Futura", "Verdana", "Arial", sans-serif;
+  font-weight: bold;
+}
+
+/* line 255, ../sass/partials/_typesettings.scss */
+h1, .h1 {
+  margin-bottom: 0.18756em;
+  font-size: 1.9994em;
+  line-height: 1.12534;
+}
+@media (min-width: 43.75em) {
+  /* line 255, ../sass/partials/_typesettings.scss */
+  h1, .h1 {
+    margin-bottom: 0.13264em;
+    font-size: 2.82715em;
+    line-height: 1.06114;
+  }
+}
+@media (min-width: 56.25em) {
+  /* line 255, ../sass/partials/_typesettings.scss */
+  h1, .h1 {
+    margin-bottom: 0.09381em;
+    font-size: 3.99758em;
+    line-height: 0.93807;
+  }
+}
+
+/* line 271, ../sass/partials/_typesettings.scss */
+h2, .h2 {
+  margin-bottom: 0.26521em;
+  font-size: 1.414em;
+  line-height: 1.32603;
+}
+@media (min-width: 43.75em) {
+  /* line 271, ../sass/partials/_typesettings.scss */
+  h2, .h2 {
+    margin-bottom: 0.18756em;
+    font-size: 1.9994em;
+    line-height: 1.12534;
+  }
+}
+@media (min-width: 56.25em) {
+  /* line 271, ../sass/partials/_typesettings.scss */
+  h2, .h2 {
+    margin-bottom: 0.13264em;
+    font-size: 2.82715em;
+    line-height: 1.06114;
+  }
+}
+
+/* line 286, ../sass/partials/_typesettings.scss */
+h3, .h3 {
+  margin-bottom: 0.26521em;
+  font-size: 1.414em;
+  line-height: 1.32603;
+}
+@media (min-width: 56.25em) {
+  /* line 286, ../sass/partials/_typesettings.scss */
+  h3, .h3 {
+    margin-bottom: 0.18756em;
+    font-size: 1.9994em;
+    line-height: 1.12534;
+  }
+}
+
+/* line 296, ../sass/partials/_typesettings.scss */
+h4, .h4 {
+  margin-bottom: 0.26521em;
+  font-size: 1.414em;
+  line-height: 1.32603;
+}
+
+/* line 301, ../sass/partials/_typesettings.scss */
+h5, .h5,
+h6, .h6 {
+  margin-bottom: 0.375em;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* line 307, ../sass/partials/_typesettings.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-width: 36em;
+}
+@media (min-width: 43.75em) {
+  /* line 307, ../sass/partials/_typesettings.scss */
+  p {
+    text-align: justify;
+  }
+}
+
+/* line 322, ../sass/partials/_typesettings.scss */
+p + p {
+  margin-top: -1.5em;
+  text-indent: 1.5em;
+}
+
+/* line 328, ../sass/partials/_typesettings.scss */
+small,
+.font-small {
+  font-size: 0.70721em;
+  line-height: 1.59075;
+}
+
+/* line 333, ../sass/partials/_typesettings.scss */
+em {
+  font-style: italic;
+}
+
+/* line 337, ../sass/partials/_typesettings.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 341, ../sass/partials/_typesettings.scss */
+blockquote {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1.5em;
+  border-left: 6px solid gray;
+  font-family: Georgia, "Times New Roman", serif;
+}
+/* line 351, ../sass/partials/_typesettings.scss */
+blockquote p {
+  margin-bottom: 0.75em;
+}
+/* line 357, ../sass/partials/_typesettings.scss */
+blockquote footer cite:before {
+  content: " – ";
+}
+
+/* line 364, ../sass/partials/_typesettings.scss */
+pre,
+code {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+/* line 369, ../sass/partials/_typesettings.scss */
+time,
+.time {
+  text-transform: uppercase;
+}
+
+/* line 374, ../sass/partials/_typesettings.scss */
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 384, ../sass/partials/_typesettings.scss */
+ul ul,
+ol ol,
+dl dl {
+  margin-left: 0;
+}
+
+/* line 390, ../sass/partials/_typesettings.scss */
+ul {
+  list-style: disc;
+}
+
+/* line 394, ../sass/partials/_typesettings.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 399, ../sass/partials/_typesettings.scss */
+abbr {
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+/* line 406, ../sass/partials/_typesettings.scss */
+abbr[title]:hover {
+  cursor: help;
+}
+
+/* line 412, ../sass/partials/_typesettings.scss */
+hr {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  border: none;
+  border-top-color: #696969;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-top: 1.4375em;
+}
+
 /* line 2, ../sass/partials/_grid.scss */
 .wrapper {
   max-width: 100%;
@@ -626,68 +865,25 @@ th {
   }
 }
 
-/* line 14, ../sass/partials/_grid.scss */
+/* line 13, ../sass/partials/_grid.scss */
 main {
   width: 100%;
   float: left;
 }
 
-/* line 19, ../sass/partials/_grid.scss */
+/* line 18, ../sass/partials/_grid.scss */
 #home {
   width: 100%;
   float: left;
 }
 
-/* line 24, ../sass/partials/_grid.scss */
-#services {
+/* line 23, ../sass/partials/_grid.scss */
+#welcome {
   width: 100%;
   float: left;
 }
-/* line 26, ../sass/partials/_grid.scss */
-#services figure,
-#services .description {
-  width: 86.25%;
-  float: left;
-  margin-left: 0.625%;
-  margin-right: 0.625%;
-  margin-left: 6.875%;
-  margin-right: 6.875%;
-}
-@media (max-width: 767px) and (orientation: landscape) {
-  /* line 32, ../sass/partials/_grid.scss */
-  #services figure {
-    width: 73.75%;
-    float: left;
-    margin-left: 0.625%;
-    margin-right: 0.625%;
-    margin-left: 13.125%;
-    margin-right: 13.125%;
-  }
-}
-@media (min-width: 768px) {
-  /* line 24, ../sass/partials/_grid.scss */
-  #services {
-    width: 100%;
-    float: left;
-  }
-  /* line 39, ../sass/partials/_grid.scss */
-  #services figure {
-    width: 36.25%;
-    float: left;
-    margin-left: 0.625%;
-    margin-right: 0.625%;
-    margin-left: 6.875%;
-  }
-  /* line 43, ../sass/partials/_grid.scss */
-  #services .description {
-    width: 48.75%;
-    float: left;
-    margin-left: 0.625%;
-    margin-right: 0.625%;
-  }
-}
 
-/* line 50, ../sass/partials/_grid.scss */
+/* line 28, ../sass/partials/_grid.scss */
 #portfolio {
   width: 100%;
   float: left;
@@ -695,7 +891,7 @@ main {
   *zoom: 1;
 }
 
-/* line 55, ../sass/partials/_grid.scss */
+/* line 33, ../sass/partials/_grid.scss */
 .portfolio-filter {
   display: -webkit-flex;
   display: flex;
@@ -705,7 +901,7 @@ main {
   justify-content: space-around;
 }
 @media (min-width: 768px) {
-  /* line 55, ../sass/partials/_grid.scss */
+  /* line 33, ../sass/partials/_grid.scss */
   .portfolio-filter {
     width: 87.5%;
     float: left;
@@ -714,46 +910,57 @@ main {
   }
 }
 
-/* line 65, ../sass/partials/_grid.scss */
+/* line 43, ../sass/partials/_grid.scss */
 .portfolio-container {
   width: 100%;
   float: left;
 }
-/* line 68, ../sass/partials/_grid.scss */
+/* line 45, ../sass/partials/_grid.scss */
 .portfolio-container figure {
-  width: 48.75%;
+  width: 23.75%;
   float: left;
 }
 /* line 66, C:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-.portfolio-container figure:nth-child(2n + 1) {
+.portfolio-container figure:nth-child(4n + 1) {
   margin-left: 0.625%;
   margin-right: -100%;
   clear: both;
 }
 /* line 66, C:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-.portfolio-container figure:nth-child(2n + 2) {
+.portfolio-container figure:nth-child(4n + 2) {
+  margin-left: 25.625%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, C:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+.portfolio-container figure:nth-child(4n + 3) {
   margin-left: 50.625%;
   margin-right: -100%;
   clear: none;
 }
-/* line 70, ../sass/partials/_grid.scss */
+/* line 66, C:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+.portfolio-container figure:nth-child(4n + 4) {
+  margin-left: 75.625%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 47, ../sass/partials/_grid.scss */
 .portfolio-container figure img {
   width: 100%;
 }
-/* line 74, ../sass/partials/_grid.scss */
+/* line 51, ../sass/partials/_grid.scss */
 .portfolio-container article {
   width: 100%;
   float: left;
   overflow: hidden;
   *zoom: 1;
   position: relative;
-  display: none;
 }
-/* line 80, ../sass/partials/_grid.scss */
+/* line 57, ../sass/partials/_grid.scss */
 .portfolio-container .og-close {
   position: absolute;
 }
-/* line 83, ../sass/partials/_grid.scss */
+/* line 60, ../sass/partials/_grid.scss */
 .portfolio-container .carousel,
 .portfolio-container .og-details {
   width: 86.25%;
@@ -763,75 +970,154 @@ main {
   margin-left: 6.875%;
   margin-right: 6.875%;
 }
-@media (min-width: 768px) {
-  /* line 65, ../sass/partials/_grid.scss */
-  .portfolio-container {
-    width: 87.5%;
-    float: left;
-    margin-left: 6.875%;
-    margin-right: 6.875%;
-  }
-  /* line 93, ../sass/partials/_grid.scss */
-  .portfolio-container figure {
-    width: 23.75%;
-    float: left;
-  }
-  /* line 66, C:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-  .portfolio-container figure:nth-child(4n + 1) {
-    margin-left: 0.625%;
-    margin-right: -100%;
-    clear: both;
-  }
-  /* line 66, C:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-  .portfolio-container figure:nth-child(4n + 2) {
-    margin-left: 25.625%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, C:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-  .portfolio-container figure:nth-child(4n + 3) {
-    margin-left: 50.625%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 66, C:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-  .portfolio-container figure:nth-child(4n + 4) {
-    margin-left: 75.625%;
-    margin-right: -100%;
-    clear: none;
-  }
-  /* line 96, ../sass/partials/_grid.scss */
-  .portfolio-container article {
-    width: 86.25%;
-    float: left;
-    margin-left: 0.625%;
-    margin-right: 0.625%;
-  }
-  /* line 99, ../sass/partials/_grid.scss */
-  .portfolio-container .carousel {
-    width: 48.75%;
-    float: left;
-    margin-left: 0.625%;
-    margin-right: 0.625%;
-    margin: 0;
-  }
-  /* line 103, ../sass/partials/_grid.scss */
-  .portfolio-container .og-details {
-    width: 48.75%;
-    float: left;
-    margin-left: 0.625%;
-    margin-right: 0.625%;
-  }
-}
 
-/* line 110, ../sass/partials/_grid.scss */
+/* line 68, ../sass/partials/_grid.scss */
 #contact {
   width: 100%;
   float: left;
 }
 
+/* line 73, ../sass/partials/_grid.scss */
+:root {
+  font-size: 85%;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  /* line 73, ../sass/partials/_grid.scss */
+  :root {
+    font-size: calc(85% + 3 * (100vw -768px) / 1212);
+  }
+}
+@media (min-width: 1980px) {
+  /* line 73, ../sass/partials/_grid.scss */
+  :root {
+    font-size: 110%;
+  }
+}
+
+/* line 84, ../sass/partials/_grid.scss */
+h1,
+.h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.74977em;
+}
+@media (min-width: 768px) {
+  /* line 84, ../sass/partials/_grid.scss */
+  h1,
+  .h1 {
+    font-size: 4.8rem;
+  }
+}
+
+/* line 93, ../sass/partials/_grid.scss */
+q {
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  /* line 93, ../sass/partials/_grid.scss */
+  q {
+    font-size: 2rem;
+  }
+}
+
+/* line 100, ../sass/partials/_grid.scss */
+h2,
+.h2 {
+  font-size: 2.5rem;
+}
+
+/* line 105, ../sass/partials/_grid.scss */
+h3,
+.h3 {
+  font-size: 2.3rem;
+}
+
+/* line 110, ../sass/partials/_grid.scss */
+h4,
+.h4 {
+  font-size: 2rem;
+}
+
+/* line 115, ../sass/partials/_grid.scss */
+h5,
+.h5,
+figcaption {
+  font-size: 1.33rem;
+}
+
+/* line 121, ../sass/partials/_grid.scss */
+p,
+h6,
+.h6,
+nav a,
+.btn {
+  font-size: 1rem;
+}
+
 /*! ========== UI Elements ========== */
-/* line 15, ../sass/partials/_base.scss */
+@font-face {
+  font-family: 'Futura';
+  src: "../fonts/FuturaStd_CondensedBold.otf" format("opentype");
+  font-stretch: condensed;
+}
+@font-face {
+  font-family: 'Futura';
+  src: "../fonts/FuturaStd_Heavy.otf" format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Futura';
+  src: "../fonts/FuturaStd_Book.otf" format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Futura';
+  src: "../fonts/FuturaStd_Light.otf" format("opentype");
+  font-weight: 100;
+}
+/* line 28, ../sass/partials/_base.scss */
+h4,
+.h4,
+h5,
+.h5,
+figcaption,
+q {
+  font-family: 'Satisfy', cursive;
+}
+
+/* line 38, ../sass/partials/_base.scss */
+h1,
+.h1 {
+  font-family: 'Futura', 'Verdana', 'Arial', sans-serif;
+  font-stretch: condensed;
+}
+
+/* line 45, ../sass/partials/_base.scss */
+h2,
+.h2,
+h3,
+.h3 {
+  font-family: 'Futura', 'Verdana', 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+/* line 54, ../sass/partials/_base.scss */
+nav a {
+  font-family: 'Futura', 'Verdana', 'Arial', sans-serif;
+  font-weight: normal;
+  color: #8ad9d9;
+}
+
+/* line 61, ../sass/partials/_base.scss */
+h6,
+.h6,
+p,
+.btn {
+  font-family: 'Futura', 'Verdana', 'Arial', sans-serif;
+  font-weight: 100;
+}
+
+/* line 70, ../sass/partials/_base.scss */
 img {
   max-width: 100%;
 }
@@ -845,40 +1131,161 @@ header {
 
 /* line 7, ../sass/partials/_navigation.scss */
 nav {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 /* line 11, ../sass/partials/_navigation.scss */
-nav:hover, nav:target, nav:active {
-  background-color: #fffbf3;
+nav ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-flex-direction: column;
+  flex-direction: column;
   background-color: rgba(255, 251, 242, 0.9);
+  width: 66.66%;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-110%) translateZ(0);
+  transition: transform 0.3s cubic-bezier(0.05, 1.06, 0.19, 1.26);
+  will-change: transform;
 }
-/* line 17, ../sass/partials/_navigation.scss */
-nav a {
-  color: #8ad9d9;
+/* line 27, ../sass/partials/_navigation.scss */
+nav ul li {
+  list-style: none;
+}
+/* line 30, ../sass/partials/_navigation.scss */
+nav ul a {
   display: block;
-  padding: 1em 0.83333%;
+  margin: 0;
+  padding: 1em;
   text-decoration: none;
-}
-/* line 22, ../sass/partials/_navigation.scss */
-nav a:hover, nav a:target, nav a:active {
   color: #378c8c;
 }
+/* line 36, ../sass/partials/_navigation.scss */
+nav ul a:hover, nav ul a:target, nav ul a:active {
+  color: #e95b5b;
+  background-color: #ffa2a2;
+}
+/* line 44, ../sass/partials/_navigation.scss */
+nav input {
+  display: none;
+}
+/* line 47, ../sass/partials/_navigation.scss */
+nav input:checked ~ ul {
+  transform: translateX(0) translateZ(0);
+}
+/* line 51, ../sass/partials/_navigation.scss */
+nav label {
+  background-color: rgba(255, 251, 242, 0.9);
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: 0.2s -webkit-transform cubic-bezier(0, 1.8, 1, 1.2);
+  transition: 0.2s transform cubic-bezier(0, 1.8, 1, 1.2);
+}
+/* line 64, ../sass/partials/_navigation.scss */
+nav label::before {
+  content: "";
+  display: block;
+  z-index: 1;
+  height: 1.6rem;
+  width: 2rem;
+  background-color: transparent;
+  background-image: linear-gradient(to right, #5bb4b4, #5bb4b4), linear-gradient(to right, #5bb4b4, #5bb4b4), linear-gradient(to right, #5bb4b4, #5bb4b4);
+  background-position: center top, center, center bottom;
+  background-repeat: no-repeat;
+  -webkit-background-size: 2rem .3rem;
+  background-size: 2rem .3rem;
+  margin: .75em;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: 0.2s cubic-bezier(0, 1.8, 1, 1.2);
+  transition: 0.2s cubic-bezier(0, 1.8, 1, 1.2);
+  transition-property: background;
+}
+/* line 89, ../sass/partials/_navigation.scss */
+nav input:checked + label::before {
+  background-position: center, center, center;
+}
+@media (min-width: 768px) {
+  /* line 94, ../sass/partials/_navigation.scss */
+  nav ul {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    transform: none;
+    transition: none;
+    background-color: rgba(255, 251, 242, 0);
+  }
+  /* line 100, ../sass/partials/_navigation.scss */
+  nav ul:hover {
+    background-color: rgba(255, 251, 242, 0.9);
+  }
+  /* line 104, ../sass/partials/_navigation.scss */
+  nav label {
+    display: none;
+  }
+}
 
+/* ANCIENNE PRESENTATION
+nav {
+    @include display-flex(flex);
+    @include justify-content(flex-start);
+
+    &:hover,
+    &:target,
+    &:active {
+        @include alpha-attribute(background-color, rgba(palette(jaune, light), 0.9), $white);
+    }
+
+    a {
+        color: palette(bleu);
+        display: block;
+        padding: 1em gutter(12);
+        text-decoration: none;
+        &:hover,
+        &:target,
+        &:active {
+            color: palette(bleu, dark);
+        }
+    }
+}
+*/
 /*! ========== Sections  ========== */
 /* line 1, ../sass/partials/_home.scss */
 #home {
-  height: 400px;
-  /*fallback pour vh unit*/
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/hero3.jpg);
-  background-size: cover;
+  background: url(../images/black-zig-zag.png) repeat fixed, url(../images/collage-geometrique2.jpg) center no-repeat fixed;
+  background-size: auto, cover;
+  text-align: center;
+}
+/* line 11, ../sass/partials/_home.scss */
+#home h1 {
+  color: #ffa2a2;
+}
+/* line 14, ../sass/partials/_home.scss */
+#home q {
+  color: #fffbf2;
+}
+@media (min-width: 768px) {
+  /* line 1, ../sass/partials/_home.scss */
+  #home {
+    height: 100vh;
+  }
 }
 
 /* line 2, ../sass/partials/_portfolio.scss */

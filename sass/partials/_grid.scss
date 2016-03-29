@@ -1,16 +1,15 @@
-//  ==========  Div conteneur  ==========
+//  ==========  Grille horizontale : Div conteneur  ==========
 .wrapper {
     @include container(16);
     @include clearfix;
-    
-    @include breakpoint($container-max-width){
+    @include breakpoint($container-max-width) {
         width: $container-max-width;
     }
 }
 
 //* {border: 1px solid blue;}
 
-//  ==========  Corps principal  ==========
+//  ========== Corps principal  ==========
 main {
     @include span(16 full nest);
 }
@@ -20,30 +19,9 @@ main {
     @include span(16 full nest);
 }
 
-//  ==========  Section Services  ==========
-#services {
+//  ==========  Section Bienvenue  ==========
+#welcome {
     @include span(16 nest);
-    figure,
-    .description {
-        @include span(14);
-    @include squish(1);
-    }
-    @include breakpoint($media-mobile-paysage) {
-        figure {
-            @include span(12);
-            @include squish(2);
-        }
-    }
-    @include breakpoint($media-tablet-min) {
-        @include span(16 nest);
-        figure {
-            @include span(6);
-            @include push(1);
-        }
-        .description {
-            @include span(8);
-        }
-    }
 }
 
 //  ==========  Section Portfolio  ==========
@@ -64,9 +42,8 @@ main {
 
 .portfolio-container {
     @include span(16 nest);
-    
     figure {
-        @include gallery(8);
+        @include gallery(4 nest);
         img {
             width: 100%;
         }
@@ -75,7 +52,7 @@ main {
         @include span(16 nest);
         @include clearfix;
         position: relative;
-        display: none;
+//        display: none;
     }
     .og-close {
         position: absolute;
@@ -85,28 +62,66 @@ main {
         @include span(14);
         @include squish(1);
     }
-    
-    @include breakpoint($media-tablet-min) {
-        @include span (14 nest);
-        @include squish(1);
-        
-        figure {
-            @include gallery(4 of 16);
-        }
-        article {
-            @include span(14);
-        }
-        .carousel {
-            @include span(8);
-            margin: 0;
-        }
-        .og-details {
-            @include span(8);
-        }
-    }
 }
 
 //  ==========  Section Contact  ==========
 #contact {
     @include span(16 nest);
+}
+
+//  ==========  Rythme vertical ==========
+:root {
+    font-size: 85%;
+    line-height: 1.4;
+    @include breakpoint($media-tablet-min) {
+        font-size: calc(85% + 3 * (100vw -768px) / 1212);
+    }
+    @include breakpoint($container-max-width) {
+        font-size: 110%;
+    }
+}
+
+h1,
+.h1 {
+    font-size: 2.5rem;
+    margin-bottom: emRhythm(1, $ms-down2);
+    @include breakpoint($media-tablet-min) {
+        font-size: 4.8rem;
+    }
+}
+
+q {
+    font-size: 1.5rem;
+    @include breakpoint($media-tablet-min) {
+        font-size: 2rem;
+    }
+}
+
+h2,
+.h2 {
+    font-size: 2.5rem;
+}
+
+h3,
+.h3 {
+    font-size: 2.3rem;
+}
+
+h4,
+.h4 {
+    font-size: 2rem;
+}
+
+h5,
+.h5,
+figcaption {
+    font-size: 1.33rem;
+}
+
+p,
+h6,
+.h6,
+nav a,
+.btn {
+    font-size: 1rem;
 }

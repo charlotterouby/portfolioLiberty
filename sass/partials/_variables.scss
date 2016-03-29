@@ -48,6 +48,16 @@ $susy: (
 //    )
 );
 
+//  ==========  Variables typesettings   ==========  
+$font-sans: 'Futura', 'Verdana', 'Arial', sans-serif;
+ $base-vertical-unit: 6px;
+ $base-line-multi: 4;
+ $base-font-size: 16px;
+ $ms-ratio: 1.414;
+ $paragraph-indent: true;
+ $paragraph-justify: true;
+ $load-typesetted: true;
+
 //  ==========  Variables media queries  ==========
 $media-mobile-paysage: (max-width 767px) (orientation landscape);
 $media-mobile-max: 767px;
@@ -82,5 +92,17 @@ $palettes: (
 );
 
 $white: #fff;
+$text-color: #696969;
 
-//  ==========  Variables typographies  ==========
+//  ==========  Fonction & mixin couleurs  ==========
+@function palette($palette, $tone: 'base') {
+    @return map-get(map-get($palettes, $palette), $tone);
+}
+
+@mixin alpha-attribute($attribute, $color, $background) {
+    $percent: alpha($color) * 100%;
+    $opaque: opacify($color, 1);
+    $solid-color: mix($opaque, $background, $percent);
+    #{$attribute}: $solid-color;
+    #{$attribute}: $color;
+}

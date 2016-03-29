@@ -1,21 +1,72 @@
-//  ==========  Fonction des couleurs  ==========
-@function palette($palette, $tone: 'base') {
-    @return map-get(map-get($palettes, $palette), $tone);
+//  ==========  Typographie   ==========
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@font-face {
+    font-family: 'Futura';
+    src: '../fonts/FuturaStd_CondensedBold.otf' format('opentype');
+    font-stretch: condensed;
 }
 
-@mixin alpha-attribute($attribute, $color, $background) {
-    $percent: alpha($color) * 100%;
-    $opaque: opacify($color, 1);
-    $solid-color: mix($opaque, $background, $percent);
-    #{$attribute}: $solid-color;
-    #{$attribute}: $color;
+@font-face {
+    font-family: 'Futura';
+    src: '../fonts/FuturaStd_Heavy.otf' format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: '../fonts/FuturaStd_Book.otf' format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: '../fonts/FuturaStd_Light.otf' format('opentype');
+    font-weight: 100;
+}
+
+//  Styles en Satisfy
+h4,
+.h4,
+h5,
+.h5,
+figcaption,
+q {
+    font-family: 'Satisfy', cursive;
+}
+
+//  Styles en Futura condensed bold
+h1,
+.h1 {
+    font-family: 'Futura', 'Verdana', 'Arial', sans-serif;
+    font-stretch: condensed;
+}
+
+//  Styles en Futura bold
+h2,
+.h2,
+h3,
+.h3 {
+    font-family: 'Futura', 'Verdana', 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+//  Styles en Futura book
+nav a {
+    font-family: 'Futura', 'Verdana', 'Arial', sans-serif;
+    font-weight: normal;
+    color: palette(bleu);
+}
+
+//  Styles en Futura Light
+h6,
+.h6,
+p,
+.btn {
+    font-family: 'Futura', 'Verdana', 'Arial', sans-serif;
+    font-weight: 100;
 }
 
 //  ==========  Paramètres images  ==========
 img {
     max-width: 100%;
 }
-
-//  ==========  Typographie   ==========
-@import url(https://fonts.googleapis.com/css?family=Satisfy); //Import typo Satisfy
-//font-family: 'Satisfy', cursive;                              //rappel de définition de la font

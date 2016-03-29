@@ -11,14 +11,14 @@
 @import 'compass/support';
 @import 'compass/css3';
 @import 'compass/css3/box-sizing';
-@import 'compass/typography/vertical_rhythm';
 @import 'susy';
 @import 'breakpoint';
 
 /*! ==========  Mise a zero des styles ==========  */
 @import 'partials/normalize';
 
-/*! ========== Grid layout ==========   */
+/*! ========== Grid layout & vertical rythme ==========   */
+@import 'partials/typesettings';
 @import 'partials/grid';
 
 /*! ========== UI Elements ========== */
