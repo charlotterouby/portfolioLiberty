@@ -1,0 +1,103 @@
+//  ==========  Grille horizontale : Div conteneur  ==========
+.wrapper {
+    @include container(12);
+    @include clearfix;
+    @include breakpoint($container-max-width) {
+        width: $container-max-width;
+    }
+}
+
+//* {border: 1px solid blue;}
+//  ========== Corps principal  ==========
+main {
+    @include span(12 full nest);
+    
+    section {
+        padding-top: $base-vertical-unit * 4;
+        padding-bottom: $base-vertical-unit * 4;
+    }
+}
+
+//  ==========  Section Home  ==========
+#home {
+    @include span(12 full nest);
+}
+
+//  ==========  Section Bienvenue  ==========
+#welcome {
+    @include span(12 full nest border-box);
+    .shape-coeurs {
+        @include break;
+        @include span(4 of 12);
+    }
+
+    @include breakpoint($media-tablet-min $media-tablet-max) {
+        p {
+            @include span(8 at 4 of 12);
+        }
+
+        aside {
+            @include span(12 full nest);
+            figure {
+                @include span(6 of 12);
+            }
+        }
+    }
+    @include breakpoint($media-desktop-min) {
+        p {
+            @include span(12 full);
+        }
+        aside {
+            @include span(8 at 5 of 12);
+            figure {
+                @include span(6 of 12);
+            }
+        }
+    }
+}
+
+//  ==========  Section Portfolio  ==========
+#portfolio {
+    @include span(12 full nest);
+    @include clearfix;
+}
+
+.portfolio-filter {
+    @include display-flex(flex);
+    @include flex-flow(row wrap);
+    @include justify-content(space-around);
+    @include breakpoint($media-tablet-min) {
+        @include span(10 nest);
+        @include squish(1);
+    }
+}
+
+.portfolio-container {
+    @include span(12 full nest);
+    figure {
+        @include gallery(3 nest);
+        margin: 0;
+        img {
+//            display: block;
+            width: 100%;
+        }
+    }
+    article {
+        @include span(12 nest);
+        @include clearfix;
+        position: relative;
+    }
+    .og-close {
+        position: absolute;
+    }
+    .carousel,
+    .og-details {
+        @include span(8);
+//        @include squish(1);
+    }
+}
+
+//  ==========  Section Contact  ==========
+#contact {
+    @include span(12 full nest);
+}

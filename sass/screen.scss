@@ -4,31 +4,27 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 /*! ==========  Initialisation ==========  */
-@import 'partials/variables';
+@import '1-base/variables';
 
-/* ==========  Compass & Co. ==========  */
+/* ==========  PLUGINS ==========  */
 @import 'compass';
 @import 'compass/support';
 @import 'compass/css3';
 @import 'compass/css3/box-sizing';
 @import 'susy';
 @import 'breakpoint';
+@import '0-plugins/normalize';
+@import '0-plugins/typesettings';
 
-/*! ==========  Mise a zero des styles ==========  */
-@import 'partials/normalize';
+/*! ==========  BASE ==========  */
+@import '1-base/base';
+@import '1-base/grid';
+@import '1-base/typo';
 
-/*! ========== Grid layout & vertical rythme ==========   */
-@import 'partials/typesettings';
-@import 'partials/grid';
+/*! ========== MODULES ========== */
+@import '2-modules/navigation';
 
-/*! ========== UI Elements ========== */
-@import 'partials/base';
-@import 'partials/navigation';
-//@import 'partials/boutons';
-
-/*! ========== Sections  ========== */
-@import 'partials/home';
-//@import 'partials/services';
-@import 'partials/portfolio';
-//@import 'partials/contact';
-//@import 'partials/footer';
+/*! ========== LAYOUTS  ========== */
+@import '3-layouts/home';
+@import '3-layouts/welcome';
+@import '3-layouts/portfolio';

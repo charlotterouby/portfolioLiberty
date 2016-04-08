@@ -1,0 +1,102 @@
+//  ==========  Typographie   ==========
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700|Open+Sans+Condensed:700);
+
+
+//  Styles en Satisfy
+h4,
+.h4,
+h5,
+.h5,
+figcaption,
+q {
+    font-family: 'Satisfy', cursive;
+}
+
+//  Styles en Open Sans condensed bold
+h1,
+.h1 {
+    font-family: 'Open Sans Condensed', 'Verdana', 'Arial', sans-serif;
+    font-stretch: condensed;
+    font-weight: 700;
+}
+
+//  Styles en Open Sans bold
+h2,
+.h2,
+h3,
+.h3 {
+    font-family: 'Open Sans', 'Verdana', 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+//  Styles en Open Sans normal
+nav a {
+    font-family: 'Open Sans', 'Verdana', 'Arial', sans-serif;
+    font-weight: 400;
+    color: palette(bleu);
+}
+
+//  Styles en Open Sans Light
+h6,
+.h6,
+p,
+.btn {
+    font-family: 'Open Sans', 'Verdana', 'Arial', sans-serif;
+    font-weight: 300;
+}
+//  ==========  Rythme vertical ==========
+:root {
+    font-size: 85%;
+    line-height: 1.4;
+    @include breakpoint($media-tablet-min) {
+        font-size: calc(85% + 3 * (100vw -768px) / 1212);
+    }
+    @include breakpoint($container-max-width) {
+        font-size: 110%;
+    }
+}
+
+h1,
+.h1 {
+    font-size: 2.5rem;
+    margin-bottom: emRhythm(1, $ms-down2);
+    @include breakpoint($media-tablet-min) {
+        font-size: 4.8rem;
+    }
+}
+
+q {
+    font-size: 1.5rem;
+    @include breakpoint($media-tablet-min) {
+        font-size: 2rem;
+    }
+}
+
+h2,
+.h2 {
+    font-size: 2.5rem;
+}
+
+h3,
+.h3 {
+    font-size: 2.3rem;
+}
+
+h4,
+.h4 {
+    font-size: 1.75rem;
+}
+
+h5,
+.h5,
+figcaption {
+    font-size: 1.33rem;
+}
+
+p,
+h6,
+.h6,
+nav a,
+.btn {
+    font-size: 1rem;
+}

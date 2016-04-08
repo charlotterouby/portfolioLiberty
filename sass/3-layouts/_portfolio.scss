@@ -1,0 +1,14 @@
+#portfolio {
+    article {
+        display: none;
+    }
+}
+.portfolio-filter {
+    padding: 0;
+    li {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
