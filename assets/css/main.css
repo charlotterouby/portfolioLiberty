@@ -7834,7 +7834,7 @@ body {
   margin: 0;
   color: #e9ba5b;
   font-weight: normal;
-  background-color: rgba(255, 251, 242, 0.5);
+  background-color: rgba(19, 48, 48, 0.5);
 }
 @media (max-width: 1200px) {
   .section-hero {
@@ -7924,11 +7924,20 @@ body {
   max-width: 100%;
   height: auto;
 }
+.section-showcase strong {
+  color: #e9ba5b;
+}
 @media (max-width: 991px) {
   .section-showcase {
-    background-image: url('../../images/banner-tangaye.jpg');
+    background-image: url('../../images/banner.jpg');
     background-size: cover;
     background-position: 6%;
+  }
+  .section-showcase .row {
+    background-color: rgba(19, 48, 48, 0.5);
+  }
+  .section-showcase .section-header {
+    margin-top: 13px;
   }
   .section-showcase .btn {
     margin: 26px auto;
@@ -7937,7 +7946,7 @@ body {
 }
 @media (min-width: 992px) {
   .section-showcase {
-    background-image: url('../../images/projets/Web/Tangaye1.jpg');
+    background-image: url('../../images/banner.jpg');
     background-size: 125%;
     background-position: -105% 40%;
     padding: 0;
