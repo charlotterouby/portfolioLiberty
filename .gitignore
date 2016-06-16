@@ -18,8 +18,11 @@ $RECYCLE.BIN/
 *.lnk
 
 # =========================
-# Operating System Files
+# App System Files
 # =========================
+nodes_modules
+.sass-cache
+
 
 # OSX
 # =========================
