@@ -1,0 +1,21 @@
+.shape-coeurs{
+    border-radius: 50%;
+    shape-inside: circle();
+    shape-margin: 15px;
+    overflow: hidden;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#welcome aside {
+    h4 {
+        margin: emRhythm(2, $ms-up1) auto;
+        @include span(12);
+        float:none;
+    }
+    
+    figcaption{
+    margin: emRhythm(2, $ms-up1) auto;
+    }
+}

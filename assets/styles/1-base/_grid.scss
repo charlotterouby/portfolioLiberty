@@ -13,8 +13,14 @@ main {
     @include span(12 full nest);
     
     section {
-        padding-top: $base-vertical-unit * 4;
-        padding-bottom: $base-vertical-unit * 4;
+        padding-top: emRhythm(8, $ms-up1);
+        padding-bottom: emRhythm(8, $ms-up1);
+    }
+    .container {
+        @include breakpoint($media-desktop-min){
+            @include span(10 nest);
+            @include squish(1);
+        }
     }
 }
 
@@ -25,10 +31,14 @@ main {
 
 //  ==========  Section Bienvenue  ==========
 #welcome {
-    @include span(12 full nest border-box);
+    @include span(12 full);
     .shape-coeurs {
         @include break;
         @include span(4 of 12);
+    }
+    
+    aside figure {
+        @include span(12);
     }
 
     @include breakpoint($media-tablet-min $media-tablet-max) {
@@ -60,28 +70,23 @@ main {
 #portfolio {
     @include span(12 full nest);
     @include clearfix;
+    h2 {
+        @include span(3 of 12);
+    }
 }
 
 .portfolio-filter {
-    @include display-flex(flex);
-    @include flex-flow(row wrap);
-    @include justify-content(space-around);
-    @include breakpoint($media-tablet-min) {
-        @include span(10 nest);
-        @include squish(1);
+    @breakpoint($media-mobile-paysage){
+        @include span(12);
+    }
+    
+    @breakpoint($media-tablet-min) {
+        @include span(9 of 12);
     }
 }
 
 .portfolio-container {
     @include span(12 full nest);
-    figure {
-        @include gallery(3 nest);
-        margin: 0;
-        img {
-//            display: block;
-            width: 100%;
-        }
-    }
     article {
         @include span(12 nest);
         @include clearfix;
@@ -93,7 +98,7 @@ main {
     .carousel,
     .og-details {
         @include span(8);
-//        @include squish(1);
+        // @include squish(1);
     }
 }
 

@@ -1,4 +1,4 @@
-# A sample Gemfile
+# Gemfile
 source "https://rubygems.org"
 gem 'compass'
 gem 'support-for', '~> 1.0'

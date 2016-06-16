@@ -4,7 +4,11 @@ img {
     height: auto;
 }
 
-figure img {display: block;}
+figure {
+    margin-top: 0;
+    margin-bottom: 0;
+    img {display: block;}
+}
 
 //  ==========  iframe responsive  ==========
 .iframe-responsive-wrapper        {

@@ -306,7 +306,7 @@ body {
 
   p {
     margin-top: 0;
-    margin-bottom: emRhythm($base-line-multi);
+    margin-bottom: emRhythm($base-line-multi/2);
     padding-top: 0;
     padding-bottom: 0;
     max-width: emRhythm(96);

@@ -11,7 +11,7 @@
     <link rel="icon" href="favicon.ico" />
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="stylesheets/screen.css">
+    <link rel="stylesheet" href="dist/screen.css">
     <!--    <script src="js/modernizr.custom.js"></script>-->
 </head>
 
@@ -42,59 +42,92 @@
                 <br/>Philippe Besson
                 </q>
             </section>
+
             <section id="welcome">
-                <h2>Bienvenue</h2>
-                <figure class="shape-coeurs">
-                    <img src="images/photo-profil-charlotte-rouby-couleur.jpg" alt="Charlotte Rouby" />
-                </figure>
-                <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
-                <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
-                <p>Illud autem non dubitatur quod cum esset aliquando virtutum omnium domicilium Roma, ingenuos advenas plerique nobilium, ut Homerici bacarum suavitate Lotophagi, humanitatis multiformibus officiis retentabant.</p>
-                <aside>
-                    <h4>Pour en savoir plus...</h4>
-                    <figure>
-                        <div class="iframe-responsive-wrapper">
-                            <img class="iframe-ratio" src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7" />
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/oUSHi5GRUjE" allowfullscreen></iframe>
-                        </div>
-                        <figcaption>Regarder ma vidéo de présentation</figcaption>
+                <div class="container">
+                    <h2>Bienvenue</h2>
+                    <figure class="shape-coeurs">
+                        <img src="images/photo-profil-charlotte-rouby-couleur.jpg" alt="Charlotte Rouby" />
                     </figure>
-                    <figure>
-                        <a href="images/cv_CharlotteRouby_webdesigner-integrateur.pdf">
-                            <img src="images/img_cv1.jpg" alt="mon cv en format pdf" />
-                        </a>
-                        <figcaption>Voir mon CV</figcaption>
-                    </figure>
-                </aside>
+                    <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+                    <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+                    <p>Illud autem non dubitatur quod cum esset aliquando virtutum omnium domicilium Roma, ingenuos advenas plerique nobilium, ut Homerici bacarum suavitate Lotophagi, humanitatis multiformibus officiis retentabant.</p>
+                    <aside>
+                        <h4>Pour en savoir plus...</h4>
+                        <figure>
+                            <div class="iframe-responsive-wrapper">
+                                <img class="iframe-ratio" alt="ma vidéo de présentation" src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7" />
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/oUSHi5GRUjE" allowfullscreen></iframe>
+                            </div>
+                            <figcaption class="h5">Regarder ma vidéo de présentation</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="images/cv_CharlotteRouby_webdesigner-integrateur.pdf">
+                                <img src="images/img_cv1.jpg" alt="mon cv en format pdf" />
+                            </a>
+                            <figcaption class="h5">Voir mon CV</figcaption>
+                        </figure>
+                    </aside>
+                </div>
             </section>
 
             <section id="portfolio">
-                <h2>Portfolio</h2>
-                <ul id="portfolio-filter" class="portfolio-filter">
-                    <li><a href="#portfolio">Identité visuelle</a></li>
-                    <li><a href="#portfolio">Création Web</a></li>
-                    <li><a href="#portfolio">Graphisme print</a></li>
-                    <li><a href="#portfolio">Création audiovisuelle</a></li>
-                </ul>
+                <!-- Titre section + filtre portfolio -->
+                <div class="container">
+                    <h2>Portfolio</h2>
+                    <ul id="portfolio-filter" class="portfolio-filter">
+                        <li><a href="#portfolio">Identité visuelle</a></li>
+                        <li><a href="#portfolio">Création Web</a></li>
+                        <li><a href="#portfolio">Graphisme print</a></li>
+                        <li><a href="#portfolio">Création audiovisuelle</a></li>
+                    </ul>
+                </div>
+
+                <!-- Items du portfolio -->
                 <div id="portfolio-container" class="portfolio-container">
                     <!--    1er RANG    -->
+                    <figure id="aphdap" class="itemPortfolio">
+                        <img src="http://lorempixel.com/g/270/206/abstract" alt="miniature logo phoenix" />
+                        <figcaption>
+                            <h5>Association APHDAP</h5>
+                            <p>Identité visuelle</p>
+                        </figcaption>
+                    </figure>
                     <figure id="tangaye" class="itemPortfolio">
                         <img src="images/projets/miniature_tangaye.jpg" alt="miniature Tangaye" />
-                        <figcaption>AMNS - Les Enfants de Tangaye</figcaption>
+                        <figcaption>
+                            <h5>AMNS - Les Enfants de Tangaye</h5>
+                            <p>Webdesign</p>
+                        </figcaption>
                     </figure>
                     <figure id="edjing" class="itemPortfolio">
                         <img src="images/projets/miniature_edjingplayer.jpg" alt="miniature maquette Edjing" />
-                        <figcaption>Maquette player mobile Edjing</figcaption>
+                        <figcaption>
+                            <h5>Edjing - maquette player mobile</h5>
+                            <p>Webdesign</p>
+                        </figcaption>
                     </figure>
                     <figure id="siarep" class="itemPortfolio">
                         <img src="images/projets/miniature_siarep.jpg" alt="miniature siarep" />
-                        <figcaption>SN SIAREP</figcaption>
+                        <figcaption>
+                            <h5>SN Siarep</h5>
+                            <p>Identité visuelle, Webdesign, Développement site web</p>
+                        </figcaption>
                     </figure>
-                    <figure id="astonvilla" class="itemPortfolio">
-                        <img src="images/projets/miniature_clipvideo.jpg" alt="miniature Clip musical Astonvilla" />
-                        <figcaption>Clip musical Astonvilla</figcaption>
-                    </figure>
+
+
                     <!--    descriptions    -->
+                    <article data-target="#aphdap">
+                        <span class="og-close"></span>
+                        <div class="carousel">
+                            <img src="http://lorempixel.com/g/600/350/abstract" alt="placeholder" />
+                        </div>
+                        <div class="og-details">
+                            <h3>Veggies sunt bona vobis</h3>
+                            <p>Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.</p>
+                            <a href="http://cargocollective.com/jaimemartinez/">Visit website</a>
+                        </div>
+                    </article>
                     <article data-target="#tangaye">
                         <span class="og-close"></span>
                         <div class="carousel">
@@ -129,36 +162,37 @@
                             <a href="http://cargocollective.com/jaimemartinez/">Visit website</a>
                         </div>
                     </article>
-                    <article data-target="#astonvilla">
-                        <span class="og-close"></span>
-                        <div class="carousel">
-
-                            <img src="http://lorempixel.com/g/600/350/abstract" alt="placeholder" />
-                        </div>
-                        <div class="og-details">
-                            <h3>Veggies sunt bona vobis</h3>
-                            <p>Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.</p>
-                            <a href="http://cargocollective.com/jaimemartinez/">Visit website</a>
-                        </div>
-                    </article>
 
                     <!--    2e RANG    -->
                     <figure id="mnemosyne" class="itemPortfolio">
                         <img src="images/projets/miniature_mnemosyne.jpg" alt="miniature court métrage Projet Mnémosyne" />
-                        <figcaption>Court Métrage Projet Mnémosyne</figcaption>
+                        <figcaption>
+                            <h5>Court Métrage Projet Mnémosyne</h5>
+                            <p>Création audiovisuelle</p>
+                        </figcaption>
                     </figure>
                     <figure id="mybigbang" class="itemPortfolio">
                         <img src="images/projets/miniature_mybigbang1.jpg" alt="miniature maquette MyBigBang app" />
-                        <figcaption>Maquette appli mobile MyBigBang</figcaption>
+                        <figcaption>
+                            <h5>MyBigBang - maquette appli mobile</h5>
+                            <p>Webdesign</p>
+                        </figcaption>
                     </figure>
                     <figure id="ecommerce" class="itemPortfolio">
                         <img src="images/projets/miniature_ecommerce1.png" alt="miniature maquette e-commerce" />
-                        <figcaption>Maquette webdesign E-commerce</figcaption>
+                        <figcaption>
+                            <h5>Maquette web e-commerce</h5>
+                            <p>Webdesign</p>
+                        </figcaption>
                     </figure>
                     <figure id="cultureMarseille" class="itemPortfolio">
                         <img src="images/projets/miniature_culturemarseille1.jpg" alt="miniature Peuples & Cultures de Marseille" />
-                        <figcaption>Peuples & Cultures de Marseille</figcaption>
+                        <figcaption>
+                            <h5>Peuples & Cultures de Marseille</h5>
+                            <p>Webdesign</p>
+                        </figcaption>
                     </figure>
+
                     <!--    descriptions    -->
                     <article data-target="#mnemosyne">
                         <span class="og-close"></span>
@@ -212,20 +246,33 @@
                     <!--    3e RANG    -->
                     <figure id="cabaret" class="itemPortfolio">
                         <img src="images/projets/miniature_cabaret1.jpg" alt="miniature Cabaret Aléatoire" />
-                        <figcaption>Cabaret Aléatoire</figcaption>
+                        <figcaption>
+                            <h5>Cabaret Aléatoire</h5>
+                            <p>Webdesign</p>
+                        </figcaption>
                     </figure>
                     <figure id="epicuriens" class="itemPortfolio">
                         <img src="images/projets/miniature_epicurien1.jpg" alt="miniature maquette Epicuriens de Provence" />
-                        <figcaption>La Confrérie des Epicuriens de Provence</figcaption>
+                        <figcaption>
+                            <h5>La Confrérie des Epicuriens de Provence</h5>
+                            <p>Webdesign</p>
+                        </figcaption>
                     </figure>
-                    <figure id="phoenix" class="itemPortfolio">
-                        <img src="http://lorempixel.com/g/270/206/abstract" alt="miniature logo phoenix" />
-                        <figcaption>Agence Phoenix</figcaption>
+                    <figure id="astonvilla" class="itemPortfolio">
+                        <img src="images/projets/miniature_clipvideo.jpg" alt="miniature Clip musical Astonvilla" />
+                        <figcaption>
+                            <h5>Clip musical Astonvilla</h5>
+                            <p>Création audiovisuelle</p>
+                        </figcaption>
                     </figure>
                     <figure id="aoc" class="itemPortfolio">
                         <img src="images/projets/miniature_aoc.jpg" alt="miniature AOC" />
-                        <figcaption>Advanced Optimisation and Control</figcaption>
+                        <figcaption>
+                            <h5>Advanced Optimisation and Control</h5>
+                            <p>Design print</p>
+                        </figcaption>
                     </figure>
+
                     <!--    descriptions    -->
                     <article data-target="#cabaret">
                         <span class="og-close"></span>
@@ -242,7 +289,6 @@
                     <article data-target="#epicuriens">
                         <span class="og-close"></span>
                         <div class="carousel">
-
                             <img src="http://lorempixel.com/g/600/350/abstract" alt="placeholder" />
                         </div>
                         <div class="og-details">
@@ -251,9 +297,10 @@
                             <a href="http://cargocollective.com/jaimemartinez/">Visit website</a>
                         </div>
                     </article>
-                    <article data-target="#phoenix">
+                    <article data-target="#astonvilla">
                         <span class="og-close"></span>
                         <div class="carousel">
+
                             <img src="http://lorempixel.com/g/600/350/abstract" alt="placeholder" />
                         </div>
                         <div class="og-details">
@@ -278,20 +325,33 @@
                     <!--    4e RANG    -->
                     <figure id="velauxDabord" class="itemPortfolio">
                         <img src="images/projets/miniature_flyervelauxdabord_recto.jpg" alt="miniature flyer Velaux D'Abord" />
-                        <figcaption>Flyer Velaux d'Abord</figcaption>
+                        <figcaption>
+                            <h5>Velaux d'Abord- création flyer</h5>
+                            <p>Design print</p>
+                        </figcaption>
                     </figure>
                     <figure id="frejus" class="itemPortfolio">
                         <img src="images/projets/miniature_dossierforumiulii.png" alt="miniature Service Patrimoine Fréjus" />
-                        <figcaption>Service Patrimoine de Fréjus</figcaption>
+                        <figcaption>
+                            <h5>Service Patrimoine de Fréjus</h5>
+                            <p>Design print</p>
+                        </figcaption>
                     </figure>
                     <figure id="patrimoineVelaux" class="itemPortfolio">
                         <img src="images/projets/miniature_velaux.jpg" alt="miniature Service Patrimoine Velaux" />
-                        <figcaption>Service Patrimoine de Velaux</figcaption>
+                        <figcaption>
+                            <h5>Service Patrimoine de Velaux</h5>
+                            <p>Design print</p>
+                        </figcaption>
                     </figure>
                     <figure id="saintChamas" class="itemPortfolio">
                         <img src="images/projets/miniature_saintchamas1.jpg" alt="miniature flyer Saint-Chamas" />
-                        <figcaption>Dépliant touristique pour Saint-Chamas</figcaption>
+                        <figcaption>
+                            <h5>Saint-Chamas - dépliant touristique</h5>
+                            <p>Design print</p>
+                        </figcaption>
                     </figure>
+
                     <!--    descriptions    -->
                     <article data-target="#velauxDabord">
                         <span class="og-close"></span>
@@ -339,6 +399,7 @@
                     </article>
                 </div>
             </section>
+
             <section id="contact">
                 <h2>Rencontrons-nous</h2>
                 <article>
@@ -368,31 +429,6 @@
 
         <footer></footer>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
-    </script>
-    <!--    <script src="js/og-grid.js"></script>-->
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function (b, o, i, l, e, r) {
-            b.GoogleAnalyticsObject = l;
-            b[l] || (b[l] =
-                function () {
-                    (b[l].q = b[l].q || []).push(arguments)
-                });
-            b[l].l = +new Date;
-            e = o.createElement(i);
-            r = o.getElementsByTagName(i)[0];
-            e.src = 'https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e, r)
-        }(window, document, 'script', 'ga'));
-        ga('create', 'UA-XXXXX-X', 'auto');
-        ga('send', 'pageview');
-    </script>
-
 </body>
 
 </html>
