@@ -14,10 +14,11 @@ var watch = require('gulp-watch');
 
 // Variables fichiers sources
 var jsSource = [
+    './assets/js/app.js',
     './assets/js/core/directives/*.js',
     './assets/js/core/services/*.js',
-    './assets/js/controllers/*js',
-    './assets/js/app.ts'
+    './assets/js/controllers/*.js',
+    './assets/js/core/*.js'
 ];
 
 var cssSource = [
@@ -83,5 +84,4 @@ gulp.task('minifyCSS', function () {
 gulp.task('watch', ['compileCSS', 'compileJS'], function () {
     gulp.watch(cssSource, ['compileCSS']);
     gulp.watch(jsSource, ['compileJS']);
-    gulp.watch('./dist/*.js', ['minifyJS']);
 });
