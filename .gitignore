@@ -20,7 +20,7 @@ $RECYCLE.BIN/
 # =========================
 # App System Files
 # =========================
-nodes_modules
+node_modules
 .sass-cache
 
 
