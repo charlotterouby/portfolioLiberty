@@ -14,11 +14,7 @@ var watch = require('gulp-watch');
 
 // Variables fichiers sources
 var jsSource = [
-    './assets/js/app.js',
-    './assets/js/core/directives/*.js',
-    './assets/js/core/services/*.js',
-    './assets/js/controllers/*.js',
-    './assets/js/core/*.js'
+    './assets/js/*.js'
 ];
 
 var cssSource = [

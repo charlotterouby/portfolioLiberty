@@ -2,7 +2,7 @@
     <!-- Titre section + filtre portfolio -->
     <div class="container">
         <h2>Portfolio</h2>
-        <ul id="portfolio-filter" class="portfolio-filter">
+        <ul class="portfolio-filter">
             <li><a href="#portfolio">Identité visuelle</a></li>
             <li><a href="#portfolio">Création Web</a></li>
             <li><a href="#portfolio">Graphisme print</a></li>
@@ -12,16 +12,16 @@
 
     <!-- Items du portfolio -->
     <div id="portfolio-container" class="portfolio-container">
-        <figure ng-repeat="project in mainCtrl.projects" id="{{project.id}}" class="itemPortfolio">
+        <figure ng-repeat="(projectID,project) in mainCtrl.projects.get() track by projectID" class="itemPortfolio">
             <img src="http://lorempixel.com/g/270/206/abstract" alt="miniature" />
             <figcaption>
-                <h5 ng-bind="project.title"></h5>
+                <h5 ng-bind="::project.title"></h5>
                 <p>
-                    <span ng-if="project.categories.video">Vidéo - </span>
-                    <span ng-if="project.categories.branding">Branding - </span>
-                    <span ng-if="project.categories.printDesign">Design Print - </span>
-                    <span ng-if="project.categories.webdesign">Webdesign - </span>
-                    <span ng-if="project.categories.devWeb">Développement Web</span>
+                    <span ng-show="project.categories.video">Vidéo - </span>
+                    <span ng-show="project.categories.branding">Branding - </span>
+                    <span ng-show="project.categories.printDesign">Design Print - </span>
+                    <span ng-show="project.categories.webdesign">Webdesign - </span>
+                    <span ng-show="project.categories.devWeb">Développement Web</span>
                 </p>
             </figcaption>
         </figure>
