@@ -14,6 +14,7 @@ var watch = require('gulp-watch');
 
 // Variables fichiers sources
 var jsSource = [
+    './assets/js/**/*.js',
     './assets/js/*.js'
 ];
 
@@ -24,6 +25,8 @@ var cssSource = [
     './assets/styles/2-modules/*.scss',
     './assets/styles/3-layouts/*.scss'
 ];
+
+var templatesSource = './assets/js/**/*.html';
 
 // Variables fichiers sorties
 var jsOut = 'scripts.js';
@@ -56,6 +59,11 @@ gulp.task('compileCSS', function () {
         .pipe(gulp.dest(dest));
 });
 
+gulp.task('copyTemplates', function(){
+    return gulp.src(templatesSource)
+        .pipe(gulp.dest('./dist/templates/'))
+});
+
 gulp.task('minifyJS', function () {
     return gulp.src('./dist/*.js')
         .pipe(uglify())
@@ -77,7 +85,8 @@ gulp.task('minifyCSS', function () {
 });
 
 // Watcher
-gulp.task('watch', ['compileCSS', 'compileJS'], function () {
+gulp.task('watch', ['compileCSS', 'compileJS', 'copyTemplates'], function () {
     gulp.watch(cssSource, ['compileCSS']);
     gulp.watch(jsSource, ['compileJS']);
+    gulp.watch(templatesSource, ['copyTemplates']);
 });

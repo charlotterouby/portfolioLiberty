@@ -1,7 +1,7 @@
 myPortfolio.config(function($routeProvider, $locationProvider) {
     $routeProvider
         //Landing page
-        .when('/', {
+        .when('/accueil', {
             templateUrl: 'dist/templates/landing-template.html'
         })
         //CV page
@@ -22,7 +22,7 @@ myPortfolio.config(function($routeProvider, $locationProvider) {
         })
         //Default Behavior
         .otherwise({
-            redirectTo: '/'
+            redirectTo: '/accueil'
         });
 
     $locationProvider.html5Mode(true);

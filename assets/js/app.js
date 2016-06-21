@@ -1,5 +1,5 @@
 // Déclaration du module "myPortfolio"
-var myPortfolio = angular.module('myPortfolio', ['ngRoute']);
+var myPortfolio = angular.module('myPortfolio', ['ngRoute', 'ngMaterial']);
 
 // ProjectsService
 function ProjectsService() {
@@ -7,17 +7,17 @@ function ProjectsService() {
 
     var projects = {};
 
-    self.add = function(data) {
+    self.add = function (data) {
         if (projects[data.id] === undefined) {
             projects[data.id] = data;
         }
     };
 
-    self.remove = function(dataId) {
+    self.remove = function (dataId) {
         delete projects[dataId];
     };
 
-    self.get = function() {
+    self.get = function () {
         return projects;
     };
 }
@@ -27,17 +27,23 @@ myPortfolio.service("Projects", ProjectsService);
 function MainController(Projects) {
     var self = this;
     self.projects = Projects;
+
+    function NavConfig() {
+        $rootScope.$on('$routeChangeSuccess', function (event, current) {
+            $scope.currentLink = getCurrentLinkFromRoute(current);
+        });
+    }
 }
 myPortfolio.controller('MainController', MainController);
 
 // Initialisation du Service Projects
-myPortfolio.run(function($http, Projects) {
+myPortfolio.run(function ($http, Projects) {
     $http
         .get('assets/js/projects.json')
-        .then(function(httpResponse) {
+        .then(function (httpResponse) {
             return httpResponse.data;
-        }).then(function(data){
-            angular.forEach(data.projects, function(project) {
+        }).then(function (data) {
+            angular.forEach(data.projects, function (project) {
                 Projects.add(project);
             });
         });

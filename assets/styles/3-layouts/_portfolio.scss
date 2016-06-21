@@ -1,82 +1,16 @@
-#portfolio {
-    article {
-        display: none;
-    }
-    .container {
-        margin-bottom: emRhythm(2, $ms-up1);
-    }
-}
-
-.portfolio-filter {
-    @include display-flex(flex);
-    @include flex-flow(row wrap);
-    @include justify-content(space-around);
-    padding: 0;
-    li {
-        width: span(2);
-        height: 0;
-        padding-bottom: span(2);
-        list-style: none;
-        margin: 0;
-        a {
-            font-family: $font-sans;
-            text-align: center;
-            text-decoration: none;
-            display: block;
-            background-color: palette(bleu, dark);
-            border-radius: 50%;
-            color: $white;
-        }
-    }
-}
-
-.itemPortfolio {
-    @include span(6 nest);
-    position: relative;
-    margin: 0;
-    height: 0;
-    padding-bottom: 40%;
+.figcaption {
+    white-space: nowrap;
     overflow: hidden;
-    @include breakpoint($media-tablet-min) {
-        @include span(3 nest);
-        padding-bottom: 20%;
+    text-overflow: ellipsis;
+    background-color: rgba(darken(palette(bleu, dark), 20%), 0.6);
+    h3 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 0;
+        color: palette(jaune, light);
     }
-    &:hover img {
-        transform: scale(1.25);
-        transition: transform 0.4s ease-in;
-    }
-    img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-    }
-    figcaption {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        box-sizing: border-box;
-        padding: emRhythm(1, $ms-up1) 0.5em;
-        background-color: fade-out(palette(jaune, light), 0.2);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        h5 {
-            font-size: 1.2rem;
-            margin-bottom: 0;
-            color: palette(bleu, dark);
-        }
-        p {
-            font-size: 0.9rem;
-            margin-bottom: 0;
-        }
-    }
-}
-
-.itemPortfolio:first-of-type {
-    @include span(12 nest);
-    padding-bottom: 80%;
-    @include breakpoint($media-tablet-min) {
-        @include span(6 nest);
-        padding-bottom: 40%;
+    p {
+        font-size: 0.9rem;
+        margin-bottom: 0;
     }
 }

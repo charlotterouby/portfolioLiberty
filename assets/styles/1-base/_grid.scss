@@ -11,7 +11,7 @@
 //  ========== Corps principal  ==========
 main {
     @include span(12 full nest);
-    
+
     section {
         padding-top: emRhythm(8, $ms-up1);
         padding-bottom: emRhythm(8, $ms-up1);
@@ -25,18 +25,18 @@ main {
 }
 
 //  ==========  Section Home  ==========
-#home {
+.home {
     @include span(12 full nest);
 }
 
 //  ==========  Section Bienvenue  ==========
-#welcome {
+.welcome {
     @include span(12 full);
     .shape-coeurs {
         @include break;
         @include span(4 of 12);
     }
-    
+
     aside figure {
         @include span(12);
     }
@@ -67,7 +67,7 @@ main {
 }
 
 //  ==========  Section Portfolio  ==========
-#portfolio {
+.portfolio {
     @include span(12 full nest);
     @include clearfix;
     h2 {
@@ -76,33 +76,18 @@ main {
 }
 
 .portfolio-filter {
+    padding-bottom: emRhythm(8, $ms-up1);
     @breakpoint($media-mobile-paysage){
         @include span(12);
     }
-    
-    @breakpoint($media-tablet-min) {
-        @include span(9 of 12);
-    }
-}
 
-.portfolio-container {
-    @include span(12 full nest);
-    article {
-        @include span(12 nest);
-        @include clearfix;
-        position: relative;
-    }
-    .og-close {
-        position: absolute;
-    }
-    .carousel,
-    .og-details {
-        @include span(8);
-        // @include squish(1);
+    @breakpoint($media-tablet-min) {
+        @include span(10 of 12);
+
     }
 }
 
 //  ==========  Section Contact  ==========
-#contact {
+.contact {
     @include span(12 full nest);
 }

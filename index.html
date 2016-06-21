@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.min.css">
     <link rel="stylesheet" href="dist/styles.css" />
 </head>
 
@@ -21,25 +22,21 @@
         <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="wrapper">
-        <header>
-            <nav>
-                <input type="checkbox" id="toggle-nav" title="menu">
-                <label for="toggle-nav" onclick></label>
-                <ul>
-                    <li><a href=" ">Accueil</a></li>
-                    <li><a href="cv">CV</a></li>
-                    <li><a href="portfolio">Portfolio</a></li>
-                    <li><a href="contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <md-nav-bar md-selected-nav-item="currentNavItem" aria-label="navigation bar">
+        <md-nav-item md-nav-href="accueil" name="accueil">Accueil</md-nav-item>
+        <md-nav-item md-nav-href="cv" name="cv">CV</md-nav-item>
+        <md-nav-item md-nav-href="portfolio" name="portfolio">Portfolio</md-nav-item>
+        <md-nav-item md-nav-href="contact" name="contact">Contact</md-nav-item>
+    </md-nav-bar>
 
-        <main ng-view></main>
-    </div>
+    <main ng-view class="wrapper"></main>
 
-    <script src="node_modules/angular/angular.min.js"></script>
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
     <script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-aria/angular-aria.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-material/angular-material.min.js"></script>
     <script src="dist/scripts.js"></script>
 </body>
 

@@ -7,8 +7,13 @@ img {
 figure {
     margin-top: 0;
     margin-bottom: 0;
-    img {display: block;}
+    overflow: hidden;
+    img {
+        display: block;
+        width: 100%;
+    }
 }
+
 
 //  ==========  iframe responsive  ==========
 .iframe-responsive-wrapper        {

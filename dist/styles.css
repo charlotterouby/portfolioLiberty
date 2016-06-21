@@ -830,12 +830,16 @@ img
 
 figure
 {
+    overflow: hidden;
+
     margin-top: 0;
     margin-bottom: 0;
 }
 figure img
 {
     display: block;
+
+    width: 100%;
 }
 
 .iframe-responsive-wrapper
@@ -911,14 +915,14 @@ main section
     }
 }
 
-#home
+.home
 {
     float: left;
 
     width: 100%;
 }
 
-#welcome
+.welcome
 {
     float: left;
 
@@ -926,7 +930,7 @@ main section
     margin-right: .83333%;
     margin-left: .83333%;
 }
-#welcome .shape-coeurs
+.welcome .shape-coeurs
 {
     float: left;
     clear: both;
@@ -935,7 +939,7 @@ main section
     margin-right: .83333%;
     margin-left: .83333%;
 }
-#welcome aside figure
+.welcome aside figure
 {
     float: left;
 
@@ -945,7 +949,7 @@ main section
 }
 @media (min-width: 768px) and (max-width: 1024px)
 {
-    #welcome p
+    .welcome p
     {
         float: left;
 
@@ -953,13 +957,13 @@ main section
         margin-right: .83333%;
         margin-left: .83333%;
     }
-    #welcome aside
+    .welcome aside
     {
         float: left;
 
         width: 100%;
     }
-    #welcome aside figure
+    .welcome aside figure
     {
         float: left;
 
@@ -970,7 +974,7 @@ main section
 }
 @media (min-width: 1025px)
 {
-    #welcome p
+    .welcome p
     {
         float: left;
 
@@ -978,7 +982,7 @@ main section
         margin-right: .83333%;
         margin-left: .83333%;
     }
-    #welcome aside
+    .welcome aside
     {
         float: right;
 
@@ -986,7 +990,7 @@ main section
         margin-right: .83333%;
         margin-left: .83333%;
     }
-    #welcome aside figure
+    .welcome aside figure
     {
         float: left;
 
@@ -996,7 +1000,7 @@ main section
     }
 }
 
-#portfolio
+.portfolio
 {
     float: left;
     overflow: hidden;
@@ -1005,7 +1009,7 @@ main section
 
     *zoom: 1;
 }
-#portfolio h2
+.portfolio h2
 {
     float: left;
 
@@ -1014,6 +1018,10 @@ main section
     margin-left: .83333%;
 }
 
+.portfolio-filter
+{
+    padding-bottom: 2.12164em;
+}
 @breakpoint ($media-mobile-paysage)
 {
     .portfolio-filter
@@ -1031,43 +1039,12 @@ main section
     {
         float: left;
 
-        width: 73.33333%;
+        width: 81.66667%;
         margin-right: .83333%;
         margin-left: .83333%;
     }
 }
-.portfolio-container
-{
-    float: left;
-
-    width: 100%;
-}
-.portfolio-container article
-{
-    position: relative;
-
-    float: left;
-    overflow: hidden;
-
-    width: 100%;
-
-    *zoom: 1;
-}
-.portfolio-container .og-close
-{
-    position: absolute;
-}
-.portfolio-container .carousel,
-.portfolio-container .og-details
-{
-    float: left;
-
-    width: 65%;
-    margin-right: .83333%;
-    margin-left: .83333%;
-}
-
-#contact
+.contact
 {
     float: left;
 
@@ -1114,6 +1091,7 @@ nav a
     color: #8ad9d9;
 }
 
+body,
 h6,
 .h6,
 p,
@@ -1212,173 +1190,13 @@ nav a,
 }
 
 /*! ========== MODULES ========== */
-header
-{
-    position: fixed;
-    z-index: 1;
-
-    width: 100%;
-}
-
 nav
 {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-nav ul
-{
-    display:         -ms-flexbox;
-    display:         flex;
-            -ms-flex-direction: column;
-            flex-direction: column;
-
-    width: 66.66%;
-    margin: 0;
-    padding: 0;
-
-    transition: transform .3s cubic-bezier(.05, 1.06, .19, 1.26);
-    transform: translateX(-110%) translateZ(0);
-
-    background-color: rgba(255, 251, 242, .9);
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-flex-direction: column;
-    will-change: transform;
-}
-nav ul li
-{
-    list-style: none;
-}
-nav ul a
-{
-    display: block;
-
-    margin: 0;
-    padding: 1em;
-
-    text-decoration: none;
-
-    color: #378c8c;
-}
-nav ul a:hover,
-nav ul a:target,
-nav ul a:active
-{
-    color: #e95b5b;
-    background-color: #ffa2a2;
-}
-nav input
-{
-    display: none;
-}
-nav input:checked ~ ul
-{
-    transform: translateX(0) translateZ(0);
-}
-nav label
-{
-    z-index: 1;
-    top: 1rem;
-    right: 1rem;
-
-    display: -ms-flexbox;
-
-    display: flex;
-
-    width: 100%;
-    height: 50px;
-    transition: .2s transform cubic-bezier(0, 1.8, 1, 1.2);
-
-    background-color: rgba(255, 251, 242, .9);
-
-    -ms-flex-pack: end;
-
-    justify-content: flex-end;
-    -webkit-tap-highlight-color: transparent;
-}
-nav label::before
-{
-    z-index: 1;
-
-    display: block;
-
-    width: 2rem;
-    height: 1.6rem;
-    margin: .75em;
-    padding: 0;
-
-    content: '';
-    cursor: pointer;
-    transition: .2s cubic-bezier(0, 1.8, 1, 1.2);
-    transition-property: background;
-
-    border: 0;
-    outline: 0;
-    background-color: transparent;
-    background-image: linear-gradient(to right, #5bb4b4, #5bb4b4), linear-gradient(to right, #5bb4b4, #5bb4b4), linear-gradient(to right, #5bb4b4, #5bb4b4);
-    background-repeat: no-repeat;
-    background-position: center top, center, center bottom;
-    background-size: 2rem .3rem;
-
-    -webkit-tap-highlight-color: transparent;
-}
-nav input:checked + label::before
-{
-    background-position: center, center, center;
-}
-@media (min-width: 768px)
-{
-    nav ul
-    {
-                -ms-flex-direction: row;
-                flex-direction: row;
-
-        width: 100%;
-
-        transition: none;
-        transform: none;
-
-        background-color: rgba(255, 251, 242, 0);
-
-        -webkit-flex-direction: row;
-    }
-    nav ul:hover
-    {
-        background-color: rgba(255, 251, 242, .9);
-    }
-    nav label
-    {
-        display: none;
-    }
+    background-color: #fffbf2;
 }
 
-/* ANCIENNE PRESENTATION
-nav {
-    @include display-flex(flex);
-    @include justify-content(flex-start);
-
-    &:hover,
-    &:target,
-    &:active {
-        @include alpha-attribute(background-color, rgba(palette(jaune, light), 0.9), $white);
-    }
-
-    a {
-        color: palette(bleu);
-        display: block;
-        padding: 1em gutter(12);
-        text-decoration: none;
-        &:hover,
-        &:target,
-        &:active {
-            color: palette(bleu, dark);
-        }
-    }
-}
-*/
 /*! ========== LAYOUTS  ========== */
-#home
+.home
 {
     display: -ms-flexbox;
     display: flex;
@@ -1398,17 +1216,17 @@ nav {
     -ms-flex-align: center;
     align-items: center;
 }
-#home h1
+.home h1
 {
     color: #ffa2a2;
 }
-#home q
+.home q
 {
     color: #fffbf2;
 }
 @media (min-width: 768px)
 {
-    #home
+    .home
     {
         height: 100vh;
     }
@@ -1428,7 +1246,7 @@ nav {
     shape-margin: 15px;
 }
 
-#welcome aside h4
+.welcome aside h4
 {
     float: left;
     float: none;
@@ -1438,133 +1256,32 @@ nav {
     margin-right: .83333%;
     margin-left: .83333%;
 }
-#welcome aside figcaption
+.welcome aside figcaption
 {
     margin: .53041em auto;
 }
 
-#portfolio article
+.figcaption
 {
-    display: none;
-}
-#portfolio .container
-{
-    margin-bottom: .53041em;
-}
-
-.portfolio-filter
-{
-    display:         -ms-flexbox;
-    display:         flex;
-
-    padding: 0;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-}
-.portfolio-filter li
-{
-    width: 15%;
-    height: 0;
-    margin: 0;
-    padding-bottom: 15%;
-
-    list-style: none;
-}
-.portfolio-filter li a
-{
-    font-family: 'Open Sans', 'Verdana', 'Arial', sans-serif;
-
-    display: block;
-
-    text-align: center;
-    text-decoration: none;
-
-    color: #fff;
-    border-radius: 50%;
-    background-color: #378c8c;
-}
-
-.itemPortfolio
-{
-    position: relative;
-
-    float: left;
     overflow: hidden;
-
-    width: 50%;
-    height: 0;
-    margin: 0;
-    padding-bottom: 40%;
-}
-@media (min-width: 768px)
-{
-    .itemPortfolio
-    {
-        float: left;
-
-        width: 25%;
-        padding-bottom: 20%;
-    }
-}
-.itemPortfolio:hover img
-{
-    transition: transform .4s ease-in;
-    transform: scale(1.25);
-}
-.itemPortfolio img
-{
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-}
-.itemPortfolio figcaption
-{
-    position: absolute;
-    bottom: 0;
-
-    overflow: hidden;
-
-    box-sizing: border-box;
-    width: 100%;
-    padding: .26521em .5em;
 
     white-space: nowrap;
     text-overflow: ellipsis;
 
-    background-color: rgba(255, 251, 242, .8);
+    background-color: rgba(26, 67, 67, .6);
 }
-.itemPortfolio figcaption h5
+.figcaption h3
 {
     font-size: 1.2rem;
+    font-weight: 500;
 
     margin-bottom: 0;
 
-    color: #378c8c;
+    color: #fffbf2;
 }
-.itemPortfolio figcaption p
+.figcaption p
 {
     font-size: .9rem;
 
     margin-bottom: 0;
-}
-
-.itemPortfolio:first-of-type
-{
-    float: left;
-
-    width: 100%;
-    padding-bottom: 80%;
-}
-@media (min-width: 768px)
-{
-    .itemPortfolio:first-of-type
-    {
-        float: left;
-
-        width: 50%;
-        padding-bottom: 40%;
-    }
 }
