@@ -10,11 +10,15 @@ myPortfolio.config(function($routeProvider, $locationProvider) {
         })
         //Grid Portfolio
         .when('/portfolio', {
-            templateUrl: 'dist/templates/portfolio-template.html'
+            templateUrl: 'dist/templates/portfolio/portfolio-template.html',
+            controller: 'PortfolioController',
+            controllerAs: 'portfolioCtrl'
         })
         //Description Project
-        .when('/portfolio/:id', {
-            templateUrl: 'dist/templates/project-template.html'
+        .when('/project/:id', {
+            templateUrl: 'dist/templates/project/project-template.html',
+            controller: 'ProjectController',
+            controllerAs: 'projectCtrl'
         })
         // Infos contact
         .when('/contact', {

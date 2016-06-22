@@ -1200,8 +1200,7 @@ nav
 {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        flex-direction: column;
 
     height: 50vh;
 
@@ -1210,8 +1209,8 @@ nav
     background: url(../assets/images/black-zig-zag.png) repeat fixed, url(../assets/images/collage-geometrique2.jpg) center no-repeat fixed;
     background-size: auto, cover;
 
+    -ms-flex-direction: column;
     -ms-flex-pack: center;
-
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
@@ -1243,7 +1242,7 @@ nav
 
     shape-inside: circle();
     -webkit-shape-margin: 15px;
-    shape-margin: 15px;
+            shape-margin: 15px;
 }
 
 .welcome aside h4

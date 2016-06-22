@@ -14,7 +14,9 @@ var watch = require('gulp-watch');
 
 // Variables fichiers sources
 var jsSource = [
-    './assets/js/**/*.js',
+    './assets/js/app.js',
+    './assets/js/shared/**/*.js',
+    './assets/js/partials/**/*.js',
     './assets/js/*.js'
 ];
 
@@ -26,7 +28,11 @@ var cssSource = [
     './assets/styles/3-layouts/*.scss'
 ];
 
-var templatesSource = './assets/js/**/*.html';
+var templatesSource = [
+    './assets/js/shared/**/*.html',
+    './assets/js/partials/**/*.html',
+    './assets/js/partials/*.html'
+];
 
 // Variables fichiers sorties
 var jsOut = 'scripts.js';
