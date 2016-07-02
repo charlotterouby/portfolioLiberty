@@ -4,8 +4,8 @@
     shape-margin: 15px;
     overflow: hidden;
 
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .welcome aside {
@@ -18,4 +18,8 @@
     figcaption{
     margin: emRhythm(2, $ms-up1) auto;
     }
+}
+
+.welcome {
+    margin: $verticalMargin $horizontalMargin;
 }

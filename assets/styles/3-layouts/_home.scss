@@ -1,9 +1,5 @@
 .home {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 100vh;
     background: url(../assets/images/black-zig-zag.png) repeat fixed,
         url(../assets/images/collage-geometrique2.jpg) center no-repeat fixed;
     background-size: auto, cover;
@@ -12,10 +8,7 @@
         color: palette(peach);
     }
     q {
-        color: palette(jaune, light);
-    }
-
-    @include breakpoint($media-tablet-min){
-        height: 100vh;
+        color: palette(jaune, dark);
+        background-color: rgba(palette(jaune, light), 0.8);
     }
 }

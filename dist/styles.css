@@ -1,9 +1,5 @@
 @charset 'UTF-8';
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/*! ==========  Initialisation ==========  */
+/* ==========  Initialisation ==========  */
 /* ==========  PLUGINS ==========  */
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /**
@@ -821,7 +817,7 @@ hr
     border-top-color: #696969;
 }
 
-/*! ==========  BASE ==========  */
+/* ==========  BASE ==========  */
 img
 {
     max-width: 100%;
@@ -865,209 +861,6 @@ figure img
     height: 100%;
 
     border: none;
-}
-
-.wrapper
-{
-    overflow: hidden;
-
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-
-    *zoom: 1;
-}
-.wrapper:after
-{
-    display: block;
-    clear: both;
-
-    content: ' ';
-}
-@media (min-width: 1980px)
-{
-    .wrapper
-    {
-        width: 1980px;
-    }
-}
-
-main
-{
-    float: left;
-
-    width: 100%;
-}
-main section
-{
-    padding-top: 2.12164em;
-    padding-bottom: 2.12164em;
-}
-@media (min-width: 1025px)
-{
-    main .container
-    {
-        float: left;
-
-        width: 83.33333%;
-        margin-right: 9.16667%;
-        margin-left: 9.16667%;
-    }
-}
-
-.home
-{
-    float: left;
-
-    width: 100%;
-}
-
-.welcome,
-.project
-{
-    float: left;
-
-    width: 98.33333%;
-    margin-right: .83333%;
-    margin-left: .83333%;
-}
-.welcome .shape-coeurs,
-.project .shape-coeurs
-{
-    float: left;
-    clear: both;
-
-    width: 31.66667%;
-    margin-right: .83333%;
-    margin-left: .83333%;
-}
-.welcome .slider,
-.project .slider
-{
-    float: left;
-    clear: both;
-
-    width: 65%;
-    margin-right: .83333%;
-    margin-left: .83333%;
-}
-.welcome aside figure,
-.project aside figure
-{
-    float: left;
-
-    width: 98.33333%;
-    margin-right: .83333%;
-    margin-left: .83333%;
-}
-@media (min-width: 768px) and (max-width: 1024px)
-{
-    .welcome p,
-    .project p
-    {
-        float: left;
-
-        width: 65%;
-        margin-right: .83333%;
-        margin-left: .83333%;
-    }
-    .welcome aside,
-    .project aside
-    {
-        float: left;
-
-        width: 100%;
-    }
-    .welcome aside figure,
-    .project aside figure
-    {
-        float: left;
-
-        width: 48.33333%;
-        margin-right: .83333%;
-        margin-left: .83333%;
-    }
-}
-@media (min-width: 1025px)
-{
-    .welcome p,
-    .project p
-    {
-        float: left;
-
-        width: 98.33333%;
-        margin-right: .83333%;
-        margin-left: .83333%;
-    }
-    .welcome aside,
-    .project aside
-    {
-        float: right;
-
-        width: 65%;
-        margin-right: .83333%;
-        margin-left: .83333%;
-    }
-    .welcome aside figure,
-    .project aside figure
-    {
-        float: left;
-
-        width: 48.33333%;
-        margin-right: .83333%;
-        margin-left: .83333%;
-    }
-}
-
-.portfolio
-{
-    float: left;
-    overflow: hidden;
-
-    width: 100%;
-
-    *zoom: 1;
-}
-.portfolio h2
-{
-    float: left;
-
-    width: 23.33333%;
-    margin-right: .83333%;
-    margin-left: .83333%;
-}
-
-.portfolio-filter
-{
-    padding-bottom: 2.12164em;
-}
-@breakpoint ($media-mobile-paysage)
-{
-    .portfolio-filter
-    {
-        float: left;
-
-        width: 98.33333%;
-        margin-right: .83333%;
-        margin-left: .83333%;
-    }
-}
-@breakpoint ($media-tablet-min)
-{
-    .portfolio-filter
-    {
-        float: left;
-
-        width: 81.66667%;
-        margin-right: .83333%;
-        margin-left: .83333%;
-    }
-}
-.contact
-{
-    float: left;
-
-    width: 100%;
 }
 
 h4,
@@ -1208,31 +1001,27 @@ nav a,
     font-size: 1rem;
 }
 
-/*! ========== MODULES ========== */
-nav
+/* ========== MODULES ========== */
+my-navbar
 {
-    background-color: #fffbf2;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+    width: 100%;
+
+    background-color: #fff;
 }
 
-/*! ========== LAYOUTS  ========== */
+/* ========== LAYOUTS  ========== */
 .home
 {
-    display: -ms-flexbox;
-    display: flex;
-        flex-direction: column;
-
-    height: 50vh;
+    height: 100vh;
 
     text-align: center;
 
     background: url(../assets/images/black-zig-zag.png) repeat fixed, url(../assets/images/collage-geometrique2.jpg) center no-repeat fixed;
     background-size: auto, cover;
-
-    -ms-flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
 .home h1
 {
@@ -1240,28 +1029,22 @@ nav
 }
 .home q
 {
-    color: #fffbf2;
-}
-@media (min-width: 768px)
-{
-    .home
-    {
-        height: 100vh;
-    }
+    color: #e9ba5b;
+    background-color: rgba(255, 251, 242, .8);
 }
 
 .shape-coeurs
 {
     overflow: hidden;
 
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 
     border-radius: 50%;
 
     shape-inside: circle();
     -webkit-shape-margin: 15px;
-            shape-margin: 15px;
+    shape-margin: 15px;
 }
 
 .welcome aside h4
@@ -1279,6 +1062,16 @@ nav
     margin: .53041em auto;
 }
 
+.welcome
+{
+    margin: 48px 8.33vw;
+}
+
+.portfolio
+{
+    margin-top: 48px;
+}
+
 .figcaption
 {
     overflow: hidden;
@@ -1286,7 +1079,7 @@ nav
     white-space: nowrap;
     text-overflow: ellipsis;
 
-    background-color: rgba(26, 67, 67, .6);
+    background-color: rgba(55, 140, 140, .6);
 }
 .figcaption h3
 {
@@ -1302,4 +1095,23 @@ nav
     font-size: .9rem;
 
     margin-bottom: 0;
+}
+
+.project
+{
+    margin: 48px 8.33vw;
+}
+
+.contact
+{
+    height: 100vh;
+
+    background: url(images/hero2.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+.contact .wrapper
+{
+    margin: 48px 8.33vw;
+
+    background-color: rgba(255, 251, 242, .9);
 }

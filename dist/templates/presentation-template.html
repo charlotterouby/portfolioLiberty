@@ -1,27 +1,27 @@
-<section class="welcome">
-    <div class="container">
-        <h2>Bienvenue</h2>
-        <figure class="shape-coeurs">
-            <img src="assets/images/photo-profil-charlotte-rouby-couleur.jpg" alt="Charlotte Rouby" />
-        </figure>
+<section class="welcome" layout="row" layout-wrap layout-margin layout-padding>
+    <h2 flex="auto">Bienvenue</h2>
+    <figure class="shape-coeurs" flex="33" flex-offset="10">
+        <img src="assets/images/photo-profil-charlotte-rouby-couleur.jpg" alt="Charlotte Rouby" />
+    </figure>
+    <div flex="auto">
         <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
         <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
         <p>Illud autem non dubitatur quod cum esset aliquando virtutum omnium domicilium Roma, ingenuos advenas plerique nobilium, ut Homerici bacarum suavitate Lotophagi, humanitatis multiformibus officiis retentabant.</p>
-        <aside>
-            <h4>Pour en savoir plus...</h4>
-            <figure>
-                <div class="iframe-responsive-wrapper">
-                    <img class="iframe-ratio" alt="ma vidéo de présentation" src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7" />
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oUSHi5GRUjE" allowfullscreen></iframe>
-                </div>
-                <figcaption class="h5">Regarder ma vidéo de présentation</figcaption>
-            </figure>
-            <figure>
-                <a href="assets/cv_CharlotteRouby_webdesigner-integrateur.pdf">
-                    <img src="assets/images/img_cv1.jpg" alt="mon cv en format pdf" />
-                </a>
-                <figcaption class="h5">Voir mon CV</figcaption>
-            </figure>
-        </aside>
     </div>
+    <aside layout layout-wrap layout-align="space-around center">
+        <h4 flex="100">Pour en savoir plus...</h4>
+        <md-card flex="45">
+            <div class="iframe-responsive-wrapper">
+                <img class="iframe-ratio" alt="ma vidéo de présentation" src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7" />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oUSHi5GRUjE" allowfullscreen></iframe>
+            </div>
+            <md-card-footer>Regarder ma vidéo de présentation</md-card-footer>
+        </md-card>
+        <md-card flex="45">
+            <a href="assets/cv_CharlotteRouby_webdesigner-integrateur.pdf">
+                <img src="assets/images/img_cv1.jpg" alt="mon cv en format pdf" />
+            </a>
+            <md-card-footer>Voir mon CV</md-card-footer>
+        </md-card>
+    </aside>
 </section>
