@@ -11,13 +11,12 @@
 //  ========== Corps principal  ==========
 main {
     @include span(12 full nest);
-
     section {
         padding-top: emRhythm(8, $ms-up1);
         padding-bottom: emRhythm(8, $ms-up1);
     }
     .container {
-        @include breakpoint($media-desktop-min){
+        @include breakpoint($media-desktop-min) {
             @include span(10 nest);
             @include squish(1);
         }
@@ -29,14 +28,18 @@ main {
     @include span(12 full nest);
 }
 
-//  ==========  Section Bienvenue  ==========
-.welcome {
+//  ==========  Section Bienvenue & Projet  ==========
+.welcome,
+.project {
     @include span(12 full);
     .shape-coeurs {
         @include break;
         @include span(4 of 12);
     }
-
+    .slider {
+        @include break;
+        @include span(8 at 2 of 12);
+    }
     aside figure {
         @include span(12);
     }
@@ -45,7 +48,6 @@ main {
         p {
             @include span(8 at 4 of 12);
         }
-
         aside {
             @include span(12 full nest);
             figure {
@@ -53,6 +55,7 @@ main {
             }
         }
     }
+
     @include breakpoint($media-desktop-min) {
         p {
             @include span(12 full);
@@ -77,13 +80,11 @@ main {
 
 .portfolio-filter {
     padding-bottom: emRhythm(8, $ms-up1);
-    @breakpoint($media-mobile-paysage){
+    @breakpoint($media-mobile-paysage) {
         @include span(12);
     }
-
     @breakpoint($media-tablet-min) {
         @include span(10 of 12);
-
     }
 }
 

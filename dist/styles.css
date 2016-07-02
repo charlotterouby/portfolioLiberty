@@ -922,7 +922,8 @@ main section
     width: 100%;
 }
 
-.welcome
+.welcome,
+.project
 {
     float: left;
 
@@ -930,7 +931,8 @@ main section
     margin-right: .83333%;
     margin-left: .83333%;
 }
-.welcome .shape-coeurs
+.welcome .shape-coeurs,
+.project .shape-coeurs
 {
     float: left;
     clear: both;
@@ -939,7 +941,18 @@ main section
     margin-right: .83333%;
     margin-left: .83333%;
 }
-.welcome aside figure
+.welcome .slider,
+.project .slider
+{
+    float: left;
+    clear: both;
+
+    width: 65%;
+    margin-right: .83333%;
+    margin-left: .83333%;
+}
+.welcome aside figure,
+.project aside figure
 {
     float: left;
 
@@ -949,7 +962,8 @@ main section
 }
 @media (min-width: 768px) and (max-width: 1024px)
 {
-    .welcome p
+    .welcome p,
+    .project p
     {
         float: left;
 
@@ -957,13 +971,15 @@ main section
         margin-right: .83333%;
         margin-left: .83333%;
     }
-    .welcome aside
+    .welcome aside,
+    .project aside
     {
         float: left;
 
         width: 100%;
     }
-    .welcome aside figure
+    .welcome aside figure,
+    .project aside figure
     {
         float: left;
 
@@ -974,7 +990,8 @@ main section
 }
 @media (min-width: 1025px)
 {
-    .welcome p
+    .welcome p,
+    .project p
     {
         float: left;
 
@@ -982,7 +999,8 @@ main section
         margin-right: .83333%;
         margin-left: .83333%;
     }
-    .welcome aside
+    .welcome aside,
+    .project aside
     {
         float: right;
 
@@ -990,7 +1008,8 @@ main section
         margin-right: .83333%;
         margin-left: .83333%;
     }
-    .welcome aside figure
+    .welcome aside figure,
+    .project aside figure
     {
         float: left;
 

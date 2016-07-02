@@ -1,3 +1,24 @@
 <section class="project">
-    <h2>{{projectCtrl.project.title}}</h2>
+    <div class="container">
+        <h2>{{projectCtrl.project.title}}</h2>
+        <md-chips>
+            <md-chip ng-show="projectCtrl.project.categories.video"><small>Vidéo</small></md-chip>
+            <md-chip ng-show="projectCtrl.project.categories.branding"><small>Branding</small></md-chip>
+            <md-chip ng-show="projectCtrl.project.categories.printDesign"><small>Design Print</small></md-chip>
+            <md-chip ng-show="projectCtrl.project.categories.webdesign"><small>Webdesign</small></md-chip>
+            <md-chip ng-show="projectCtrl.project.categories.devWeb"><small>Développement Web</small></md-chip>
+        </md-chips>
+        <div layout="row">
+            <p>{{projectCtrl.project.description.contexte}}</p>
+            <p>{{projectCtrl.project.description.mission}}</p>
+            <p>{{projectCtrl.project.description.results}}</p>
+        </div>
+
+        <div layout="row" layout-wrap layout-fill  layout-align="space-between center">
+            <md-card ng-repeat="img in projectCtrl.project.images track by $index" flex="30">
+                <img ng-src="dist/images/projets/{{projectCtrl.project.id}}/{{img.name}}" alt="{{img.alt}}">
+            </md-card>
+        </div>
+
+    </div>
 </section>
