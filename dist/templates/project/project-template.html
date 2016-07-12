@@ -1,31 +1,56 @@
 <section class="project" layout layout-margin layout-padding layout-wrap>
+    <!-- En-tête -->
     <div class="banner" layout layout-fill layout-wrap>
+        <!-- titre du projet -->
         <h2 flex="90">{{projectCtrl.project.title}}</h2>
-        <md-button class="md-fab" href="portfolio">Retour</md-button>
+
+        <!--  Boutton retour -->
+        <md-button class="md-fab md-accent" aria-label="retour au portfolio" href="portfolio">
+            <!-- icon -->
+            <md-icon md-font-set="md" class="material-icons">arrow_back</md-icon>
+            <!-- tooltip -->
+            <md-tooltip>Retour</md-tooltip>
+        </md-button>
+
+        <!-- date de réalisation du projet -->
         <p flex="15"><strong>Date :</strong> {{projectCtrl.project.date}}</p>
+
+        <!-- catégories du projet -->
         <md-chips flex="85">
+            <!-- video -->
             <md-chip ng-show="projectCtrl.project.categories.video">
                 <small>Vidéo</small>
             </md-chip>
+
+            <!-- branding -->
             <md-chip ng-show="projectCtrl.project.categories.branding">
                 <small>Branding</small>
             </md-chip>
+
+            <!-- design print -->
             <md-chip ng-show="projectCtrl.project.categories.printDesign">
                 <small>Design Print</small>
             </md-chip>
+
+            <!-- webdesign -->
             <md-chip ng-show="projectCtrl.project.categories.webdesign">
                 <small>Webdesign</small>
             </md-chip>
+
+            <!-- dev web -->
             <md-chip ng-show="projectCtrl.project.categories.devWeb">
                 <small>Développement Web</small>
             </md-chip>
         </md-chips>
     </div>
+
+    <!-- description du projet -->
     <p><strong>Contexte :</strong> {{projectCtrl.project.description.contexte}}</p>
     <p><strong>Réalisation :</strong> {{projectCtrl.project.description.mission}}</p>
     <p><strong>Résultats :</strong> {{projectCtrl.project.description.results}}</p>
 
-    <div layout="row" layout-wrap layout-fill layout-align="space-between center">
+    <!-- galerie d'images -->
+    <div layout="row" layout-wrap layout-fill layout-align="space-between start">
         <md-card ng-repeat="img in projectCtrl.project.images track by $index" flex="30">
             <img ng-src="dist/images/projets/{{projectCtrl.project.id}}/{{img.name}}" alt="{{img.alt}}">
             <md-card-footer>{{img.alt}}</md-card-footer>

@@ -1,21 +1,55 @@
 <section class="portfolio">
-    <div layout layout-align="space-around center" class="portfolio-filter" layout-margin layout-padding>
-        <h2 flex="initial">Portfolio</h2>
-
-        <md-button class="md-raised md-primary" aria-label="boutton filtre branding">
-            Identité visuelle
-        </md-button>
-        <md-button class="md-raised md-primary" aria-label="boutton filtre print design">
-            Graphisme print
-        </md-button>
-        <md-button class="md-raised md-primary" aria-label="boutton filtre video">
-            Création audiovisuelle
-        </md-button>
-        <md-button class="md-raised md-primary" aria-label="boutton filtre webdesign">
-            Création Web
+    <div layout layout-align="space-around center" layout-margin layout-padding layout-nowrap class="portfolio-filter">
+        <h2 flex="50">Portfolio</h2>
+        <!--boutton ALL-->
+        <md-button class="md-fab md-primary" aria-label="boutton filtre tous" ng-click="portfolioCtrl.filterBy('all')">
+            <!-- icon -->
+            <md-icon md-font-set="md" class="material-icons">select_all</md-icon>
+            <!-- tooltip -->
+            <md-tooltip>Tous</md-tooltip>
         </md-button>
 
-<!--
+        <!--boutton Identité Visuelle-->
+        <md-button class="md-fab md-primary" aria-label="boutton filtre branding" ng-click="portfolioCtrl.filterBy('branding')">
+            <!-- icon -->
+            <md-icon md-font-set="md" class="material-icons">filter_vintage</md-icon>
+            <!-- tooltip -->
+            <md-tooltip>Identité visuelle</md-tooltip>
+        </md-button>
+
+        <!--boutton Graphisme Print-->
+        <md-button class="md-fab md-primary" aria-label="boutton filtre print design" ng-click="portfolioCtrl.filterBy('printDesign')">
+            <!-- icon -->
+            <md-icon md-font-set="md" class="material-icons">import_contacts</md-icon>
+            <!-- tooltip -->
+            <md-tooltip>Graphisme print</md-tooltip>
+        </md-button>
+
+        <!--boutton vidéo-->
+        <md-button class="md-fab md-primary" aria-label="boutton filtre video" ng-click="portfolioCtrl.filterBy('video')">
+            <!-- icon -->
+            <md-icon md-font-set="md" class="material-icons">videocam</md-icon>
+            <!-- tooltip -->
+            <md-tooltip>Création audiovisuelle</md-tooltip>
+        </md-button>
+
+        <!--boutton webdesign-->
+        <md-button class="md-fab md-primary" aria-label="boutton filtre webdesign" ng-click="portfolioCtrl.filterBy('webdesign')">
+            <!-- icon -->
+            <md-icon md-font-set="md" class="material-icons">web</md-icon>
+            <!-- tooltip -->
+            <md-tooltip>Webdesign</md-tooltip>
+        </md-button>
+
+        <!--boutton DevWeb-->
+        <md-button class="md-fab md-primary" aria-label="boutton filtre devWeb" ng-click="portfolioCtrl.filterBy('devWeb')">
+            <!-- icon -->
+            <md-icon md-font-set="md" class="material-icons">code</md-icon>
+            <!-- tooltip -->
+            <md-tooltip>Développement web</md-tooltip>
+        </md-button>
+
+        <!--
 
         <md-input-container>
             <label>Filtre</label>

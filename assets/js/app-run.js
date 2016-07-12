@@ -3,20 +3,25 @@ myPortfolio.run(function ($http, Projects) {
     $http
         .get('assets/js/projects.json')
         .then(function (httpResponse) {
+//            console.log(httpResponse.data);
             return httpResponse.data;
         }).then(function (data) {
+//            console.log(data);
             angular.forEach(data.projects, function (project) {
                 Projects.add(project);
+//                console.log(project);
             });
         });
 });
 
 //Config Theme MaterialDesign
 //
-//myPortfolio.config(function ($mdThemingProvider, $mdIconProvider) {
+//myPortfolio.config(function ($mdThemingProvider) {
 //    $mdThemingProvider.theme('charlotte')
 //      .primaryPalette('teal')
 //      .accentPalette('pink');
-//    $mdIconProvider
-//      .defaultIconSet('img/icons/sets/social-icons.svg', 24);
 //  });
+
+myPortfolio.config(function($mdIconProvider) {
+  $mdIconProvider.fontSet('md', 'material-icons');
+});
