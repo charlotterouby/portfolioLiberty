@@ -1,8 +1,8 @@
 <section class="portfolio">
-    <div layout layout-align="space-around center" layout-margin layout-padding layout-nowrap class="portfolio-filter">
-        <h2 flex="50">Portfolio</h2>
+    <div layout layout-align="space-around center" layout-margin layout-padding layout-wrap layout-gt-sm-nowrap class="portfolio-filter">
+        <h2 flex-gt-sm="60">Portfolio</h2>
         <!--boutton ALL-->
-        <md-button class="md-fab md-primary" aria-label="boutton filtre tous" ng-click="portfolioCtrl.filterBy('all')">
+        <md-button class="md-fab md-accent md-mini" aria-label="boutton filtre tous" ng-click="portfolioCtrl.filterBy('all')">
             <!-- icon -->
             <md-icon md-font-set="md" class="material-icons">select_all</md-icon>
             <!-- tooltip -->
@@ -10,7 +10,7 @@
         </md-button>
 
         <!--boutton Identité Visuelle-->
-        <md-button class="md-fab md-primary" aria-label="boutton filtre branding" ng-click="portfolioCtrl.filterBy('branding')">
+        <md-button class="md-fab md-accent md-mini" aria-label="boutton filtre branding" ng-click="portfolioCtrl.filterBy('branding')">
             <!-- icon -->
             <md-icon md-font-set="md" class="material-icons">filter_vintage</md-icon>
             <!-- tooltip -->
@@ -18,7 +18,7 @@
         </md-button>
 
         <!--boutton Graphisme Print-->
-        <md-button class="md-fab md-primary" aria-label="boutton filtre print design" ng-click="portfolioCtrl.filterBy('printDesign')">
+        <md-button class="md-fab md-accent md-mini" aria-label="boutton filtre print design" ng-click="portfolioCtrl.filterBy('printDesign')">
             <!-- icon -->
             <md-icon md-font-set="md" class="material-icons">import_contacts</md-icon>
             <!-- tooltip -->
@@ -26,7 +26,7 @@
         </md-button>
 
         <!--boutton vidéo-->
-        <md-button class="md-fab md-primary" aria-label="boutton filtre video" ng-click="portfolioCtrl.filterBy('video')">
+        <md-button class="md-fab md-accent md-mini" aria-label="boutton filtre video" ng-click="portfolioCtrl.filterBy('video')">
             <!-- icon -->
             <md-icon md-font-set="md" class="material-icons">videocam</md-icon>
             <!-- tooltip -->
@@ -34,7 +34,7 @@
         </md-button>
 
         <!--boutton webdesign-->
-        <md-button class="md-fab md-primary" aria-label="boutton filtre webdesign" ng-click="portfolioCtrl.filterBy('webdesign')">
+        <md-button class="md-fab md-accent md-mini" aria-label="boutton filtre webdesign" ng-click="portfolioCtrl.filterBy('webdesign')">
             <!-- icon -->
             <md-icon md-font-set="md" class="material-icons">web</md-icon>
             <!-- tooltip -->
@@ -42,7 +42,7 @@
         </md-button>
 
         <!--boutton DevWeb-->
-        <md-button class="md-fab md-primary" aria-label="boutton filtre devWeb" ng-click="portfolioCtrl.filterBy('devWeb')">
+        <md-button class="md-fab md-accent md-mini" aria-label="boutton filtre devWeb" ng-click="portfolioCtrl.filterBy('devWeb')">
             <!-- icon -->
             <md-icon md-font-set="md" class="material-icons">code</md-icon>
             <!-- tooltip -->
@@ -58,7 +58,7 @@
 -->
     </div>
 
-    <md-grid-list md-cols="4" md-gutter="0" md-row-height="4:3">
+    <md-grid-list md-cols-xs="1" md-cols-sm="3" md-cols-gt-sm="4" md-gutter="0" md-row-height="4:3">
         <md-grid-tile ng-repeat="(projectID, project) in portfolioCtrl.projects track by projectID" ng-click="portfolioCtrl.goTo(project.id)">
             <img ng-src="assets/images/projets/{{project.id}}/miniature_{{project.id}}.jpg" alt="Miniature de {{project.id}}">
             <md-grid-tile-footer class="figcaption">

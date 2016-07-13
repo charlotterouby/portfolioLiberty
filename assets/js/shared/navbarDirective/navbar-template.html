@@ -1,6 +1,40 @@
-<md-nav-bar md-selected-nav-item="currentNavItem" aria-label="navigation bar">
+<md-nav-bar md-selected-nav-item="currentNavItem" aria-label="navigation bar" class="hide-mobile">
     <md-nav-item md-nav-href="accueil" name="accueil">Accueil</md-nav-item>
-    <md-nav-item md-nav-href="cv" name="cv">CV</md-nav-item>
+    <md-nav-item md-nav-href="cv" name="cv">Présentation</md-nav-item>
     <md-nav-item md-nav-href="portfolio" name="portfolio">Portfolio</md-nav-item>
     <md-nav-item md-nav-href="contact" name="contact">Contact</md-nav-item>
 </md-nav-bar>
+
+<div ng-cloak class="hide-desktop toggle-nav">
+    <md-fab-speed-dial md-direction="right" class="md-fling">
+        <!--boutton trigger-->
+        <md-fab-trigger>
+            <md-button class="md-fab md-primary" aria-label="menu navigation">
+                <!--icon-->
+                <md-icon md-font-set="md" class="material-icons">menu</md-icon>
+                <!--tooltip-->
+                <md-tooltip md-direction="down">Menu navigation</md-tooltip>
+            </md-button>
+        </md-fab-trigger>
+
+        <!--navigation bar-->
+        <md-fab-actions>
+            <md-button class="md-fab md-accent md-mini" aria-label="accueil" ng-href="accueil">
+                <md-icon md-font-set="md" class="material-icons">home</md-icon>
+                <md-tooltip md-direction="down" class="md-mini"><small>Home</small></md-tooltip>
+            </md-button>
+            <md-button class="md-fab md-accent md-mini" aria-label="cv" ng-href="cv">
+                <md-icon md-font-set="md" class="material-icons">face</md-icon>
+                <md-tooltip md-direction="down" class="md-mini"><small>Presentation</small></md-tooltip>
+            </md-button>
+            <md-button class="md-fab md-accent md-mini" aria-label="portfolio" ng-href="portfolio">
+                <md-icon md-font-set="md" class="material-icons">dashboard</md-icon>
+                <md-tooltip md-direction="down" class="md-mini"><small>portfolio</small></md-tooltip>
+            </md-button>
+            <md-button class="md-fab md-accent md-mini" aria-label="contact" ng-href="contact">
+                <md-icon md-font-set="md" class="material-icons">contacts</md-icon>
+                <md-tooltip md-direction="down" class="md-mini"><small>Contact</small></md-tooltip>
+            </md-button>
+        </md-fab-actions>
+    </md-fab-speed-dial>
+</div>

@@ -858,6 +858,12 @@ hr
 }
 
 /* ==========  BASE ==========  */
+html,
+body
+{
+    background-color: #fff;
+}
+
 img
 {
     max-width: 100%;
@@ -1045,12 +1051,45 @@ nav a,
 my-navbar
 {
     position: fixed;
+}
+
+md-nav-bar
+{
+    position: fixed;
     z-index: 1;
     top: 0;
 
     width: 100%;
 
     background-color: #fff;
+}
+
+@media (min-width: 1024px)
+{
+    .hide-desktop
+    {
+        display: none;
+    }
+}
+
+.hide-mobile
+{
+    display: none;
+}
+@media (min-width: 1024px)
+{
+    .hide-mobile
+    {
+        display: block;
+    }
+}
+
+.toggle-nav
+{
+    position: fixed;
+    z-index: 1;
+    top: 2%;
+    left: 2%;
 }
 
 /* ========== LAYOUTS  ========== */
@@ -1102,9 +1141,12 @@ my-navbar
     margin: .53041em auto;
 }
 
-.welcome
+@media (min-width: 1024px)
 {
-    margin: 48px 8.33vw;
+    .welcome
+    {
+        margin: 48px 8.33vw;
+    }
 }
 
 .portfolio

@@ -21,5 +21,7 @@
 }
 
 .welcome {
-    margin: $verticalMargin $horizontalMargin;
+    @include breakpoint($media-tablet-max){
+        margin: $verticalMargin $horizontalMargin;
+    }
 }

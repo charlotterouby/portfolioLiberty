@@ -1,7 +1,30 @@
 my-navbar{
+    position:fixed;
+}
+md-nav-bar{
    position: fixed;
     top: 0;
     z-index: 1;
     width: 100%;
     background-color: $white;
+}
+
+.hide-desktop{
+    @include breakpoint($media-tablet-max){
+        display: none;
+    }
+}
+
+.hide-mobile{
+    display: none;
+    @include breakpoint($media-tablet-max){
+        display:block;
+    }
+}
+
+.toggle-nav{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    z-index: 1;
 }
