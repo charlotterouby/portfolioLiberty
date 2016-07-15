@@ -1,59 +1,72 @@
-<section class="project" layout layout-margin layout-padding layout-wrap>
+<section class="project">
     <!-- En-tête -->
-    <div class="banner" layout layout-fill layout-wrap>
+    <div class="banner" layout layout-wrap>
         <!-- titre du projet -->
         <h2 flex="90">{{projectCtrl.project.title}}</h2>
-
         <!--  Boutton retour -->
-        <md-button class="md-fab md-accent" aria-label="retour au portfolio" href="portfolio">
+        <md-button id="button-back" class="md-fab md-accent" aria-label="retour au portfolio" href="portfolio">
             <!-- icon -->
             <md-icon md-font-set="md" class="material-icons">arrow_back</md-icon>
             <!-- tooltip -->
             <md-tooltip>Retour</md-tooltip>
         </md-button>
+        <div class="banner-subtitle" flex="100">
+            <div layout layout-fill layout-align="space-around center">
+                <!-- date de réalisation du projet -->
+                <p><strong>Date :</strong> {{projectCtrl.project.date}}</p>
 
-        <!-- date de réalisation du projet -->
-        <p flex="15"><strong>Date :</strong> {{projectCtrl.project.date}}</p>
+                <!-- catégories du projet -->
+                <p><strong>Types de travaux :</strong></p>
+                <md-chips>
+                    <!-- video -->
+                    <md-chip ng-show="projectCtrl.project.categories.video">
+                        <small>Vidéo</small>
+                    </md-chip>
 
-        <!-- catégories du projet -->
-        <md-chips flex="85">
-            <!-- video -->
-            <md-chip ng-show="projectCtrl.project.categories.video">
-                <small>Vidéo</small>
-            </md-chip>
+                    <!-- branding -->
+                    <md-chip ng-show="projectCtrl.project.categories.branding">
+                        <small>Branding</small>
+                    </md-chip>
 
-            <!-- branding -->
-            <md-chip ng-show="projectCtrl.project.categories.branding">
-                <small>Branding</small>
-            </md-chip>
+                    <!-- design print -->
+                    <md-chip ng-show="projectCtrl.project.categories.printDesign">
+                        <small>Design Print</small>
+                    </md-chip>
 
-            <!-- design print -->
-            <md-chip ng-show="projectCtrl.project.categories.printDesign">
-                <small>Design Print</small>
-            </md-chip>
+                    <!-- webdesign -->
+                    <md-chip ng-show="projectCtrl.project.categories.webdesign">
+                        <small>Webdesign</small>
+                    </md-chip>
 
-            <!-- webdesign -->
-            <md-chip ng-show="projectCtrl.project.categories.webdesign">
-                <small>Webdesign</small>
-            </md-chip>
-
-            <!-- dev web -->
-            <md-chip ng-show="projectCtrl.project.categories.devWeb">
-                <small>Développement Web</small>
-            </md-chip>
-        </md-chips>
+                    <!-- dev web -->
+                    <md-chip ng-show="projectCtrl.project.categories.devWeb">
+                        <small>Développement Web</small>
+                    </md-chip>
+                </md-chips>
+            </div>
+        </div>
     </div>
 
-    <!-- description du projet -->
-    <p><strong>Contexte :</strong> {{projectCtrl.project.description.contexte}}</p>
-    <p><strong>Réalisation :</strong> {{projectCtrl.project.description.mission}}</p>
-    <p><strong>Résultats :</strong> {{projectCtrl.project.description.results}}</p>
+    <!-- Content -->
+    <div class="content" layout layout-margin layout-padding layout-wrap>
+        <!-- description du projet -->
+        <p><strong>Contexte :</strong> {{projectCtrl.project.description.contexte}}</p>
+        <p><strong>Réalisation :</strong> {{projectCtrl.project.description.mission}}</p>
+        <p><strong>Résultats :</strong> {{projectCtrl.project.description.results}}</p>
 
-    <!-- galerie d'images -->
-    <div layout="row" layout-wrap layout-fill layout-align="space-between start">
-        <md-card ng-repeat="img in projectCtrl.project.images track by $index" flex="30">
-            <img ng-src="dist/images/projets/{{projectCtrl.project.id}}/{{img.name}}" alt="{{img.alt}}">
-            <md-card-footer>{{img.alt}}</md-card-footer>
-        </md-card>
+        <span flex="100" ng-hide="projectCtrl.project.urlProject === undefined">
+            <md-button class="md-raised md-accent" href="{{projectCtrl.project.urlProject}}">Voir le projet</md-button>
+        </span>
+
+        <youtube-video video-id="projectCtrl.project.idVideo" ng-show="projectCtrl.project.categories.video"></youtube-video>
+
+        <!--https://www.youtube.com/embed/KJ7xtrn48qY-->
+        <!-- galerie d'images -->
+        <div deckgrid class="deckgrid" source="projectCtrl.project.images" layout layout-fill>
+            <md-card>
+                <img src="" data-ng-src="{{card.source}}" alt="{{card.alt}}" />
+                <md-card-footer>{{card.alt}}</md-card-footer>
+            </md-card>
+        </div>
     </div>
 </section>

@@ -20,6 +20,16 @@ var jsSource = [
     './assets/js/*.js'
 ];
 
+var jsVendors = [
+    'node_modules/angular/angular.js',
+    'node_modules/angular-route/angular-route.js',
+    'node_modules/angular-animate/angular-animate.js',
+    'node_modules/angular-aria/angular-aria.js',
+    'node_modules/angular-material/angular-material.js',
+    'bower_components/angular-deckgrid/angular-deckgrid.js',
+    'node_modules/angular-youtube-embed/src/angular-youtube-embed.js'
+];
+
 var cssSource = [
     './assets/styles/*.scss',
     './assets/styles/0-plugins/*.scss',
@@ -31,11 +41,13 @@ var cssSource = [
 var templatesSource = [
     './assets/js/shared/**/*.html',
     './assets/js/partials/**/*.html',
-    './assets/js/partials/*.html'
+    './assets/js/partials/*.html',
+    './assets/js/projects.json'
 ];
 
 // Variables fichiers sorties
 var jsOut = 'scripts.js';
+var jsVendorsOut = 'vendors.js';
 var dest = './dist/';
 
 // TASKS
@@ -43,6 +55,14 @@ gulp.task('compileJS', function () {
     return gulp.src(jsSource)
         .pipe(sourcemaps.init())
         .pipe(concat(jsOut))
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(dest));
+});
+
+gulp.task('compileVendors', function () {
+    return gulp.src(jsVendors)
+        .pipe(sourcemaps.init())
+        .pipe(concat(jsVendorsOut))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(dest));
 });

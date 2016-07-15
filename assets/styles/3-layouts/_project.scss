@@ -1,7 +1,34 @@
 .project {
-    margin: $verticalMargin $horizontalMargin;
-//    .banner {
-//        background: url(images/hero2.jpg) center 65%;
-//        background-size: cover;
-//    }
+    .banner {
+        background: url(images/black-zig-zag.png) repeat, url(images/hero2.jpg) center no-repeat;
+        background-size: auto, cover;
+        position: relative;
+        .banner-subtitle {
+            background-color: rgba(palette(bleu, light), 0.8);
+            padding: 0 $horizontalMargin;
+        }
+    }
+    #button-back {
+        position: absolute;
+        bottom: 12vh;
+        right: 10vw;
+    }
+    h2 {
+        margin: $verticalMargin $horizontalMargin;
+        color: palette(peach, base);
+    }
+    .md-chips {
+        box-shadow: none;
+    }
+    md-chips md-chip {
+        background-color: palette(bleu, mid-dark);
+        color: $white;
+    }
+    .content {
+        margin: $verticalMargin $horizontalMargin;
+    }
+    md-card{
+        color: palette(bleu, dark);
+        font-weight: 700;
+    }
 }

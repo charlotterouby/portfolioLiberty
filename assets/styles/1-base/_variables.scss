@@ -39,7 +39,6 @@ $susy: ( global-box-sizing: border-box, columns: 12, gutters: 1 / 4, gutter-posi
 //    )
 );
 
-
 //  ==========  Variables typesettings   ==========
 $font-sans: 'Open Sans',
 'Verdana',
@@ -54,7 +53,6 @@ $paragraph-justify: false;
 $load-typesetted: true;
 
 //  ==========  Mes variables de grille de mise en page  ==========
-
 $horizontalMargin: 8.33vw;
 $verticalMargin: $base-vertical-unit * 8;
 
@@ -63,11 +61,17 @@ $media-mobile-paysage: (max-width 767px) (orientation landscape);
 $media-mobile-max: 767px;
 $media-tablet-min: 768px;
 $media-tablet-max: 1024px;
+$media-tablet-paysage: (max-width 1024px) (orientation landscape);
 $media-desktop-min: 1025px;
-$container-max-width: 1980px;
+$media-desktop-lg-min: 1280px;
+$container-max-width: 1920px;
 
 //  ==========  Variables couleurs  ==========
-$palettes: ( bleu: ( dark:#378c8c, mid-dark:#5bb4b4, base:#8ad9d9, mid-light:#bef1f1, light:#f1fefe), jaune: ( dark:#e9ba5b, mid-dark:#ffd580, base:#ffe0a2, mid-light:#ffedc8, light:#fffbf2), peach: ( dark:#e95b5b, mid-dark:#ff8080, base:#ffa2a2, mid-light:#ffc8c8, light:#fff2f2));
+$palettes: (
+    bleu: (dark:#378c8c, mid-dark:#5bb4b4, base:#8ad9d9, mid-light:#bef1f1, light:#f1fefe),
+    jaune: (dark:#e9ba5b, mid-dark:#ffd580, base:#ffe0a2, mid-light:#ffedc8, light:#fffbf2),
+    peach: (dark:#e95b5b, mid-dark:#ff8080, base:#ffa2a2, mid-light:#ffc8c8, light:#fff2f2)
+);
 $white: #fff;
 $text-color: #696969;
 

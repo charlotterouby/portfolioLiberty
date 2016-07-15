@@ -14,6 +14,5 @@ function ProjectController(Projects, $routeParams) {
         self.project = currentProject;
     }
 
-
 }
 myPortfolio.controller('ProjectController', ProjectController);

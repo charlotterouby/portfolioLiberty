@@ -1,7 +1,7 @@
 // Initialisation du Service Projects
 myPortfolio.run(function ($http, Projects) {
     $http
-        .get('assets/js/projects.json')
+        .get('dist/templates/projects.json')
         .then(function (httpResponse) {
 //            console.log(httpResponse.data);
             return httpResponse.data;
