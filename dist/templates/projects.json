@@ -3,19 +3,15 @@
         {
             "id": "aoc",
             "title": "Advanced Optimisation and Control",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": true,
-                "webdesign": false,
-                "devWeb": false
-            },
-            "date": "2011-07",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": true,
+            "webdesign": false,
+            "devWeb": false,
+            "date": "2011-07-15",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/aoc/plaquetteAOC1.jpg",
                 "alt": "page de garde de la plaquette de commuication AOC"
@@ -30,37 +26,29 @@
         {
             "id": "aphdap",
             "title": "Asso A.P.H.D.A.P.",
-            "categories": {
-                "video": false,
-                "branding": true,
-                "printDesign": false,
-                "webdesign": false,
-                "devWeb": false
-            },
-            "date": "2016-03",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": true,
+            "printDesign": false,
+            "webdesign": false,
+            "devWeb": false,
+            "date": "2016-03-30",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": []
         },
         {
             "id": "cabaret",
             "title": "Le Cabaret Aléatoire",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": false,
-                "webdesign": true,
-                "devWeb": false
-            },
-            "date": "2015-02",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": false,
+            "webdesign": true,
+            "devWeb": false,
+            "date": "2015-02-15",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/cabaret/cabaret1.jpg",
                 "alt": "mockup"
@@ -75,38 +63,29 @@
         {
             "id": "clipvideo",
             "title": "Clip Vidéo Astonvilla",
-            "categories": {
-                "video": true,
-                "branding": false,
-                "printDesign": false,
-                "webdesign": false,
-                "devWeb": false
-            },
-            "date": "2015-03",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
-            "urlVideo": "https://www.youtube.com/embed/KJ7xtrn48qY",
+            "video": true,
+            "branding": false,
+            "printDesign": false,
+            "webdesign": false,
+            "devWeb": false,
+            "date": "2015-03-08",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "idVideo": "KJ7xtrn48qY"
         },
         {
             "id": "culturemarseille",
             "title": "Asso Peuples & Cultures de Marseille",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": false,
-                "webdesign": true,
-                "devWeb": false
-            },
-            "date": "2015-02",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": false,
+            "webdesign": true,
+            "devWeb": false,
+            "date": "2015-02-15",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/culturemarseille/culturemarseille1.jpg",
                 "alt": "mockup"
@@ -121,26 +100,22 @@
         {
             "id": "ecommerce",
             "title": "Maquette E-commerce",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": false,
-                "webdesign": true,
-                "devWeb": false
-            },
-            "date": "2015-03",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": false,
+            "webdesign": true,
+            "devWeb": false,
+            "date": "2015-03-20",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/ecommerce/ecommerce1.png",
                 "alt": "mockup"
-            },{
+            }, {
                 "source": "dist/images/projets/ecommerce/ecommerce2.png",
                 "alt": "maquette page Accueil"
-            },{
+            }, {
                 "source": "dist/images/projets/ecommerce/ecommerce3.png",
                 "alt": "maquette page fiche produit"
             }]
@@ -148,65 +123,57 @@
         {
             "id": "edjing",
             "title": "Edjing Player Mobile",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": false,
-                "webdesign": true,
-                "devWeb": false
-            },
-            "date": "2015-09",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": false,
+            "webdesign": true,
+            "devWeb": false,
+            "date": "2015-09-01",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/edjing/edjing1.jpg",
                 "alt": "mockup"
-            },{
+            }, {
                 "source": "dist/images/projets/edjing/edjing2.png",
                 "alt": "vue fond uni"
-            },{
-                "source": "dist/images/projets/edjing/edjing.png",
+            }, {
+                "source": "dist/images/projets/edjing/edjing3.png",
                 "alt": "vue fond photo"
             }]
         },
         {
             "id": "epicuriens",
             "title": "La Confrérie des Epicuriens de Provence",
-            "categories": {
-                "video": false,
-                "branding": true,
-                "printDesign": true,
-                "webdesign": true,
-                "devWeb": false
-            },
-            "date": "2015-03",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": true,
+            "printDesign": true,
+            "webdesign": true,
+            "devWeb": false,
+            "date": "2015-03-30",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/epicuriens/epicurien2.jpg",
                 "alt": "maquette page Accueil"
-            },{
+            }, {
                 "source": "dist/images/projets/epicuriens/epicurien3.jpg",
                 "alt": "maquette page liste d'articles"
-            },{
+            }, {
                 "source": "dist/images/projets/epicuriens/epicurien1.jpg",
                 "alt": "mockup pour le site web"
-            },{
+            }, {
                 "source": "dist/images/projets/epicuriens/epicurien_affiche.png",
                 "alt": "maquette affiche type"
-            },{
+            }, {
                 "source": "dist/images/projets/epicuriens/epicurien_carteadherent.png",
                 "alt": "maquette d'une carte d'adhérent type"
-            },{
+            }, {
                 "source": "dist/images/projets/epicuriens/epicurien_cartevisite.png",
                 "alt": "maquette d'une carte de visite type"
-            },{
+            }, {
                 "source": "dist/images/projets/epicuriens/epicurien_flyer.jpg",
                 "alt": "maquette d'un flyer type"
             }]
@@ -214,19 +181,15 @@
         {
             "id": "frejus",
             "title": "Service Patrimoine de Fréjus",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": true,
-                "webdesign": false,
-                "devWeb": false
-            },
-            "date": "2011-06",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": true,
+            "webdesign": false,
+            "devWeb": false,
+            "date": "2011-06-30",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/frejus/dossierPedago_couv.png",
                 "alt": "page de garde du dossier pédagogique sur 'Forum Iulii'"
@@ -250,51 +213,42 @@
         {
             "id": "mnemosyne",
             "title": "Court Métrage 'Projet Mnémosyne'",
-            "categories": {
-                "video": true,
-                "branding": false,
-                "printDesign": false,
-                "webdesign": false,
-                "devWeb": false
-            },
-            "date": "2016-03",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
-            "urlVideo": "https://www.youtube.com/embed/9fY1_B1G3pY",
+            "video": true,
+            "branding": false,
+            "printDesign": false,
+            "webdesign": false,
+            "devWeb": false,
+            "date": "2015-03-14",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "idVideo": "9fY1_B1G3pY"
         },
         {
             "id": "mybigbang",
             "title": "MyBigBang App",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": false,
-                "webdesign": true,
-                "devWeb": false
-            },
-            "date": "2015-03",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": false,
+            "webdesign": true,
+            "devWeb": false,
+            "date": "2015-03-20",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/mybigbang/mybigbang1.jpg",
                 "alt": "mockup ecran connection"
-            },{
+            }, {
                 "source": "dist/images/projets/mybigbang/mybigbang2.png",
                 "alt": "maquette page profil"
-            },{
+            }, {
                 "source": "dist/images/projets/mybigbang/mybigbang3.jpg",
                 "alt": "mockup page profil"
-            },{
+            }, {
                 "source": "dist/images/projets/mybigbang/mybigbang4.png",
                 "alt": "maquette page ambiance"
-            },{
+            }, {
                 "source": "dist/images/projets/mybigbang/mybigbang5.jpg",
                 "alt": "mockup page ambiance"
             }]
@@ -302,19 +256,15 @@
         {
             "id": "pec",
             "title": "Provence Energie Citoyenne",
-            "categories": {
-                "video": false,
-                "branding": true,
-                "printDesign": true,
-                "webdesign": true,
-                "devWeb": true
-            },
-            "date": "2016-03",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": true,
+            "printDesign": true,
+            "webdesign": true,
+            "devWeb": true,
+            "date": "2016-07-30",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/pec/",
                 "alt": ""
@@ -324,26 +274,22 @@
         {
             "id": "saintchamas",
             "title": "Dépliant touristique Saint-Chamas",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": true,
-                "webdesign": false,
-                "devWeb": false
-            },
-            "date": "2011-04",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": true,
+            "webdesign": false,
+            "devWeb": false,
+            "date": "2011-04-10",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/saintchamas/saintchamas1.jpg",
                 "alt": "maquette page 1"
-            },{
+            }, {
                 "source": "dist/images/projets/saintchamas/saintchamas1-4.png",
                 "alt": "maquette pages extérieures 1 & 4"
-            },{
+            }, {
                 "source": "dist/images/projets/saintchamas/saintchamas2-3.png",
                 "alt": "maquette pages intérieures 2 & 3"
             }]
@@ -351,47 +297,43 @@
         {
             "id": "siarep",
             "title": "SN SIAREP",
-            "categories": {
-                "video": false,
-                "branding": true,
-                "printDesign": true,
-                "webdesign": true,
-                "devWeb": true
-            },
-            "date": "2015-06",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": true,
+            "printDesign": true,
+            "webdesign": true,
+            "devWeb": true,
+            "date": "2015-06-30",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/siarep/siarep1.jpg",
                 "alt": "mockup site web"
-            },{
+            }, {
                 "source": "dist/images/projets/siarep/siarep2.jpg",
                 "alt": "maquette web page accueil"
-            },{
+            }, {
                 "source": "dist/images/projets/siarep/siarep3.jpg",
                 "alt": "maquette page 'Nos Références'"
-            },{
+            }, {
                 "source": "dist/images/projets/siarep/siarep4.jpg",
                 "alt": "maquette page 'Chantier'"
-            },{
+            }, {
                 "source": "dist/images/projets/siarep/siarep5.jpg",
                 "alt": "maquette page 'Présentation de Siarep'"
-            },{
+            }, {
                 "source": "dist/images/projets/siarep/siarep6.jpg",
                 "alt": "maquette carte de visite"
-            },{
+            }, {
                 "source": "dist/images/projets/siarep/siarep7.png",
                 "alt": "maquette newsletter"
-            },{
+            }, {
                 "source": "dist/images/projets/siarep/siarep8.jpg",
                 "alt": "nouveaux logos de Siarep"
-            },{
+            }, {
                 "source": "dist/images/projets/siarep/siarep9.jpg",
                 "alt": "maquette panneau de chantier"
-            },{
+            }, {
                 "source": "dist/images/projets/siarep/siarep10.jpg",
                 "alt": "maquette signature mail"
             }],
@@ -400,51 +342,39 @@
         {
             "id": "tamagoshu",
             "title": "Tamagoshu App",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": false,
-                "webdesign": true,
-                "devWeb": true
-            },
-            "date": "2016-06",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
-            "images": [{
-                "source": "dist/images/projets/tamagoshu/",
-                "alt": ""
-            }],
+            "video": false,
+            "branding": false,
+            "printDesign": false,
+            "webdesign": true,
+            "devWeb": true,
+            "date": "2016-06-07",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "urlProject": "http://charlotterouby.github.io/tamagoshi"
         },
         {
             "id": "tangaye",
             "title": "AMNS - Les Enfants de Tangaye",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": false,
-                "webdesign": true,
-                "devWeb": true
-            },
-            "date": "2015-12",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": false,
+            "webdesign": true,
+            "devWeb": true,
+            "date": "2015-12-10",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/tangaye/Tangaye1.jpg",
                 "alt": "mockup"
-            },{
+            }, {
                 "source": "dist/images/projets/tangaye/Tangaye2.jpg",
                 "alt": "maquette desktop"
-            },{
+            }, {
                 "source": "dist/images/projets/tangaye/Tangaye3.jpg",
                 "alt": "maquette tablet / laptop"
-            },{
+            }, {
                 "source": "dist/images/projets/tangaye/Tangaye4.jpg",
                 "alt": "maquette mobile"
             }],
@@ -453,23 +383,19 @@
         {
             "id": "velauxdabord",
             "title": "Velaux d'Abord fête ses 25 ans",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": true,
-                "webdesign": false,
-                "devWeb": false
-            },
-            "date": "2012-09",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": true,
+            "webdesign": false,
+            "devWeb": false,
+            "date": "2012-09-01",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/velauxdabord/flyervelauxdabord_recto.jpg",
                 "alt": "maquette flyer 'Velaux d'Abord fête ses 25 ans' recto"
-            },{
+            }, {
                 "source": "dist/images/projets/velauxdabord/flyervelauxdabord_verso.jpg",
                 "alt": "maquette flyer 'Velaux d'Abord fête ses 25 ans' verso"
             }]
@@ -477,32 +403,28 @@
         {
             "id": "velauxPatrimoine",
             "title": "Service Patrimoine de Velaux",
-            "categories": {
-                "video": false,
-                "branding": false,
-                "printDesign": true,
-                "webdesign": false,
-                "devWeb": false
-            },
-            "date": "2012-07",
-            "description": {
-                "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-                "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?"
-            },
+            "video": false,
+            "branding": false,
+            "printDesign": true,
+            "webdesign": false,
+            "devWeb": false,
+            "date": "2012-07-30",
+            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
             "images": [{
                 "source": "dist/images/projets/velauxPatrimoine/flyerpatvelaux1.jpg",
                 "alt": "plaquette programme pédagogique du Service Patrimoine"
-            },{
+            }, {
                 "source": "dist/images/projets/velauxPatrimoine/flyerpatvelaux2.jpg",
                 "alt": "plaquette programme pédagogique du Service Patrimoine"
-            },{
+            }, {
                 "source": "dist/images/projets/velauxPatrimoine/livretjeuxmoulins.jpg",
                 "alt": "Extrait du Livret-Jeux réalisé pour la Journée des Moulins de mai 2012"
-            },{
+            }, {
                 "source": "dist/images/projets/velauxPatrimoine/livretjeuxmoulins_pageinterne1-2.jpg",
                 "alt": "Extrait du Livret-Jeux réalisé pour la Journée des Moulins de mai 2012"
-            },{
+            }, {
                 "source": "dist/images/projets/velauxPatrimoine/livretjeuxmoulins_pageinterne3-4.jpg",
                 "alt": "Extrait du Livret-Jeux réalisé pour la Journée des Moulins de mai 2012"
             }]

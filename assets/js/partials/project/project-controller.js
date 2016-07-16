@@ -3,11 +3,16 @@ function ProjectController(Projects, $routeParams) {
     var self = this;
     var projects = Projects.get();
     var idSearch = $routeParams.id;
-    var currentProject = projects[idSearch];
+    var currentProject = {};
 
-    console.log(projects);
-    console.log(idSearch);
-    console.log($routeParams.id);
+    projects.forEach(function (element, index, array) {
+//        console.log(element.id);
+//        console.log(index);
+        if (element.id === idSearch) {
+            currentProject = projects[index];
+        }
+    });
+
     console.log(currentProject);
 
     if (currentProject !== undefined) {

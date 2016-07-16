@@ -13,33 +13,33 @@
         <div class="banner-subtitle" flex="100">
             <div layout layout-fill layout-align="space-around center">
                 <!-- date de réalisation du projet -->
-                <p><strong>Date :</strong> {{projectCtrl.project.date}}</p>
+                <p><strong>Date :</strong> {{projectCtrl.project.date | date}}</p>
 
                 <!-- catégories du projet -->
                 <p><strong>Types de travaux :</strong></p>
                 <md-chips>
                     <!-- video -->
-                    <md-chip ng-show="projectCtrl.project.categories.video">
+                    <md-chip ng-show="projectCtrl.project.video">
                         <small>Vidéo</small>
                     </md-chip>
 
                     <!-- branding -->
-                    <md-chip ng-show="projectCtrl.project.categories.branding">
+                    <md-chip ng-show="projectCtrl.project.branding">
                         <small>Branding</small>
                     </md-chip>
 
                     <!-- design print -->
-                    <md-chip ng-show="projectCtrl.project.categories.printDesign">
+                    <md-chip ng-show="projectCtrl.project.printDesign">
                         <small>Design Print</small>
                     </md-chip>
 
                     <!-- webdesign -->
-                    <md-chip ng-show="projectCtrl.project.categories.webdesign">
+                    <md-chip ng-show="projectCtrl.project.webdesign">
                         <small>Webdesign</small>
                     </md-chip>
 
                     <!-- dev web -->
-                    <md-chip ng-show="projectCtrl.project.categories.devWeb">
+                    <md-chip ng-show="projectCtrl.project.devWeb">
                         <small>Développement Web</small>
                     </md-chip>
                 </md-chips>
@@ -50,15 +50,15 @@
     <!-- Content -->
     <div class="content" layout layout-gt-sm-margin layout-gt-sm-padding layout-wrap>
         <!-- description du projet -->
-        <p><strong>Contexte :</strong> {{projectCtrl.project.description.contexte}}</p>
-        <p><strong>Réalisation :</strong> {{projectCtrl.project.description.mission}}</p>
-        <p><strong>Résultats :</strong> {{projectCtrl.project.description.results}}</p>
+        <p><strong>Contexte :</strong> {{projectCtrl.project.contexte}}</p>
+        <p><strong>Réalisation :</strong> {{projectCtrl.project.mission}}</p>
+        <p><strong>Résultats :</strong> {{projectCtrl.project.results}}</p>
 
         <span flex="100" ng-hide="projectCtrl.project.urlProject === undefined">
             <md-button class="md-raised md-accent" href="{{projectCtrl.project.urlProject}}">Voir le projet</md-button>
         </span>
 
-        <youtube-video video-id="projectCtrl.project.idVideo" ng-show="projectCtrl.project.categories.video"></youtube-video>
+        <youtube-video video-id="projectCtrl.project.idVideo" ng-show="projectCtrl.project.video"></youtube-video>
 
         <!--https://www.youtube.com/embed/KJ7xtrn48qY-->
         <!-- galerie d'images -->

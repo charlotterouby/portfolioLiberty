@@ -50,20 +50,12 @@ var jsOut = 'scripts.js';
 var jsVendorsOut = 'vendors.js';
 var dest = './dist/';
 
-// TASKS
+// TASKS DEVELOPMENT / BUILD
 gulp.task('compileJS', function () {
     return gulp.src(jsSource)
         .pipe(sourcemaps.init())
         .pipe(concat(jsOut))
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest(dest));
-});
-
-gulp.task('compileVendors', function () {
-    return gulp.src(jsVendors)
-        .pipe(sourcemaps.init())
-        .pipe(concat(jsVendorsOut))
-        .pipe(sourcemaps.write())
+        .pipe(sourcemaps.write(dest))
         .pipe(gulp.dest(dest));
 });
 
@@ -81,13 +73,23 @@ gulp.task('compileCSS', function () {
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(sourcemaps.write())
+        .pipe(sourcemaps.write(dest))
         .pipe(gulp.dest(dest));
 });
 
 gulp.task('copyTemplates', function(){
     return gulp.src(templatesSource)
         .pipe(gulp.dest('./dist/templates/'))
+});
+
+
+// TASKS PRODUCTION / ONLINE
+gulp.task('compileVendors', function () {
+    return gulp.src(jsVendors)
+        .pipe(sourcemaps.init())
+        .pipe(concat(jsVendorsOut))
+        .pipe(sourcemaps.write(dest))
+        .pipe(gulp.dest(dest));
 });
 
 gulp.task('minifyJS', function () {
@@ -109,6 +111,13 @@ gulp.task('minifyCSS', function () {
         }))
         .pipe(gulp.dest(dest));
 });
+
+// TASKS GENERIQUES
+// Tâche "build"
+gulp.task('build', ['compileJS', 'compileVendors', 'compileCSS', 'copyTemplates']);
+
+// Tâche "prod" = Build + compileVendors + minifyCSS + minifyJS
+gulp.task('prod', ['minifyCSS', 'minifyJS']);
 
 // Watcher
 gulp.task('watch', ['compileCSS', 'compileJS', 'copyTemplates'], function () {
