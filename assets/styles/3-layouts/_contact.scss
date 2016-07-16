@@ -1,6 +1,6 @@
 .contact {
-    height: 100vh;
-    background: url(images/hero2.jpg) center no-repeat fixed;
+    min-height: 100vh;
+    background: url('images/hero2.jpg') fixed;
     background-size: cover;
     .wrapper {
         margin: $verticalMargin $horizontalMargin;

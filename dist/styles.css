@@ -823,13 +823,23 @@ hr
     font-weight: 400;
     font-style: normal;
 
-    src: url('fonts/MaterialIcons-Regular.eot');
+    src: url('fonts/materialIcons/MaterialIcons-Regular.eot');
     /* For IE6-8 */
-    src: local('Material Icons'), local('MaterialIcons-Regular'), url('fonts/MaterialIcons-Regular.woff2') format('woff2'), url('fonts/MaterialIcons-Regular.woff') format('woff'), url('fonts/MaterialIcons-Regular.ttf') format('truetype');
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url('fonts/materialIcons/MaterialIcons-Regular.woff2') format('woff2'), url('fonts/materialIcons/MaterialIcons-Regular.woff') format('woff'), url('fonts/materialIcons/MaterialIcons-Regular.ttf') format('truetype');
 }
-.material-icons
+@font-face
 {
-    font-family: 'Material Icons';
+    font-family: 'Font Awesome';
+    font-weight: 400;
+    font-style: normal;
+
+    src: url('fonts/fontAwesome/fontawesome-webfont.eot');
+    /* For IE6-8 */
+    src: local('Font Awesome'), local('fontawesome-webfont'), url('fonts/fontAwesome/fontawesome-webfont.woff2') format('woff2'), url('fonts/fontAwesome/fontawesome-webfont.woff') format('woff'), url('fonts/fontAwesome/fontawesome-webfont.ttf') format('truetype');
+}
+.material-icons,
+.font-awesome
+{
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -855,6 +865,16 @@ hr
     -moz-osx-font-smoothing: grayscale;
     /* Support for IE. */
     font-feature-settings: 'liga';
+}
+
+.material-icons
+{
+    font-family: 'Material Icons';
+}
+
+.font-awesome
+{
+    font-family: 'Font Awesome';
 }
 
 .deckgrid[deckgrid]::before
@@ -892,13 +912,6 @@ hr
     .deckgrid[deckgrid]::before
     {
         content: '3 .column.column-1-3';
-    }
-}
-@media (min-width: 1280px)
-{
-    .deckgrid[deckgrid]::before
-    {
-        content: '4 .column.column-1-4';
     }
 }
 
@@ -1113,21 +1126,26 @@ nav a,
     font-size: 1rem;
 }
 
+md-card
+{
+    color: #378c8c;
+}
+
 /* ========== MODULES ========== */
 my-navbar
 {
     position: fixed;
+    z-index: 200;
 }
 
 md-nav-bar
 {
     position: fixed;
-    z-index: 1;
     top: 0;
 
     width: 100%;
 
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, .8);
 }
 
 @media (min-width: 1024px)
@@ -1158,10 +1176,98 @@ md-nav-bar
     left: 2%;
 }
 
+.md-button.btn-linkedin
+{
+    background-color: #007bb6;
+}
+.md-button.btn-linkedin:hover:not([disabled]),
+.md-button.btn-linkedin:focus:not([disabled]),
+.md-button.btn-linkedin:active:not([disabled])
+{
+    background-color: #003650;
+}
+
+.md-button.btn-facebook
+{
+    background-color: #3b5998;
+}
+.md-button.btn-facebook:hover:not([disabled]),
+.md-button.btn-facebook:focus:not([disabled]),
+.md-button.btn-facebook:active:not([disabled])
+{
+    background-color: #1e2e4f;
+}
+
+.md-button.btn-youtube
+{
+    background-color: #b00;
+}
+.md-button.btn-youtube:hover:not([disabled]),
+.md-button.btn-youtube:focus:not([disabled]),
+.md-button.btn-youtube:active:not([disabled])
+{
+    background-color: #500;
+}
+
+.md-button.btn-pinterest
+{
+    background-color: #cb2027;
+}
+.md-button.btn-pinterest:hover:not([disabled]),
+.md-button.btn-pinterest:focus:not([disabled]),
+.md-button.btn-pinterest:active:not([disabled])
+{
+    background-color: #731216;
+}
+
+.md-button.btn-google-plus
+{
+    background-color: #dd4b39;
+}
+.md-button.btn-google-plus:hover:not([disabled]),
+.md-button.btn-google-plus:focus:not([disabled]),
+.md-button.btn-google-plus:active:not([disabled])
+{
+    background-color: #96271a;
+}
+
+.md-button.btn-spotify
+{
+    background-color: #00e461;
+}
+.md-button.btn-spotify:hover:not([disabled]),
+.md-button.btn-spotify:focus:not([disabled]),
+.md-button.btn-spotify:active:not([disabled])
+{
+    background-color: #007e36;
+}
+
+.md-button.btn-github
+{
+    background-color: #548;
+}
+.md-button.btn-github:hover:not([disabled]),
+.md-button.btn-github:focus:not([disabled]),
+.md-button.btn-github:active:not([disabled])
+{
+    background-color: #2b2244;
+}
+
+.md-button.btn-viadeo
+{
+    background-color: #f07355;
+}
+.md-button.btn-viadeo:hover:not([disabled]),
+.md-button.btn-viadeo:focus:not([disabled]),
+.md-button.btn-viadeo:active:not([disabled])
+{
+    background-color: #cd3612;
+}
+
 /* ========== LAYOUTS  ========== */
 .home
 {
-    height: 100vh;
+    min-height: 100vh;
 
     text-align: center;
 
@@ -1189,7 +1295,7 @@ md-nav-bar
 
     shape-inside: circle();
     -webkit-shape-margin: 15px;
-            shape-margin: 15px;
+    shape-margin: 15px;
 }
 
 .welcome aside h4
@@ -1220,6 +1326,15 @@ md-nav-bar
     margin-top: 48px;
 }
 
+md-grid-list
+{
+    z-index: 1;
+}
+md-grid-list md-grid-tile
+{
+    z-index: 2;
+}
+
 .figcaption
 {
     overflow: hidden;
@@ -1231,7 +1346,7 @@ md-nav-bar
 }
 .figcaption h3
 {
-    font-size: 1.2rem;
+    font-size: 1em;
     font-weight: 500;
 
     margin-bottom: 0;
@@ -1248,6 +1363,7 @@ md-nav-bar
 .project .banner
 {
     position: relative;
+    z-index: 201;
 
     background: url(images/black-zig-zag.png) repeat, url(images/hero2.jpg) center no-repeat;
     background-size: auto, cover;
@@ -1262,7 +1378,14 @@ md-nav-bar
 {
     position: absolute;
     right: 10vw;
-    bottom: 12vh;
+    bottom: 20vh;
+}
+@media (min-width: 768px)
+{
+    .project #button-back
+    {
+        bottom: 12vh;
+    }
 }
 .project h2
 {
@@ -1283,18 +1406,12 @@ md-nav-bar
 {
     margin: 48px 8.33vw;
 }
-.project md-card
-{
-    font-weight: 700;
-
-    color: #378c8c;
-}
 
 .contact
 {
-    height: 100vh;
+    min-height: 100vh;
 
-    background: url(images/hero2.jpg) center no-repeat fixed;
+    background: url('images/hero2.jpg') fixed;
     background-size: cover;
 }
 .contact .wrapper

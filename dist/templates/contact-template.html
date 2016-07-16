@@ -1,23 +1,30 @@
 <section class="contact" layout layout-align="center center">
-    <div class="wrapper" layout layout-margin layout-padding layout-wrap>
-        <h2>Rencontrons-nous</h2>
-        <article>
-            <h4>Adresse</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440490.4620475829!2d4.7744512972354265!3d43.506434213144374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9f01f3914361f%3A0x40819a5fd96fe90!2sVelaux!5e0!3m2!1sfr!2sfr!4v1467479280006" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </article>
-
-        <article>
-            <h4>Contact</h4>
+    <div class="wrapper" layout="row" layout-xs="column" layout-sm="column" layout-margin layout-padding layout-wrap>
+        <h2 flex="100">Rencontrons-nous</h2>
+<!--        <h4 flex="100">Pour me contacter</h4>-->
+        <article flex-gt-sm="30" flex-xs="100" flex-sm="100">
             <p>Tel. 06 21 65 77 27</p>
-            <p><a href="charlotte.rouby@hotmail.fr">charlotte.rouby@hotmail.fr</a></p>
+            <p>charlotte.rouby@hotmail.fr</p>
+            <!--Linkedin-->
+            <md-button class="md-fab md-mini btn-linkedin" href="https://fr.linkedin.com/in/charlotteroubydesignergraphic" aria-label="lien externe vers page linkedin">
+                <md-icon md-font-set="fa">&#xf0e1</md-icon>
+            </md-button>
+
+            <!--Viadeo-->
+            <md-button class="md-fab md-mini btn-viadeo" href="http://www.viadeo.com/fr/profile/charlotte.rouby" aria-label="lien externe vers page viadeo">
+                <md-icon md-font-set="fa">&#xf2a9</md-icon>
+            </md-button>
+
+            <!--Github-->
+            <md-button class="md-fab md-mini btn-github" href="https://github.com/charlotterouby" aria-label="lien externe vers compte github">
+                <md-icon md-font-set="fa">&#xf09b</md-icon>
+            </md-button>
         </article>
 
-        <article>
-            <h4>Réseaux sociaux</h4>
-            <md-button class="md-fab">Linkedin</md-button>
-            <md-button class="md-fab">Viadeo</md-button>
-            <md-button class="md-fab">Google+</md-button>
-            <md-button class="md-fab">Github</md-button>
+        <article flex-gt-sm="60" flex-xs="100" flex-sm="100">
+            <div layout layout-fill>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440490.4620475829!2d4.7744512972354265!3d43.506434213144374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9f01f3914361f%3A0x40819a5fd96fe90!2sVelaux!5e0!3m2!1sfr!2sfr!4v1467479280006" width="900" height="350" frameborder="0" style="border:0" allowfullscreen flex></iframe>
+            </div>
         </article>
     </div>
 </section>

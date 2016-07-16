@@ -68,9 +68,46 @@ $container-max-width: 1920px;
 
 //  ==========  Variables couleurs  ==========
 $palettes: (
-    bleu: (dark:#378c8c, mid-dark:#5bb4b4, base:#8ad9d9, mid-light:#bef1f1, light:#f1fefe),
-    jaune: (dark:#e9ba5b, mid-dark:#ffd580, base:#ffe0a2, mid-light:#ffedc8, light:#fffbf2),
-    peach: (dark:#e95b5b, mid-dark:#ff8080, base:#ffa2a2, mid-light:#ffc8c8, light:#fff2f2)
+    bleu: (
+        x-dark: #024242,
+        dark:#378c8c,
+        mid-dark:#5bb4b4,
+        base:#8ad9d9,
+        mid-light:#bef1f1,
+        light:#f1fefe
+    ),
+    jaune: (
+        dark:#e9ba5b,
+        mid-dark:#ffd580,
+        base:#ffe0a2,
+        mid-light:#ffedc8,
+        light:#fffbf2
+    ),
+    peach: (
+        dark:#e95b5b,
+        mid-dark:#ff8080,
+        base:#ffa2a2,
+        mid-light:#ffc8c8,
+        light:#fff2f2
+    ),
+    socials: (
+        linkedin: #007bb6,
+        linkedin-dark: darken(#007bb6, 20%),
+        facebook: #3b5998,
+        facebook-dark: darken(#3b5998,20%),
+        youtube: #bb0000,
+        youtube-dark: darken(#bb0000,20%),
+        pinterest: #cb2027,
+        pinterest-dark: darken(#cb2027,20%),
+        google-plus: #dd4b39,
+        google-plus-dark: darken(#dd4b39,20%),
+        spotify: #00e461,
+        spotify-dark: darken(#00e461,20%),
+        github: #554488,
+        github-dark: darken(#554488,20%),
+        viadeo: #f07355,
+        viadeo-dark: darken(#f07355,20%)
+    )
 );
 $white: #fff;
 $text-color: #696969;

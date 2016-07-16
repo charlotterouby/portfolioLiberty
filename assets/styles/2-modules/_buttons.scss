@@ -1,0 +1,11 @@
+$socials: linkedin, facebook, youtube, pinterest, google-plus, spotify, github, viadeo;
+
+@each $name in $socials {
+    .md-button.btn-#{$name} {
+        background-color: palette(socials, #{$name});
+
+        &:hover:not([disabled]), &:focus:not([disabled]), &:active:not([disabled]) {
+            background-color: palette(socials, #{$name}-dark);
+        }
+    }
+}

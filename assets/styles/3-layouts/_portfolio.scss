@@ -2,7 +2,13 @@
     margin-top : $verticalMargin;
 }
 
+md-grid-list {
+    z-index: 1;
 
+    md-grid-tile {
+        z-index: 2;
+    }
+}
 //Styles figcaption pour md-grid
 .figcaption {
     white-space: nowrap;
@@ -10,7 +16,7 @@
     text-overflow: ellipsis;
     background-color: rgba(palette(bleu, dark), 0.6);
     h3 {
-        font-size: 1.2rem;
+        font-size: 1em;
         font-weight: 500;
         margin-bottom: 0;
         color: palette(jaune, light);

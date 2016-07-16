@@ -3,6 +3,8 @@
         background: url(images/black-zig-zag.png) repeat, url(images/hero2.jpg) center no-repeat;
         background-size: auto, cover;
         position: relative;
+        z-index: 201;
+
         .banner-subtitle {
             background-color: rgba(palette(bleu, light), 0.8);
             padding: 0 $horizontalMargin;
@@ -10,8 +12,12 @@
     }
     #button-back {
         position: absolute;
-        bottom: 12vh;
+        bottom: 20vh;
         right: 10vw;
+
+        @include breakpoint($media-tablet-min){
+            bottom: 12vh;
+        }
     }
     h2 {
         margin: $verticalMargin $horizontalMargin;
@@ -27,8 +33,5 @@
     .content {
         margin: $verticalMargin $horizontalMargin;
     }
-    md-card{
-        color: palette(bleu, dark);
-        font-weight: 700;
-    }
+
 }

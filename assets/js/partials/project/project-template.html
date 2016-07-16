@@ -4,7 +4,7 @@
         <!-- titre du projet -->
         <h2 flex="90">{{projectCtrl.project.title}}</h2>
         <!--  Boutton retour -->
-        <md-button id="button-back" class="md-fab md-accent" aria-label="retour au portfolio" href="portfolio">
+        <md-button id="button-back" class="md-fab md-primary" aria-label="retour au portfolio" href="portfolio">
             <!-- icon -->
             <md-icon md-font-set="md" class="material-icons">arrow_back</md-icon>
             <!-- tooltip -->
@@ -48,7 +48,7 @@
     </div>
 
     <!-- Content -->
-    <div class="content" layout layout-margin layout-padding layout-wrap>
+    <div class="content" layout layout-gt-sm-margin layout-gt-sm-padding layout-wrap>
         <!-- description du projet -->
         <p><strong>Contexte :</strong> {{projectCtrl.project.description.contexte}}</p>
         <p><strong>Réalisation :</strong> {{projectCtrl.project.description.mission}}</p>
