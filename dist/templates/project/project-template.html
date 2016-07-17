@@ -50,15 +50,14 @@
     <!-- Content -->
     <div class="content" layout layout-gt-sm-margin layout-gt-sm-padding layout-wrap layout-align="space-between none">
         <!-- description du projet -->
-        <p flex-gt-sm="45">
-            {{projectCtrl.project.contexte}}
-        </p>
-        <p flex-gt-sm="45">
-            {{projectCtrl.project.mission}}
-        </p>
-        <p flex-gt-sm="45">
-            {{projectCtrl.project.results}}
-        </p>
+        <figure class="shape-coeurs" flex="33" layout layout-align="center center">
+            <img ng-src="{{projectCtrl.project.images[0].source}}" alt="image à la une">
+        </figure>
+        <div flex-xs flex-sm flex-gt-sm="66">
+            <p>{{projectCtrl.project.contexte}}</p>
+            <p>{{projectCtrl.project.mission}}</p>
+            <p>{{projectCtrl.project.results}}</p>
+        </div>
 
         <div flex="100" layout layout-align="center center" ng-hide="projectCtrl.project.urlProject === undefined">
             <md-button class="md-raised md-accent md-hue-3 call-action" href="{{projectCtrl.project.urlProject}}">
@@ -72,6 +71,7 @@
 
         <!--https://www.youtube.com/embed/KJ7xtrn48qY-->
         <!-- galerie d'images -->
+        <h3 ng-hide="projectCtrl.project.video">Galerie images</h3>
         <div deckgrid class="deckgrid" source="projectCtrl.project.images" layout layout-fill>
             <md-card>
                 <img src="" data-ng-src="{{card.source}}" alt="{{card.alt}}" />
