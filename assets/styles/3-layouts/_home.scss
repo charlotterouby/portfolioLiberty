@@ -1,11 +1,11 @@
 .home {
     min-height: 100vh;
-    background: url(../assets/images/black-zig-zag.png) repeat fixed,
-        url(../assets/images/collage-geometrique2.jpg) center no-repeat fixed;
+    background: url('../images/black-zig-zag.png') repeat fixed,
+        url('../images/collage-geometrique2.jpg') center no-repeat fixed;
     background-size: auto, cover;
     text-align: center;
     h1 {
-        color: palette(peach);
+        color: palette(peach, mid-dark);
     }
     q {
         color: palette(jaune, dark);

@@ -1,4 +1,4 @@
-myPortfolio.config(function($routeProvider, $locationProvider) {
+myPortfolio.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
         //Landing page
         .when('/accueil', {
@@ -30,4 +30,4 @@ myPortfolio.config(function($routeProvider, $locationProvider) {
         });
 
     $locationProvider.html5Mode(true);
-});
+}]);

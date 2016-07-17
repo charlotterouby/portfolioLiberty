@@ -19,27 +19,27 @@
                 <p><strong>Types de travaux :</strong></p>
                 <md-chips>
                     <!-- video -->
-                    <md-chip ng-show="projectCtrl.project.video">
+                    <md-chip ng-show="projectCtrl.project.video" class="md-mini">
                         <small>Vidéo</small>
                     </md-chip>
 
                     <!-- branding -->
-                    <md-chip ng-show="projectCtrl.project.branding">
+                    <md-chip ng-show="projectCtrl.project.branding" class="md-mini">
                         <small>Branding</small>
                     </md-chip>
 
                     <!-- design print -->
-                    <md-chip ng-show="projectCtrl.project.printDesign">
+                    <md-chip ng-show="projectCtrl.project.printDesign" class="md-mini">
                         <small>Design Print</small>
                     </md-chip>
 
                     <!-- webdesign -->
-                    <md-chip ng-show="projectCtrl.project.webdesign">
+                    <md-chip ng-show="projectCtrl.project.webdesign" class="md-mini">
                         <small>Webdesign</small>
                     </md-chip>
 
                     <!-- dev web -->
-                    <md-chip ng-show="projectCtrl.project.devWeb">
+                    <md-chip ng-show="projectCtrl.project.devWeb" class="md-mini">
                         <small>Développement Web</small>
                     </md-chip>
                 </md-chips>
@@ -48,17 +48,27 @@
     </div>
 
     <!-- Content -->
-    <div class="content" layout layout-gt-sm-margin layout-gt-sm-padding layout-wrap>
+    <div class="content" layout layout-gt-sm-margin layout-gt-sm-padding layout-wrap layout-align="space-between none">
         <!-- description du projet -->
-        <p><strong>Contexte :</strong> {{projectCtrl.project.contexte}}</p>
-        <p><strong>Réalisation :</strong> {{projectCtrl.project.mission}}</p>
-        <p><strong>Résultats :</strong> {{projectCtrl.project.results}}</p>
+        <p flex-gt-sm="45">
+            {{projectCtrl.project.contexte}}
+        </p>
+        <p flex-gt-sm="45">
+            {{projectCtrl.project.mission}}
+        </p>
+        <p flex-gt-sm="45">
+            {{projectCtrl.project.results}}
+        </p>
 
-        <span flex="100" ng-hide="projectCtrl.project.urlProject === undefined">
-            <md-button class="md-raised md-accent" href="{{projectCtrl.project.urlProject}}">Voir le projet</md-button>
-        </span>
+        <div flex="100" layout layout-align="center center" ng-hide="projectCtrl.project.urlProject === undefined">
+            <md-button class="md-raised md-accent md-hue-3 call-action" href="{{projectCtrl.project.urlProject}}">
+                Voir le projet
+            </md-button>
+        </div>
 
-        <youtube-video video-id="projectCtrl.project.idVideo" ng-show="projectCtrl.project.video"></youtube-video>
+        <div flex="100" layout layout-align="center center" ng-show="projectCtrl.project.video">
+            <youtube-video video-id="projectCtrl.project.idVideo"></youtube-video>
+        </div>
 
         <!--https://www.youtube.com/embed/KJ7xtrn48qY-->
         <!-- galerie d'images -->

@@ -20,4 +20,4 @@ function ProjectController(Projects, $routeParams) {
     }
 
 }
-myPortfolio.controller('ProjectController', ProjectController);
+myPortfolio.controller('ProjectController', ['Projects', '$routeParams', ProjectController]);

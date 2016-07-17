@@ -1,6 +1,6 @@
 .project {
     .banner {
-        background: url(images/black-zig-zag.png) repeat, url(images/hero2.jpg) center no-repeat;
+        background: url('../images/black-zig-zag.png') repeat, url('../images/hero2.jpg') center no-repeat;
         background-size: auto, cover;
         position: relative;
         z-index: 201;
@@ -32,6 +32,10 @@
     }
     .content {
         margin: $verticalMargin $horizontalMargin;
+
+        &>div{
+            margin: $verticalMargin auto;
+        }
     }
 
 }

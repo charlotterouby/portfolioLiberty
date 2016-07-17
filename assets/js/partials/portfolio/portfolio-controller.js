@@ -10,5 +10,10 @@ function PortfolioController(Projects, $location) {
         var newLocation = "project/" + projectId;
         $location.path(newLocation);
     }
+    self.keyword = "all";
+
+    self.searchCategory = function(projet){
+       return projet.category.includes(self.keyword);
+    }
 }
-myPortfolio.controller('PortfolioController', PortfolioController);
+myPortfolio.controller('PortfolioController',['Projects', '$location', PortfolioController]);

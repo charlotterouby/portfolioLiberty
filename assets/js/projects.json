@@ -3,52 +3,74 @@
         {
             "id": "aoc",
             "title": "Advanced Optimisation and Control",
+            "category": ["all", "printDesign"],
             "video": false,
             "branding": false,
             "printDesign": true,
             "webdesign": false,
             "devWeb": false,
-            "date": "2011-07-15",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "date": "2012-07-15",
+            "contexte": "Dans le cadre de la création de son activité de consultant en pétrochimie, le client souhaitait créé une plaquette de communication autour de son expérience professionnelle et de ses compétences.",
+            "mission": "Il s'agissait ici de créer une présentation de format A4 sur 4 pages à partir des photos et du texte fourni par le client.",
+            "results": "Le style graphique simple et dense était voulu par le client.",
             "images": [{
-                "source": "dist/images/projets/aoc/plaquetteAOC1.jpg",
-                "alt": "page de garde de la plaquette de commuication AOC"
-            }, {
-                "source": "dist/images/projets/aoc/plaquetteAOC1-4.png",
-                "alt": "double page extérieure"
-            }, {
-                "source": "dist/images/projets/aoc/plaquetteAOC2-3.png",
-                "alt": "double page intérieure"
+                    "source": "dist/images/projets/aoc/plaquetteAOC1.jpg",
+                    "alt": "page 1"
+            },
+                {
+                    "source": "dist/images/projets/aoc/plaquetteAOC2.jpg",
+                    "alt": "page 2"
+            },
+                {
+                    "source": "dist/images/projets/aoc/plaquetteAOC3.jpg",
+                    "alt": "page 3"
+            },
+                {
+                    "source": "dist/images/projets/aoc/plaquetteAOC4.jpg",
+                    "alt": "page 4"
             }]
         },
         {
             "id": "aphdap",
             "title": "Asso A.P.H.D.A.P.",
+            "category": ["all", "branding"],
             "video": false,
             "branding": true,
             "printDesign": false,
             "webdesign": false,
             "devWeb": false,
             "date": "2016-03-30",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "images": []
+            "contexte": "L'association \"Aide aux Personnes Handicapées et Droits des Accidentés Professionnels\" a pour objectif d'aider les salariés en situation de handicap et leurs familles dans les démarches administratives nécessaires à la reconnaissance de leur statut et à l'aménagement de leur poste de travail.",
+            "mission": "Il s'agissait donc de refléter dans leur identité visuelle cette activité d'aide administrative et la spécificité lié aux situations de handicap. Deux hypothèses de travail : une béquille avec une cravate s'enroulant autour d'elle et une sacoche associée avec les symboles des handicaps psychiques et visuels pour former une entité tout en courbes, souriante et multiforme.",
+            "results": "C'est cette dernière approche qui a été retenue. Le travail des couleurs et de la typographie permet de renforcer les valeurs de l'association : empathie, écoute, aide, récomfort et positivisme.",
+            "urlProject": "https://docs.google.com/presentation/d/1Qf8KM1ks_Is70Z40q1UTvDOkrxEoxWt9N_C-hSuU8ro/edit?usp=sharing",
+            "images": [{
+                "source": "dist/images/projets/aphdap/logo-aphdap-2.png",
+                "alt": "logotype alignement horizontal"
+            }, {
+                "source": "dist/images/projets/aphdap/logo-aphdap-1.png",
+                "alt": "logotype alignement vertical"
+            }, {
+                "source": "dist/images/projets/aphdap/logo-aphdap-3.png",
+                "alt": "logotype simplifié"
+            }, {
+                "source": "dist/images/projets/aphdap/mockup-logo-aphdap.jpg",
+                "alt": "mockup logo"
+            }]
         },
         {
             "id": "cabaret",
             "title": "Le Cabaret Aléatoire",
+            "category": ["all", "webdesign"],
             "video": false,
             "branding": false,
             "printDesign": false,
             "webdesign": true,
             "devWeb": false,
             "date": "2015-02-15",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Projet pour le cours d'infographie en licence pro. Réalisé d'après un vrai cahier des charges pour un projet de création de site web pour l'entreprise marseillaise Cabaret Aléatoire.",
+            "mission": "",
+            "results": "",
             "images": [{
                 "source": "dist/images/projets/cabaret/cabaret1.jpg",
                 "alt": "mockup"
@@ -62,30 +84,32 @@
         },
         {
             "id": "clipvideo",
-            "title": "Clip Vidéo Astonvilla",
+            "title": "Clip vidéo : Tant de Choses - Astonvilla",
+            "category": ["all", "video"],
             "video": true,
             "branding": false,
             "printDesign": false,
             "webdesign": false,
             "devWeb": false,
             "date": "2015-03-08",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Projet audiovisuel de groupe réalisé dans le cadre des cours d'audiovisuel de la licence pro \"Création pour le Web\" de l'IUT d'Arles. Filmé entièrment avec un appareil photo compact, les images ont été tournée à l'Espace Nova Velaux et montée avec Adobe Premiere Pro. Il s'agit de ma première création vidéo entièrement seule.",
+            "mission": "",
+            "results": "",
             "idVideo": "KJ7xtrn48qY"
         },
         {
             "id": "culturemarseille",
             "title": "Asso Peuples & Cultures de Marseille",
+            "category": ["all", "webdesign"],
             "video": false,
             "branding": false,
             "printDesign": false,
             "webdesign": true,
             "devWeb": false,
             "date": "2015-02-15",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Projet pour le cours d'infographie en licence pro. Réalisé d'après un vrai cahier des charges pour un projet de création de site web pour l'association culturelle Peuples & Cultures de Marseille.",
+            "mission": "",
+            "results": "",
             "images": [{
                 "source": "dist/images/projets/culturemarseille/culturemarseille1.jpg",
                 "alt": "mockup"
@@ -100,38 +124,40 @@
         {
             "id": "ecommerce",
             "title": "Maquette E-commerce",
+            "category": ["all", "webdesign"],
             "video": false,
             "branding": false,
             "printDesign": false,
             "webdesign": true,
             "devWeb": false,
             "date": "2015-03-20",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Projet universitaire pour le cours de stratégie digitale et e-commerce. Il s'agit d'une boutique en ligne fitive de reproductions photographiques.",
+            "mission": "",
+            "results": "",
             "images": [{
                 "source": "dist/images/projets/ecommerce/ecommerce1.png",
                 "alt": "mockup"
             }, {
-                "source": "dist/images/projets/ecommerce/ecommerce2.png",
+                "source": "dist/images/projets/ecommerce/ecommerce2.jpg",
                 "alt": "maquette page Accueil"
             }, {
-                "source": "dist/images/projets/ecommerce/ecommerce3.png",
+                "source": "dist/images/projets/ecommerce/ecommerce3.jpg",
                 "alt": "maquette page fiche produit"
             }]
         },
         {
             "id": "edjing",
             "title": "Edjing Player Mobile",
+            "category": ["all", "webdesign"],
             "video": false,
             "branding": false,
             "printDesign": false,
             "webdesign": true,
             "devWeb": false,
-            "date": "2015-09-01",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "date": "2015-08-01",
+            "contexte": "Projet réalisé en 1h dans le cadre d'un test graphique d'embauche pour la société DJIT Edjing.",
+            "mission": "",
+            "results": "",
             "images": [{
                 "source": "dist/images/projets/edjing/edjing1.jpg",
                 "alt": "mockup"
@@ -146,167 +172,186 @@
         {
             "id": "epicuriens",
             "title": "La Confrérie des Epicuriens de Provence",
+            "category": ["all", "branding", "printDesign", "webdesign"],
             "video": false,
             "branding": true,
             "printDesign": true,
             "webdesign": true,
             "devWeb": false,
             "date": "2015-03-30",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Projet tutoré de licence pro Création pour le web. Il s'agissait de créer le site web de la Confrérie des Epicuriens de Provence, association culturelle arlésienne. Cette maquette a servie de base pour la réalisation du thème wordpress livré en mai 2015 au bureau de l'association. En bonus, nous avons créé une déclinaison print type : cartes de vistes et d'adhérent, exemple d'affiche et de flyer pour les évènements de l'association.",
+            "mission": "",
+            "results": "",
             "images": [{
-                "source": "dist/images/projets/epicuriens/epicurien2.jpg",
-                "alt": "maquette page Accueil"
-            }, {
-                "source": "dist/images/projets/epicuriens/epicurien3.jpg",
-                "alt": "maquette page liste d'articles"
+                "source": "dist/images/projets/epicuriens/logo.png",
+                "alt": "logo retravaillé"
             }, {
                 "source": "dist/images/projets/epicuriens/epicurien1.jpg",
                 "alt": "mockup pour le site web"
             }, {
-                "source": "dist/images/projets/epicuriens/epicurien_affiche.png",
-                "alt": "maquette affiche type"
+                "source": "dist/images/projets/epicuriens/epicurien2.jpg",
+                "alt": "page Accueil"
             }, {
-                "source": "dist/images/projets/epicuriens/epicurien_carteadherent.png",
-                "alt": "maquette d'une carte d'adhérent type"
+                "source": "dist/images/projets/epicuriens/nuancier.png",
+                "alt": "nuancier"
             }, {
-                "source": "dist/images/projets/epicuriens/epicurien_cartevisite.png",
-                "alt": "maquette d'une carte de visite type"
+                "source": "dist/images/projets/epicuriens/epicurien3.jpg",
+                "alt": "page liste d'articles"
+            }, {
+                "source": "dist/images/projets/epicuriens/carte-adherent-recto.jpg",
+                "alt": "carte adhérent recto"
             }, {
                 "source": "dist/images/projets/epicuriens/epicurien_flyer.jpg",
-                "alt": "maquette d'un flyer type"
+                "alt": "flyer type"
+            }, {
+                "source": "dist/images/projets/epicuriens/carte-de-visite.jpg",
+                "alt": "carte de visite type"
+            }, {
+                "source": "dist/images/projets/epicuriens/carte-adherent-verso.jpg",
+                "alt": "carte adhérent verso"
+            }, {
+                "source": "dist/images/projets/epicuriens/epicurien_affiche.jpg",
+                "alt": "affiche type"
             }]
         },
         {
             "id": "frejus",
             "title": "Service Patrimoine de Fréjus",
+            "category": ["all", "printDesign"],
             "video": false,
             "branding": false,
             "printDesign": true,
             "webdesign": false,
             "devWeb": false,
             "date": "2011-06-30",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Stage de fin de master professionnel Méétiers du Patrimoine avec l'Animatrice de l'Architecture et du Patrimoine de Fréjus d'avril à juin 2011.",
+            "mission": "En collaboration avec l'infographiste du Service Patrimoine de Fréjus, j'ai conçu une série de panneaux destinée à décorer les hall d'entrées d'une résidence d'immeubles construite à l'emplacement d'une importante fouille archéologique réalisée par le Service Patrimoine de Fréjus. Chaque groupe de panneaux avait pour but d'informer les habitants des découvertes archéologiques effectuées à l'emplacement de leurs différents immeubles. De plus j'ai conçu, rédigé et mis en page un dossier pédagogique à destination des enseignants souhaitant préparer une visite scolaire des vestiges gallo-romains de la ville. Il s'agissait de rassembler les dernières découvertes archéologiques du Service du Patrimoine de Fréjus et de vulgariser les connaissances acquises pour les rendre accessibles au grand public.",
+            "results": "",
             "images": [{
-                "source": "dist/images/projets/frejus/dossierPedago_couv.png",
-                "alt": "page de garde du dossier pédagogique sur 'Forum Iulii'"
-            }, {
-                "source": "dist/images/projets/frejus/dossierPedago_sample.png",
-                "alt": "Exemple de mise en page des pages intérieures"
+                "source": "dist/images/projets/frejus/frejus-pedago-1.jpg",
+                "alt": "dossier pédagogique sur 'Forum Iulii'"
             }, {
                 "source": "dist/images/projets/frejus/frejus1.jpg",
-                "alt": "exemple de panneau de mise en valeur de la fouille archéologique préventive des Poiriers à Fréjus pour les halls des immeubles de la résidence construite sur le site."
+                "alt": "panneau de mise en valeur de la fouille archéologique préventive des Poiriers"
             }, {
                 "source": "dist/images/projets/frejus/frejus2.jpg",
-                "alt": "exemple de panneau de mise en valeur de la fouille archéologique préventive des Poiriers à Fréjus pour les halls des immeubles de la résidence construite sur le site."
+                "alt": "panneau de mise en valeur de la fouille archéologique préventive des Poiriers"
             }, {
                 "source": "dist/images/projets/frejus/frejus3.jpg",
-                "alt": "exemple de panneau de mise en valeur de la fouille archéologique préventive des Poiriers à Fréjus pour les halls des immeubles de la résidence construite sur le site."
+                "alt": "panneau de mise en valeur de la fouille archéologique préventive des Poiriers"
             }, {
                 "source": "dist/images/projets/frejus/frejus4.jpg",
-                "alt": "exemple de panneau de mise en valeur de la fouille archéologique préventive des Poiriers à Fréjus pour les halls des immeubles de la résidence construite sur le site."
+                "alt": "panneau de mise en valeur de la fouille archéologique préventive des Poiriers"
             }]
         },
         {
             "id": "mnemosyne",
             "title": "Court Métrage 'Projet Mnémosyne'",
+            "category": ["all", "video"],
             "video": true,
             "branding": false,
             "printDesign": false,
             "webdesign": false,
             "devWeb": false,
             "date": "2015-03-14",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Projet audiovisuel de groupe réalisé dans le cadre des cours d'audiovisuel de la licence pro \"Création pour le Web\" de l'IUT d'Arles. Sur le thème du film policier et thriller, nous avons réalisé un court métrage de 7min 56s depuis la rédaction du scénario au montage final en passant par le tournage des différents plans.",
+            "mission": "",
+            "results": "",
             "idVideo": "9fY1_B1G3pY"
         },
         {
             "id": "mybigbang",
             "title": "MyBigBang App",
+            "category": ["all", "webdesign"],
             "video": false,
             "branding": false,
             "printDesign": false,
             "webdesign": true,
             "devWeb": false,
             "date": "2015-03-20",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Projet pour le cours d'infographie en licence pro réalisé d'après un vrai cahier des charges pour un projet d'appli mobile d'information sur les niveaux de radioactivité autour de l'utilisateur.",
+            "mission": "",
+            "results": "",
             "images": [{
                 "source": "dist/images/projets/mybigbang/mybigbang1.jpg",
                 "alt": "mockup ecran connection"
             }, {
-                "source": "dist/images/projets/mybigbang/mybigbang2.png",
-                "alt": "maquette page profil"
-            }, {
                 "source": "dist/images/projets/mybigbang/mybigbang3.jpg",
                 "alt": "mockup page profil"
             }, {
-                "source": "dist/images/projets/mybigbang/mybigbang4.png",
-                "alt": "maquette page ambiance"
-            }, {
                 "source": "dist/images/projets/mybigbang/mybigbang5.jpg",
                 "alt": "mockup page ambiance"
-            }]
+            }, {
+                "source": "dist/images/projets/mybigbang/mybigbang6.jpg",
+                "alt": "maquette page connexion"
+            },{
+                "source": "dist/images/projets/mybigbang/mybigbang2.png",
+                "alt": "maquette page profil"
+            }, {
+                "source": "dist/images/projets/mybigbang/mybigbang4.png",
+                "alt": "maquette page ambiance"
+            } ]
         },
         {
             "id": "pec",
             "title": "Provence Energie Citoyenne",
+            "category": ["all", "branding", "printDesign", "webdesign", "devWeb"],
             "video": false,
             "branding": true,
             "printDesign": true,
             "webdesign": true,
             "devWeb": true,
             "date": "2016-07-30",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Provence Énergie Citoyenne est une société fondée pour reprendre l'exploitation de la centrale hydroélectrique de la Marie-Thérèse à Velaux qui est à l’arrêt depuis 2012. Soutenue par Enercoop PACA et Énergie Partagée, le capital de la société serait constitué par un financement participatif.",
+            "mission": "Dans ce contexte, j'ai été chargée de réaliser la charte graphique complète de la société, avec les supports de communication imprimés (dépliant, affiches, papier à en-tête) et le site web. L’enjeu est de permettre aux habitants de s’approprier le projet, de s'impliquer personnellement dans la transition énergétique du pays et de participer, dans la mesure de leurs moyens, au projet de la relance de la Marie-Thérèse.",
+            "results": "",
             "images": [{
-                "source": "dist/images/projets/pec/",
-                "alt": ""
+                "source": "dist/images/projets/pec/logo-PEC-couleur.png",
+                "alt": "logo"
+            },{
+                "source": "dist/images/projets/pec/affiche-flyer.jpg",
+                "alt": "affiche"
+            },{
+                "source": "dist/images/projets/pec/affiche-flyer2.jpg",
+                "alt": "flyer recto"
+            },{
+                "source": "dist/images/projets/pec/affiche-flyer3.jpg",
+                "alt": "flyer verso"
+            },{
+                "source": "dist/images/projets/pec/modelsDocs_traitement-de-texte.jpg",
+                "alt": "papier à entête"
+            },{
+                "source": "dist/images/projets/pec/modelsDocs_carte-de-visite_verso-1.jpg",
+                "alt": "carte de visite type 1"
+            },{
+                "source": "dist/images/projets/pec/modelsDocs_carte-de-visite_verso-2.jpg",
+                "alt": "carte de visite type 2"
             }],
             "urlProject": "https://www.provence-energie-citoyenne.fr/"
         },
         {
-            "id": "saintchamas",
-            "title": "Dépliant touristique Saint-Chamas",
-            "video": false,
-            "branding": false,
-            "printDesign": true,
-            "webdesign": false,
-            "devWeb": false,
-            "date": "2011-04-10",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "images": [{
-                "source": "dist/images/projets/saintchamas/saintchamas1.jpg",
-                "alt": "maquette page 1"
-            }, {
-                "source": "dist/images/projets/saintchamas/saintchamas1-4.png",
-                "alt": "maquette pages extérieures 1 & 4"
-            }, {
-                "source": "dist/images/projets/saintchamas/saintchamas2-3.png",
-                "alt": "maquette pages intérieures 2 & 3"
-            }]
-        },
-        {
             "id": "siarep",
             "title": "SN SIAREP",
+            "category": ["all", "branding", "printDesign", "webdesign", "devWeb"],
             "video": false,
             "branding": true,
             "printDesign": true,
             "webdesign": true,
             "devWeb": true,
             "date": "2015-06-30",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Stage de fin de licence pro Création pour le Web, en tant que chargée de communication pour SN SIAREP, une entreprise de BTP basée à Arles et spécialisée dans les travaux de l'enveloppe du bâtiment. Dans le cadre d’une réflexion globale sur la communication de l’entreprise en direction de ses clients potentiels, l’équipe dirigeante souhaitait revoir l’ensemble de ses outils de communication numériques et modifier la charte graphique de l’entreprise pour s’accorder avec la certification ISO 14001 qu’ils venaient d’obtenir.",
+            "mission": "La mission comprenait donc de nombreux aspects : réflexion concertée sur les axes de communication de l’entreprise (branding), refonte de la charte graphique, du logo et des supports de communication imprimés, création du premier numéro de la newsletter (visuel, contenus textes et liste de diffusion) avec le service d’envoi MailChimp, création d’un nouveau site internet avec Wordpress en développant un thème personnalisé et en intégrant le contenu des pages statiques du site.",
+            "results": "Le résultat est un site internet adapté à la consultation depuis les différents types d’écran (mobile, tablette, ordinateur), cohérent avec la nouvelle charte graphique de la société et qui permet à l’équipe dirigeante de mettre à jour elle-même sont site sans passer par un prestataire informatique externe à l’entreprise. Il en est de même pour la newsletter dont le premier numéro a eu un taux d’ouverture de 30%.",
             "images": [{
+                "source": "dist/images/projets/siarep/siarep8.jpg",
+                "alt": "nouveaux logos de Siarep"
+            }, {
+                "source": "dist/images/projets/siarep/siarep10.jpg",
+                "alt": "maquette signature mail"
+            }, {
+                "source": "dist/images/projets/siarep/siarep6.jpg",
+                "alt": "maquette carte de visite"
+            }, {
                 "source": "dist/images/projets/siarep/siarep1.jpg",
                 "alt": "mockup site web"
             }, {
@@ -322,49 +367,46 @@
                 "source": "dist/images/projets/siarep/siarep5.jpg",
                 "alt": "maquette page 'Présentation de Siarep'"
             }, {
-                "source": "dist/images/projets/siarep/siarep6.jpg",
-                "alt": "maquette carte de visite"
-            }, {
                 "source": "dist/images/projets/siarep/siarep7.png",
                 "alt": "maquette newsletter"
             }, {
-                "source": "dist/images/projets/siarep/siarep8.jpg",
-                "alt": "nouveaux logos de Siarep"
-            }, {
                 "source": "dist/images/projets/siarep/siarep9.jpg",
                 "alt": "maquette panneau de chantier"
-            }, {
-                "source": "dist/images/projets/siarep/siarep10.jpg",
-                "alt": "maquette signature mail"
             }],
             "urlProject": "http://www.siarep-btp.com/"
         },
         {
             "id": "tamagoshu",
             "title": "Tamagoshu App",
+            "category": ["all", "webdesign", "devWeb"],
             "video": false,
             "branding": false,
             "printDesign": false,
             "webdesign": true,
             "devWeb": true,
             "date": "2016-06-07",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Dans le cadre d'une formation POEI proposée par Pôle Emploi et la société Treeptik, j'ai eu l'occasion d'approfondir mes connaissances en développement front-end javascript et notamment sur le framework AngularJS. Ainsi pendant 5 semaines j'ai eu l'occassion de réaliser divers projets à caractères professionnels avec AngularJS 1.5, Typscript, gulp, karma et jasmine et git. ",
+            "mission": "",
+            "results": "",
+            "images":[{
+                "source":"dist/images/projets/tamagoshu/pichu.gif",
+                "alt": "Avatar 'Pichu' du niveau 1"
+            }],
             "urlProject": "http://charlotterouby.github.io/tamagoshi"
         },
         {
             "id": "tangaye",
             "title": "AMNS - Les Enfants de Tangaye",
+            "category": ["all", "webdesign", "devWeb"],
             "video": false,
             "branding": false,
             "printDesign": false,
             "webdesign": true,
             "devWeb": true,
             "date": "2015-12-10",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Les Enfants de Tangaye - Action Médicale Nord Sud est une association loi 1901 velauxienne destinée à améliorer la santé de la population du village de Tangaye au Burkina-Faso. Après avoir visité leur site internet, j'ai décidé de créer une proposition alternative d'habillage design pour celui-ci.",
+            "mission": "",
+            "results": "",
             "images": [{
                 "source": "dist/images/projets/tangaye/Tangaye1.jpg",
                 "alt": "mockup"
@@ -383,49 +425,51 @@
         {
             "id": "velauxdabord",
             "title": "Velaux d'Abord fête ses 25 ans",
+            "category": ["all", "printDesign"],
             "video": false,
             "branding": false,
             "printDesign": true,
             "webdesign": false,
             "devWeb": false,
             "date": "2012-09-01",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Flyer promotionnel pour un rassemblement à l'occasion des 25 ans de l'association Velaux d'Abord.",
+            "mission": "",
+            "results": "",
             "images": [{
                 "source": "dist/images/projets/velauxdabord/flyervelauxdabord_recto.jpg",
-                "alt": "maquette flyer 'Velaux d'Abord fête ses 25 ans' recto"
+                "alt": "flyer recto"
             }, {
                 "source": "dist/images/projets/velauxdabord/flyervelauxdabord_verso.jpg",
-                "alt": "maquette flyer 'Velaux d'Abord fête ses 25 ans' verso"
+                "alt": "flyer verso"
             }]
         },
         {
             "id": "velauxPatrimoine",
             "title": "Service Patrimoine de Velaux",
+            "category": ["all", "printDesign"],
             "video": false,
             "branding": false,
             "printDesign": true,
             "webdesign": false,
             "devWeb": false,
             "date": "2012-07-30",
-            "contexte": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "mission": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
-            "results": "Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?",
+            "contexte": "Dans le cadre du remplacement de congé marternité de la responsable du service Patrimoine, j'ai assuré les missions d'animatrice du Patrimoine, en réalisant divers supports de communication imprimés et en gérant le suivi administratif du service.",
+            "mission": "Afin d'effectuer ces différentes tâches j'ai animé l'ensemble des visites guidées des musées et du site archéologique de la ville pour les publics (scolaires, hors scolaires et adultes), organisé la journée des moulins (évènement national qui a lieu en mai), gérer les réservations de visites, fait le suivi budgétaire du service et organisé le planning des vacataires qui assurait l'accueil des publics dans les musées le week-end.",
+            "results": "Le bilan final a été plus d'une quarantaine de visites guidées pour le public scolaire, environ une vingtaine d'ateliers découvertes pour des enfants hors scolaires et un suivi administratif du service qui a été salué par le Directeur Général des Services de la mairie et l'élue déléguée au Patrimoine.",
             "images": [{
-                "source": "dist/images/projets/velauxPatrimoine/flyerpatvelaux1.jpg",
+                "source": "dist/images/projets/velauxPatrimoine/depliant1.jpg",
                 "alt": "plaquette programme pédagogique du Service Patrimoine"
             }, {
-                "source": "dist/images/projets/velauxPatrimoine/flyerpatvelaux2.jpg",
+                "source": "dist/images/projets/velauxPatrimoine/depliant2.jpg",
                 "alt": "plaquette programme pédagogique du Service Patrimoine"
             }, {
-                "source": "dist/images/projets/velauxPatrimoine/livretjeuxmoulins.jpg",
+                "source": "dist/images/projets/velauxPatrimoine/livret-jeu1.jpg",
                 "alt": "Extrait du Livret-Jeux réalisé pour la Journée des Moulins de mai 2012"
             }, {
-                "source": "dist/images/projets/velauxPatrimoine/livretjeuxmoulins_pageinterne1-2.jpg",
+                "source": "dist/images/projets/velauxPatrimoine/livret-jeu2.jpg",
                 "alt": "Extrait du Livret-Jeux réalisé pour la Journée des Moulins de mai 2012"
             }, {
-                "source": "dist/images/projets/velauxPatrimoine/livretjeuxmoulins_pageinterne3-4.jpg",
+                "source": "dist/images/projets/velauxPatrimoine/livret-jeu3.jpg",
                 "alt": "Extrait du Livret-Jeux réalisé pour la Journée des Moulins de mai 2012"
             }]
         }

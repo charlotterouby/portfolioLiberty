@@ -1,21 +1,21 @@
 // Initialisation du Service Projects
-myPortfolio.run(function ($http, Projects) {
+myPortfolio.run(['$http', 'Projects', function($http, Projects) {
     $http
         .get('dist/templates/projects.json')
-        .then(function (httpResponse) {
+        .then(function(httpResponse) {
             //            console.log(httpResponse.data);
             return httpResponse.data;
-        }).then(function (data) {
+        }).then(function(data) {
             //            console.log(data);
-            angular.forEach(data.projects, function (project) {
+            angular.forEach(data.projects, function(project) {
                 Projects.add(project);
                 //                console.log(project);
             });
         });
-});
+}]);
 
 
-myPortfolio.config(function ($mdIconProvider, $mdThemingProvider) {
+myPortfolio.config(['$mdIconProvider', '$mdThemingProvider', function($mdIconProvider, $mdThemingProvider) {
     // Config font Icons
     $mdIconProvider.fontSet('md', 'material-icons').fontSet('fa', 'font-awesome');
 
@@ -54,4 +54,4 @@ myPortfolio.config(function ($mdIconProvider, $mdThemingProvider) {
         .accentPalette('peach')
         .warnPalette('jaune');
 
-});
+}]);

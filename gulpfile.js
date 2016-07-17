@@ -48,23 +48,24 @@ var templatesSource = [
 // Variables fichiers sorties
 var jsOut = 'scripts.js';
 var jsVendorsOut = 'vendors.js';
-var dest = './dist/';
+var destCSS = './dist/css/';
+var destJS = './dist/js/';
 
 // TASKS DEVELOPMENT / BUILD
-gulp.task('compileJS', function () {
+gulp.task('compileJS', function() {
     return gulp.src(jsSource)
         .pipe(sourcemaps.init())
         .pipe(concat(jsOut))
-        .pipe(sourcemaps.write(dest))
-        .pipe(gulp.dest(dest));
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(destJS));
 });
 
-gulp.task('compileCSS', function () {
+gulp.task('compileCSS', function() {
     return gulp.src(cssSource)
         .pipe(sourcemaps.init())
         .pipe(compass({
             config_file: './config.rb',
-            css: './dist',
+            css: './dist/css',
             sass: './assets/styles'
         }))
         .pipe(csscomb())
@@ -73,55 +74,56 @@ gulp.task('compileCSS', function () {
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(sourcemaps.write(dest))
-        .pipe(gulp.dest(dest));
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(destCSS));
 });
 
-gulp.task('copyTemplates', function(){
+gulp.task('copyTemplates', function() {
     return gulp.src(templatesSource)
-        .pipe(gulp.dest('./dist/templates/'))
+        .pipe(gulp.dest('./dist/templates/'));
 });
 
 
 // TASKS PRODUCTION / ONLINE
-gulp.task('compileVendors', function () {
+gulp.task('compileVendors', function() {
     return gulp.src(jsVendors)
         .pipe(sourcemaps.init())
         .pipe(concat(jsVendorsOut))
-        .pipe(sourcemaps.write(dest))
-        .pipe(gulp.dest(dest));
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(destJS));
 });
 
-gulp.task('minifyJS', function () {
-    return gulp.src('./dist/*.js')
+gulp.task('minifyJS', function() {
+    return gulp.src(['./dist/js/scripts.js', './dist/js/vendors.js'])
         .pipe(uglify())
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest(dest));
+        .pipe(gulp.dest(destJS));
 });
 
-gulp.task('minifyCSS', function () {
-    return gulp.src('./dist/*.css')
+gulp.task('minifyCSS', function() {
+    return gulp.src('./dist/css/styles.css')
         .pipe(uglifycss({
             "uglyComments": true
         }))
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest(dest));
+        .pipe(gulp.dest(destCSS));
 });
 
 // TASKS GENERIQUES
-// Tâche "build"
 gulp.task('build', ['compileJS', 'compileVendors', 'compileCSS', 'copyTemplates']);
-
-// Tâche "prod" = Build + compileVendors + minifyCSS + minifyJS
-gulp.task('prod', ['minifyCSS', 'minifyJS']);
+gulp.task('minify', ['minifyCSS', 'minifyJS']);
+gulp.task('prod', ['build', 'minify']);
 
 // Watcher
-gulp.task('watch', ['compileCSS', 'compileJS', 'copyTemplates'], function () {
-    gulp.watch(cssSource, ['compileCSS']);
+gulp.task('watch', ['prod'], function() {
     gulp.watch(jsSource, ['compileJS']);
+    gulp.watch(jsVendors, ['compileVendors']);
+    gulp.watch(cssSource, ['compileCSS']);
     gulp.watch(templatesSource, ['copyTemplates']);
+    gulp.watch(['./dist/js/scripts.js', './dist/js/vendors.js'], ['minifyJS']);
+    gulp.watch('./dist/css/styles.css', ['minifyCSS']);
 });

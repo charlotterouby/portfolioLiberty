@@ -1,5 +1,5 @@
 //Navbar Directive
-myPortfolio.directive('myNavbar', function () {
+myPortfolio.directive('myNavbar', function() {
     return {
         templateUrl: 'dist/templates/navbarDirective/navbar-template.html',
         restrict: 'EA',
